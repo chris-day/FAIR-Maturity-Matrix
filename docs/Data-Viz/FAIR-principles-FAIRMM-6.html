@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAIR Principles Sunburst (FAIRMM Filter)</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      background: linear-gradient(135deg,#0D47A1 0%,#1976D2 100%);
+      color:#333;
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+    }
+    .header{
+      background: rgba(255,255,255,.95);
+      padding: 1.25rem 2rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,.1);
+    }
+    .header-content{ max-width:1400px; margin:0 auto; }
+    .header h1{ font-size:1.6rem; color:#0D47A1; font-weight:650; }
+    .header p{ color:#666; margin-top:.25rem; font-size:.95rem; }
+
+    .container{ flex:1; max-width:1400px; width:100%; margin:0 auto; padding:2rem; }
+    .card{ background:#fff; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,.15); overflow:hidden; }
+    .card-header{
+      background: linear-gradient(135deg,#0D47A1 0%,#1976D2 100%);
+      color:#fff;
+      padding: 1.25rem 2rem;
+    }
+    .card-header h2{ font-size:1.35rem; font-weight:650; margin-bottom:.25rem; }
+    .card-header p{ opacity:.9; font-size:.95rem; }
+
+    .card-body{ padding: 1.5rem 2rem 2rem; }
+
+    .controls{
+      display:flex;
+      gap: 1rem;
+      align-items:center;
+      flex-wrap: wrap;
+      background:#f8f9fa;
+      border:1px solid #e0e0e0;
+      border-radius:10px;
+      padding: .85rem 1rem;
+      margin-bottom: 1.25rem;
+    }
+    .controls label{
+      font-weight:650;
+      color:#0D47A1;
+      font-size:.95rem;
+    }
+    select{
+      padding: .5rem .6rem;
+      border-radius:8px;
+      border:1px solid #cbd5e1;
+      background:#fff;
+      font-size:.95rem;
+      min-width: 240px;
+    }
+    .btn{
+      padding:.55rem .8rem;
+      border-radius:8px;
+      border:1px solid #cbd5e1;
+      background:#fff;
+      cursor:pointer;
+      font-weight:650;
+    }
+    .btn:hover{ background:#f1f5f9; }
+
+    .meta{
+      margin-left:auto;
+      display:flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      color:#475569;
+      font-size:.92rem;
+    }
+    .meta span strong{ color:#111827; }
+
+    .viz-container{
+      display:flex;
+      align-items:center;
+      gap: 2rem;
+      min-height: 720px;
+    }
+    .viz-sunburst{ flex:0 0 auto; }
+    #sunburst{ cursor: default; }
+
+    .detail-panel{ flex:1; min-width: 300px; align-self:center; }
+    .detail-panel-inner{
+      background:#f8f9fa;
+      border:1px solid #e0e0e0;
+      border-radius:8px;
+      padding:1.25rem;
+      min-height:220px;
+      transition:border-color .2s;
+    }
+    .detail-panel-inner.active{ border-color:#0D47A1; }
+
+    .detail-intro h3{ font-size:1.1rem; font-weight:650; color:#0D47A1; margin-bottom:.75rem; }
+    .detail-intro p{ font-size:.92rem; line-height:1.6; color:#555; margin-bottom:.5rem; }
+    .detail-intro .detail-hint{ font-size:.85rem; color:#888; font-style:italic; margin-top:1rem; }
+
+    .detail-level-badge{
+      display:inline-block;
+      background:#0D47A1;
+      color:#fff;
+      font-size:.75rem;
+      font-weight:650;
+      padding:.2rem .6rem;
+      border-radius:4px;
+      text-transform:uppercase;
+      letter-spacing:.5px;
+    }
+    .pill{
+      display:inline-block;
+      margin-left:.5rem;
+      background:#111827;
+      color:#fff;
+      font-size:.75rem;
+      font-weight:650;
+      padding:.2rem .55rem;
+      border-radius:999px;
+      letter-spacing:.2px;
+      vertical-align:middle;
+    }
+    .detail-title{ font-weight:650; font-size:1.25rem; color:#0D47A1; margin: .6rem 0 .35rem; }
+    .detail-description{ font-size:.95rem; line-height:1.5; color:#444; margin-bottom:.75rem; }
+    .detail-breadcrumb{ margin-top:.5rem; font-size:.85rem; color:#666; }
+    .detail-meta{
+      margin-top:.75rem;
+      padding-top:.75rem;
+      border-top:1px solid #e5e7eb;
+      font-size:.9rem;
+      color:#374151;
+      display:grid;
+      gap:.35rem;
+    }
+    .detail-meta strong{ color:#111827; }
+
+    .legend-wrap{
+      display:flex;
+      justify-content:space-between;
+      gap:2rem;
+      margin-top: 1.75rem;
+      flex-wrap:wrap;
+      align-items:flex-start;
+    }
+    .legend{
+      display:flex;
+      gap: 1.5rem;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+    .legend-item{ display:flex; align-items:center; gap:.5rem; }
+    .legend-color{
+      width:20px; height:20px;
+      border-radius:4px;
+      border:2px solid #fff;
+      box-shadow:0 2px 4px rgba(0,0,0,.2);
+      opacity:.65;
+    }
+    .legend-label{ font-size:.9rem; font-weight:600; color:#333; }
+
+    .footer{
+      background: rgba(255,255,255,.95);
+      padding:1.25rem 2rem;
+      text-align:center;
+      color:#666;
+      font-size:.9rem;
+      margin-top:auto;
+    }
+
+    @media (max-width: 1000px) {
+      .viz-container{ flex-direction:column; min-height: 520px; }
+      .detail-panel{ width:100%; }
+      .meta{ margin-left: 0; width: 100%; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-content">
+      <h1>FAIR Principles — Sunburst with FAIRMM Level Filter</h1>
+      <p>Filter uses your explicit “visible leaves per FAIRMM level” table (cumulative maturity).</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h2>Interactive filter: FAIRMM level</h2>
+        <p>Fill color = L0 (F/A/I/R). Outline color = row FAIRMM (informational only). Filter uses the visibility map.</p>
+      </div>
+
+      <div class="card-body">
+        <div class="controls">
+          <label for="mm-select">FAIRMM level</label>
+          <select id="mm-select" aria-label="Select FAIRMM level">
+            <option value="all" selected>All levels (no filter)</option>
+            <option value="1">Level 1</option>
+            <option value="2">Level 2</option>
+            <option value="3">Level 3</option>
+            <option value="4">Level 4</option>
+            <option value="5">Level 5</option>
+          </select>
+          <button class="btn" id="reset-zoom" type="button">Reset zoom</button>
+
+          <div class="meta" id="meta">
+            <span><strong>Visible leaves:</strong> <span id="leaf-count">—</span></span>
+            <span><strong>Filter:</strong> <span id="filter-label">All</span></span>
+          </div>
+        </div>
+
+        <div class="viz-container">
+          <div class="viz-sunburst">
+            <svg id="sunburst"></svg>
+          </div>
+          <div class="detail-panel">
+            <div class="detail-panel-inner" id="detail-panel"></div>
+          </div>
+        </div>
+
+        <div class="legend-wrap">
+          <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background-color:#1D4ED8;"></div><span class="legend-label">Findable</span></div>
+            <div class="legend-item"><div class="legend-color" style="background-color:#7C3AED;"></div><span class="legend-label">Accessible</span></div>
+            <div class="legend-item"><div class="legend-color" style="background-color:#D97706;"></div><span class="legend-label">Interoperable</span></div>
+            <div class="legend-item"><div class="legend-color" style="background-color:#059669;"></div><span class="legend-label">Reusable</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Rule enforced: L0 is visible only if it contains at least one visible L1 leaf (via visibility propagation).
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+    function normalizeLeafCode(s) {
+      return String(s ?? "")
+        .trim()
+        .replace(/\s+/g, " ")
+        .replace(/\.+$/g, "");
+    }
+
+    // ===== L0 descriptions =====
+    const L0_DESCRIPTIONS = {
+      "Findable": "The first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process.",
+      "Accessible": "Once the user finds the required data, she/he/they need to know how they can be accessed, possibly including authentication and authorisation.",
+      "Interoperable": "The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.",
+      "Reusable": "The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings."
+    };
+
+    // One-line short versions for the center label hover
+    const L0_SHORT = {
+      "Findable": "Easy discovery for humans & machines",
+      "Accessible": "Standard access incl. auth when needed",
+      "Interoperable": "Integrate & interoperate across systems",
+      "Reusable": "Well-described for reuse in new contexts"
+    };
+
+    // ===== FAIRMM visible leaves (cumulative) =====
+    const FAIRMM_VISIBLE_LEAVES = {
+      1: ["F1","F2","A1"],
+      2: ["F1","F2","A1","A1.2","R1"],
+      3: ["F1","F2","A1","A1.2","R1","F3","F4","A2","A1.1","R1.1"],
+      4: ["F1","F2","A1","A1.2","R1","F3","F4","A2","A1.1","R1.1","R1.2","I1","I2.","I3.","R1.3"],
+      5: ["F1","F2","A1","A1.2","R1","F3","F4","A2","A1.1","R1.1","R1.2","I1","I2.","I3.","R1.3"],
+    };
+
+    function getVisibleSet(filterLevel) {
+      if (filterLevel == null) return null;
+      const arr = FAIRMM_VISIBLE_LEAVES[filterLevel] || [];
+      return new Set(arr.map(normalizeLeafCode));
+    }
+
+    const FAIR_ROWS = [
+      { L0:"Findable", L1:"F1",   L2:"", value:1, description:"(Meta)data are assigned a globally unique and persistent identifier", fairmm: 1 },
+      { L0:"Findable", L1:"F2",   L2:"", value:1, description:"Data are described with rich metadata (defined by R1 below)", fairmm: 1 },
+      { L0:"Findable", L1:"F3",   L2:"", value:1, description:"Metadata clearly and explicitly include the identifier of the data they describe", fairmm: 3 },
+      { L0:"Findable", L1:"F4",   L2:"", value:1, description:"(Meta)data are registered or indexed in a searchable resource", fairmm: 3 },
+
+      { L0:"Accessible", L1:"A1",   L2:"", value:1, description:"(Meta)data are retrievable by their identifier using a standardised communications protocol", fairmm: 1 },
+      { L0:"Accessible", L1:"A1.1", L2:"", value:1, description:"The protocol is open, free, and universally implementable", fairmm: 3 },
+      { L0:"Accessible", L1:"A1.2", L2:"", value:1, description:"The protocol allows for an authentication and authorisation procedure, where necessary", fairmm: 2 },
+      { L0:"Accessible", L1:"A2",   L2:"", value:1, description:"Metadata are accessible, even when the data are no longer available", fairmm: 3 },
+
+      { L0:"Interoperable", L1:"I1", value:1, L2:"", description:"(Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.", fairmm: 4 },
+      { L0:"Interoperable", L1:"I2.", value:1, L2:"", description:"(Meta)data use vocabularies that follow FAIR principles", fairmm: 4 },
+      { L0:"Interoperable", L1:"I3.", value:1, L2:"", description:"(Meta)data include qualified references to other (meta)data", fairmm: 4 },
+
+      { L0:"Reusable", L1:"R1",   L2:"", value:1, description:"(Meta)data are richly described with a plurality of accurate and relevant attributes", fairmm: 5 },
+      { L0:"Reusable", L1:"R1.1", L2:"", value:1, description:"(Meta)data are released with a clear and accessible data usage license", fairmm: 2 },
+      { L0:"Reusable", L1:"R1.2", L2:"", value:1, description:"(Meta)data are associated with detailed provenance", fairmm: 3 },
+      { L0:"Reusable", L1:"R1.3", L2:"", value:1, description:"(Meta)data meet domain-relevant community standards", fairmm: 4 },
+    ].map(r => ({
+      ...r,
+      L1: normalizeLeafCode(r.L1),
+      L2: normalizeLeafCode(r.L2),
+    }));
+
+    const L0_COLORS = {
+      "Findable":       ["#1D4ED8", "#3B82F6", "#93C5FD"],
+      "Accessible":     ["#7C3AED", "#8B5CF6", "#C4B5FD"],
+      "Interoperable":  ["#D97706", "#F59E0B", "#FCD34D"],
+      "Reusable":       ["#059669", "#10B981", "#6EE7B7"],
+    };
+
+    const FAIRMM_STROKE = {
+      1: "#64748B",
+      2: "#0EA5E9",
+      3: "#A855F7",
+      4: "#F59E0B",
+      5: "#22C55E",
+    };
+
+    function buildHierarchy(rows, filterLevel /* number|null */) {
+      const visibleSet = getVisibleSet(filterLevel);
+      const byL0 = d3.group(rows, d => d.L0);
+
+      const childrenL0 = Array.from(byL0, ([l0, rowsL0]) => {
+        const byL1 = d3.group(rowsL0, d => d.L1);
+
+        const childrenL1 = Array.from(byL1, ([l1, rowsL1]) => {
+          const rowsWithL2 = rowsL1.filter(r => (r.L2 || "").trim() !== "");
+          const rowsWithoutL2 = rowsL1.filter(r => (r.L2 || "").trim() === "");
+
+          if (rowsWithL2.length > 0) {
+            const l1Desc = rowsWithoutL2[0]?.description || "";
+            const l1Mm = rowsWithoutL2[0]?.fairmm ?? null;
+
+            const l2Children = rowsWithL2.map(r => ({
+              id: `${l0}:${l1}:${r.L2}`,
+              name: r.L2,
+              description: r.description || "",
+              fairmm: r.fairmm ?? null,
+              l0,
+              value: r.value ?? 1,
+              _visibleLeaf: visibleSet ? visibleSet.has(normalizeLeafCode(r.L2)) : true,
+            }));
+
+            return {
+              id: `${l0}:${l1}`,
+              name: l1,
+              description: l1Desc,
+              fairmm: l1Mm,
+              l0,
+              children: l2Children,
+            };
+          }
+
+          const d0 = rowsWithoutL2[0] || {};
+          return {
+            id: `${l0}:${l1}`,
+            name: l1,
+            description: d0.description || "",
+            fairmm: d0.fairmm ?? null,
+            l0,
+            value: d0.value ?? 1,
+            _visibleLeaf: visibleSet ? visibleSet.has(normalizeLeafCode(l1)) : true,
+          };
+        });
+
+        return {
+          id: l0,
+          name: l0,
+          description: L0_DESCRIPTIONS[l0] || "",
+          fairmm: null,
+          l0,
+          children: childrenL1,
+        };
+      });
+
+      return {
+        id: "FAIR",
+        name: "FAIR Principles",
+        description: "Findable, Accessible, Interoperable, Reusable",
+        fairmm: null,
+        children: childrenL0,
+      };
+    }
+
+    function renderSunburst(filterLevel /* number|null */) {
+      const svg = d3.select("#sunburst");
+      svg.selectAll("*").remove();
+
+      const hierarchyData = buildHierarchy(FAIR_ROWS, filterLevel);
+
+      const width = 700;
+      const height = 700;
+      const radius = width / 6;
+
+      const root = d3.hierarchy(hierarchyData);
+
+      root.eachAfter(n => {
+        if (!n.children) n._visible = !!n.data._visibleLeaf;
+        else n._visible = n.children.some(c => c._visible);
+      });
+
+      root.sum(d => {
+        if (d.children) return 0;
+        return d._visibleLeaf ? (d.value ?? 1) : 0;
+      }).sort((a, b) => b.value - a.value);
+
+      d3.partition().size([2 * Math.PI, root.height + 1])(root);
+
+      const bandsByZoom = [
+        { 1: [1.0, 1.7], 2: [1.7, 2.6], 3: [2.6, 2.85] },
+        { 1: [1.0, 1.25], 2: [1.25, 2.2], 3: [2.2, 3.0] },
+        { 1: [1.0, 1.1], 2: [1.1, 1.45], 3: [1.45, 3.0] },
+      ];
+
+      root.each(d => {
+        const band = d.depth > 0 ? (bandsByZoom[0][d.depth] || null) : null;
+        d.current = {
+          x0: d.x0, x1: d.x1,
+          y0: band ? band[0] : 0,
+          y1: band ? band[1] : 1.0
+        };
+      });
+
+      const arc = d3.arc()
+        .startAngle(d => d.x0)
+        .endAngle(d => d.x1)
+        .padAngle(d => Math.min((d.x1 - d.x0) / 2, 0.005))
+        .padRadius(radius * 1.5)
+        .innerRadius(d => d.y0 * radius)
+        .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1));
+
+      svg
+        .attr("viewBox", [-width/2, -height/2, width, width].join(" "))
+        .attr("width", width)
+        .attr("height", height)
+        .style("font", "10px sans-serif");
+
+      function getFill(d) {
+        let node = d;
+        while (node.depth > 1) node = node.parent;
+        const colors = L0_COLORS[node.data.name] || ["#999", "#bbb", "#ddd"];
+        return colors[Math.min(d.depth - 1, 2)] || colors[0];
+      }
+
+      function getStroke(d) {
+        const mm = d.data.fairmm;
+        return mm ? (FAIRMM_STROKE[mm] || "#111827") : "#ffffff";
+      }
+      function getStrokeWidth(d) {
+        if (!d.data.fairmm) return 1;
+        return d.children ? 1.5 : 2.5;
+      }
+
+      const detailPanel = document.getElementById("detail-panel");
+
+      const introHTML = `
+        <div class="detail-intro">
+          <h3>FAIR Principles + FAIRMM filter</h3>
+          <p><strong>Filter:</strong> ${filterLevel == null ? "All levels" : ("FAIRMM " + filterLevel)}</p>
+          <p>Visibility is driven by the explicit “visible leaves per level” table you provided.</p>
+          <p class="detail-hint">Hover a segment for details. Click to zoom; click center to zoom out.</p>
+        </div>
+      `;
+      detailPanel.innerHTML = introHTML;
+
+      function breadcrumb(d) {
+        const parts = [];
+        let n = d;
+        while (n && n.depth > 0) { parts.unshift(n.data.name); n = n.parent; }
+        return parts.join(" → ");
+      }
+
+      function showDetail(d) {
+        const levelLabels = ["Level 0 — Principle", "Level 1 — Requirement", "Level 2 — Sub-requirement"];
+        const level = levelLabels[d.depth - 1] || "Level";
+        const desc = (d.data.description || "").trim();
+        const mm = d.data.fairmm;
+
+        let html = `<span class="detail-level-badge">${level}</span>`;
+        if (mm) html += `<span class="pill">row FAIRMM ${mm}</span>`;
+        html += `<div class="detail-title">${d.data.name}</div>`;
+        html += `<div class="detail-description">${desc || "<em>No description provided.</em>"}</div>`;
+        if (d.depth > 0) html += `<div class="detail-breadcrumb">Path: ${breadcrumb(d)}</div>`;
+
+        const l0 = d.ancestors().find(a => a.depth === 1)?.data?.name || null;
+        html += `<div class="detail-meta">`;
+        if (l0) html += `<div><strong>L0:</strong> ${l0}</div>`;
+        html += `<div><strong>Visible under filter:</strong> ${d._visible ? "Yes" : "No"}</div>`;
+        if (mm) html += `<div><strong>Row FAIRMM:</strong> ${mm}</div>`;
+        html += `</div>`;
+
+        detailPanel.innerHTML = html;
+        detailPanel.classList.add("active");
+      }
+
+      let currentZoomNode = null;
+
+      // ===== Center label with hover override for L0 =====
+      const centerLabel = svg.append("text")
+        .attr("text-anchor", "middle")
+        .attr("pointer-events", "none")
+        .style("font-weight", "650")
+        .style("font-size", "14px")
+        .style("fill", "#0D47A1");
+
+      function setCenterLabel(lines) {
+        centerLabel.selectAll("tspan").remove();
+        lines.forEach((line, i) => {
+          const t = centerLabel.append("tspan")
+            .attr("x", 0)
+            .attr("dy", i === 0 ? "-0.2em" : "1.2em")
+            .text(line.text);
+          if (line.weight) t.style("font-weight", line.weight);
+          if (line.size) t.style("font-size", line.size);
+        });
+      }
+
+      // Default center label (root context)
+      function setDefaultCenterLabel() {
+        setCenterLabel([
+          { text: "FAIR", weight: "650" },
+          { text: filterLevel == null ? "All levels" : ("FAIRMM " + filterLevel), weight: "650" },
+        ]);
+      }
+
+      setDefaultCenterLabel();
+
+      function clearDetail() {
+        if (currentZoomNode) showDetail(currentZoomNode);
+        else {
+          detailPanel.innerHTML = introHTML;
+          detailPanel.classList.remove("active");
+        }
+      }
+
+      function arcVisible(d) {
+        return d.y1 > d.y0 + 0.01 && d.x1 > d.x0 + 0.001;
+      }
+      function labelVisible(d) {
+        return (d.y1 - d.y0) > 0.5 && (d.x1 - d.x0) > 0.06;
+      }
+      function labelTransform(d) {
+        const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;
+        const y = (d.y0 + d.y1) / 2 * radius;
+        return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
+      }
+
+      const nodes = root.descendants().slice(1).filter(d => d._visible);
+
+      const path = svg.append("g")
+        .selectAll("path")
+        .data(nodes)
+        .join("path")
+          .attr("fill", d => getFill(d))
+          .attr("fill-opacity", d => arcVisible(d.current) ? (d.children ? 0.6 : 0.45) : 0)
+          .attr("pointer-events", d => arcVisible(d.current) ? "auto" : "none")
+          .attr("d", d => arc(d.current))
+          .style("stroke", d => getStroke(d))
+          .style("stroke-width", d => getStrokeWidth(d));
+
+      // Hover behavior: if L0 node, show short description in center label (in root view)
+      function maybeShowL0CenterHint(d) {
+        // only when you're in root context (not zoomed into a specific node)
+        if (currentZoomNode) return;
+        if (d.depth === 1) {
+          const short = L0_SHORT[d.data.name] || "";
+          setCenterLabel([
+            { text: d.data.name, weight: "650" },
+            { text: short || " ", weight: "450", size: "10px" }
+          ]);
+        }
+      }
+
+      function resetCenterHintIfNeeded(d) {
+        if (currentZoomNode) return;
+        if (d.depth === 1) setDefaultCenterLabel();
+      }
+
+      path.filter(d => d.children)
+        .style("cursor", "pointer")
+        .on("click", clicked);
+
+      path
+        .on("mouseover", function(event, d) {
+          showDetail(d);
+          d3.select(this).attr("fill-opacity", 0.92);
+          maybeShowL0CenterHint(d);
+        })
+        .on("mouseout", function(event, d) {
+          clearDetail();
+          d3.select(this).attr("fill-opacity", arcVisible(d.current) ? (d.children ? 0.6 : 0.45) : 0);
+          resetCenterHintIfNeeded(d);
+        });
+
+      const label = svg.append("g")
+        .attr("pointer-events", "none")
+        .attr("text-anchor", "middle")
+        .style("user-select", "none")
+        .selectAll("text")
+        .data(nodes)
+        .join("text")
+          .attr("dy", "0.35em")
+          .attr("fill-opacity", d => +labelVisible(d.current))
+          .attr("transform", d => labelTransform(d.current))
+          .style("font-size", d => d.depth === 1 ? "12px" : "10px")
+          .style("font-weight", d => d.depth === 1 ? "650" : "450")
+          .text(d => d.data.name);
+
+      const parent = svg.append("circle")
+        .datum(root)
+        .attr("r", radius)
+        .attr("fill", "none")
+        .attr("pointer-events", "all")
+        .style("cursor", "pointer")
+        .on("click", clicked);
+
+      function clicked(event, p) {
+        parent.datum(p.parent || root);
+
+        currentZoomNode = p.depth > 0 ? p : null;
+
+        // Update center label
+        if (p.depth === 0) {
+          setDefaultCenterLabel();
+        } else {
+          setCenterLabel([
+            { text: p.data.name, weight: "650" },
+            { text: "click to zoom out", weight: "450", size: "10px" }
+          ]);
+        }
+
+        clearDetail();
+
+        const zoom = bandsByZoom[p.depth] || bandsByZoom[0];
+
+        root.each(d => {
+          const xScale = (p.x1 - p.x0) || 1;
+          const band = d.depth > 0 ? (zoom[d.depth] || null) : null;
+
+          d.target = {
+            x0: d.depth === 0 ? 0 : Math.max(0, Math.min(1, (d.x0 - p.x0) / xScale)) * 2 * Math.PI,
+            x1: d.depth === 0 ? 2 * Math.PI : Math.max(0, Math.min(1, (d.x1 - p.x0) / xScale)) * 2 * Math.PI,
+            y0: band ? band[0] : 0,
+            y1: band ? band[1] : 1.0,
+          };
+        });
+
+        const t = svg.transition().duration(750);
+
+        path.transition(t)
+          .tween("data", d => {
+            const i = d3.interpolate(d.current, d.target);
+            return tt => (d.current = i(tt));
+          })
+          .filter(function(d) {
+            return +this.getAttribute("fill-opacity") || arcVisible(d.target);
+          })
+          .attr("fill-opacity", d => arcVisible(d.target) ? (d.children ? 0.6 : 0.45) : 0)
+          .attr("pointer-events", d => arcVisible(d.target) ? "auto" : "none")
+          .attrTween("d", d => () => arc(d.current));
+
+        label.filter(function(d) {
+          return +this.getAttribute("fill-opacity") || labelVisible(d.target);
+        }).transition(t)
+          .attr("fill-opacity", d => +labelVisible(d.target))
+          .attrTween("transform", d => () => labelTransform(d.current));
+      }
+
+      const leafCount = root.leaves().filter(l => l._visible).length;
+      document.getElementById("leaf-count").textContent = String(leafCount);
+      document.getElementById("filter-label").textContent = filterLevel == null ? "All" : ("FAIRMM " + filterLevel);
+
+      document.getElementById("reset-zoom").onclick = () => clicked(null, root);
+
+      clicked(null, root);
+    }
+
+    const mmSelect = document.getElementById("mm-select");
+
+    function parseFilterValue(v) {
+      if (v === "all") return null;
+      const n = Number(v);
+      return Number.isFinite(n) ? n : null;
+    }
+
+    mmSelect.addEventListener("change", () => {
+      const filterLevel = parseFilterValue(mmSelect.value);
+      renderSunburst(filterLevel);
+    });
+
+    renderSunburst(null);
+  </script>
+</body>
+</html>

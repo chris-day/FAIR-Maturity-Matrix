@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fair-maturity-matrix"
+version = "0.1.0"
+description = "FAIR Maturity Matrix documentation project"
+requires-python = ">=3.10"
+dependencies = [
+  "rdflib>=6.0.0",
+  "pyyaml>=6.0",
+  "linkml>=1.5.0",
+  "chardet<6",
+  "mkdocs==1.6.1",
+  "mkdocs-material[imaging]",
+  "mkdocs-macros-plugin",
+  "mkdocs-plantuml-local",
+  "mkdocs-network-graph-plugin",
+  "mkdocs-git-revision-date-localized-plugin",
+  "mkdocs-minify-plugin",
+]
