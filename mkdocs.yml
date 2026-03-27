@@ -1,5 +1,6 @@
 site_name: FAIR Maturity Matrix
 site_description: FAIR Maturity Matrix documentation
+site_url: https://chris-day.github.io/FAIR-Maturity-Matrix/
 docs_dir: docs
 theme:
   name: material
@@ -16,7 +17,8 @@ plugins:
   - search
   - minify:
       minify_html: true
-  - graph
+  - graph:
+      name: "title"
   - macros:
       on_error_fail: true
 markdown_extensions:
