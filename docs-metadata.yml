@@ -1,0 +1,13 @@
+slug: fair-maturity-matrix
+section: FAIR Maturity Matrix
+docs_root: docs
+
+nav:
+  - Overview: index.md
+  - Dimensions:
+      - Findable: dimensions/findable.md
+      - Accessible: dimensions/accessible.md
+      - Interoperable: dimensions/interoperable.md
+      - Reusable: dimensions/reusable.md
+
+redirects: []
