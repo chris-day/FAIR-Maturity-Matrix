@@ -69,3 +69,6 @@ nav:
     - Data-Viz: Data-Viz/readme.md
     - Pistoia-Alliance-style: Pistoia-Alliance-style/2025-Pistoia-Fonts-Colors.md
 redirects: []
+mkdocs_requests:
+  extra_css:
+    - stylesheets/fair-matrix.css
