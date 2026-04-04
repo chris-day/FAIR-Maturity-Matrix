@@ -65,12 +65,12 @@ nav:
       - FAIR Tools and Infrastructures: fmm-d7.md
   - Levels:
       - Overview: FMMlevels.md
-      - Level 0: level0.md
-      - Level 1: level1.md
-      - Level 2: level2.md
-      - Level 3: level3.md
-      - Level 4: level4.md
-      - Level 5: level5.md
+      - Level 0 Life is unFAIR: level0.md
+      - Level 1 Started the FAIR journey: level1.md
+      - Level 2 Getting FAIR: level2.md
+      - Level 3 Pretty FAIR: level3.md
+      - Level 4 Really FAIR: level4.md
+      - Level 5 FAIRest of them all: level5.md
   - FAIR Training: FAIR_training.md
   - Personas:
       - Overview: FAIRMM_personas.md

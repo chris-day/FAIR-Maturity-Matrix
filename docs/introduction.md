@@ -19,10 +19,9 @@ Organizations can be at very different stages in implementing FAIR data principl
 While there are multiple FAIR data maturity models and metrics, there is no simple, agreed-upon, sector-wide maturity assessment model for implementing the FAIR data principle at the organizational level in the life science sector.
 
 
-<iframe src="[https://player.vimeo.com/video/1155009839?h=0c6db82f7f&app_id=122963](https://player.vimeo.com/video/1155009839?h=0c6db82f7f&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://player.vimeo.com/video/1155009839?h=0c6db82f7f&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
-<iframe src="[https://player.vimeo.com/video/1155010224?h=2eee5ecfdf&app_id=122963](https://player.vimeo.com/video/1155010224?h=2eee5ecfdf&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-
+<iframe src="https://player.vimeo.com/video/1155010224?h=2eee5ecfdf&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe> 
 
 
 ## **FAIR: What do we mean with Findable, Accessible, Interoperable and Reusable?**

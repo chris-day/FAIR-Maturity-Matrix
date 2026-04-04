@@ -23,7 +23,7 @@
 [FAIR Maturity Matrix: Dimensions (rows)](FMMdimensions.md)
 
 <div class="video-wrapper">
-<iframe src="[https://player.vimeo.com/video/1155016797?h=3b19b7ea88&app_id=122963](https://player.vimeo.com/video/1155016797?h=3b19b7ea88&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://player.vimeo.com/video/1155016797?h=3b19b7ea88&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe> 
 </div>
 
 ## Level 1 Capabilities 

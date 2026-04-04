@@ -7,21 +7,21 @@ nav:
 - FAIR Maturity Matrix: FAIRMaturityMatrix.md
 - Dimensions:
   - Overview: FMMdimensions.md
-  - Dimension 1: fmm-d1.md
-  - Dimension 2: fmm-d2.md
-  - Dimension 3: fmm-d3.md
-  - Dimension 4: fmm-d4.md
-  - Dimension 5: fmm-d5.md
-  - Dimension 6: fmm-d6.md
-  - Dimension 7: fmm-d7.md
+  - FAIR Data: fmm-d1.md
+  - FAIR Leadership: fmm-d2.md
+  - FAIR Strategy: fmm-d3.md
+  - FAIR Personas: fmm-d4.md
+  - FAIR Processes: fmm-d5.md
+  - FAIR Knowledge: fmm-d6.md
+  - FAIR Tools and Infrastructures: fmm-d7.md
 - Levels:
   - Overview: FMMlevels.md
-  - Level 0: level0.md
-  - Level 1: level1.md
-  - Level 2: level2.md
-  - Level 3: level3.md
-  - Level 4: level4.md
-  - Level 5: level5.md
+  - Level 0 Life is unFAIR: level0.md
+  - Level 1 Started the FAIR journey: level1.md
+  - Level 2 Getting FAIR: level2.md
+  - Level 3 Pretty FAIR: level3.md
+  - Level 4 Really FAIR: level4.md
+  - Level 5 FAIRest of them all: level5.md
 - FAIR Training: FAIR_training.md
 - Personas:
   - Overview: FAIRMM_personas.md
@@ -108,6 +108,7 @@ mkdocs_requests:
   - search.highlight
   - navigation.tabs
   - navigation.tabs.sticky
+  - navigation.footer
   plugins:
   - name: minify
     config:
