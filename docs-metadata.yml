@@ -5,7 +5,15 @@ nav:
 - Home: index.md
 - Introduction: introduction.md
 - FAIR Maturity Matrix: FAIRMaturityMatrix.md
-- Dimensions: FMMdimensions.md
+- Dimensions:
+  - Overview: FMMdimensions.md
+  - Dimension 1: fmm-d1.md
+  - Dimension 2: fmm-d2.md
+  - Dimension 3: fmm-d3.md
+  - Dimension 4: fmm-d4.md
+  - Dimension 5: fmm-d5.md
+  - Dimension 6: fmm-d6.md
+  - Dimension 7: fmm-d7.md
 - Levels:
   - Overview: FMMlevels.md
   - Level 0: level0.md
@@ -49,7 +57,9 @@ nav:
   - Technology Leader: FAIR_personas/Technology_Leader.md
   - X-template-FAIR persona: FAIR_personas/X-template-FAIR_persona.md
   - FAIR Personas Index: FAIR_personas/file_list.md
+- FAIR Business Value: FAIRMM_business_value.md
 - FAIR Roles:
+  - Overview: FAIRMM_roles.md
   - Data Producer: FAIR_roles/Data_Producer.md
   - Data Enabler: FAIR_roles/Data_Enabler.md
   - Data Consumer: FAIR_roles/Data_Consumer.md
@@ -87,6 +97,7 @@ nav:
   - Images: images/readme.md
   - Videos: videos/readme-videos.md
   - Data-Viz: Data-Viz/readme.md
+  - Data-Viz extra: Data-Viz/readme-viz.md
   - Pistoia-Alliance-style: Pistoia-Alliance-style/2025-Pistoia-Fonts-Colors.md
 redirects: []
 mkdocs_requests:
