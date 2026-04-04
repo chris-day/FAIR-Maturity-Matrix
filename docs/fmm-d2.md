@@ -6,7 +6,7 @@
 This dimension deals with types and leadership levels required to implement FAIR principles in a life science organization. Ultimately, leadership "owns" the vision of FAIR implementation, or the “why”.  Leadership roles are also necessary to ensure that strategies can be defined, enabled, implemented, and executed. Leadership ensures the resources (financial, time, priority) are set and available. Ultimately, leadership, at various levels in and outside the boundaries of the organizations, is accountable for implementing FAIR data principles. This requires a sufficiently deep level of understanding of the FAIR principles, of the costs (time, financial, opportunity) associated with data practices that are not FAIR and the skills needed to implement FAIR data principles.
 
 <div class="video-wrapper">
-<iframe src="[https://player.vimeo.com/video/1155009200?h=2ab13015fc&app_id=122963](https://player.vimeo.com/video/1155009200?h=2ab13015fc&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://player.vimeo.com/video/1155009200?h=2ab13015fc&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ## Evolution

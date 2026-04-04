@@ -6,7 +6,7 @@
 This dimension concerns metadata, data, and data products. Several frameworks to evaluate the maturity of FAIR data exist publicly and in private organizational environments. The intention of this dimension is to provide a qualitative pragmatic indication, not to replace existing FAIR data assessment models. For a catalogue of FAIR data assessment tools and methods we refer to: https://fairassist.org/tools.  Especially at the initial levels, a FAIR assessment tool should help identify the FAIR data principles in focus when starting a FAIR data implementation journey. This dimension closely connects to FAIR tools, infrastructures, processes, and personas.
 
 <div class="video-wrapper">
-<iframe src="[https://player.vimeo.com/video/1155009544?h=5ba303dca5&app_id=122963](https://player.vimeo.com/video/1155009544?h=5ba303dca5&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+ <iframe src="https://player.vimeo.com/video/1155009544?h=5ba303dca5&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 # Evolution
@@ -22,4 +22,4 @@ This dimension concerns metadata, data, and data products. Several frameworks to
 **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
+![](images/new-pisto-logo.png)

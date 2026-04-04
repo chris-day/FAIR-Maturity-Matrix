@@ -6,7 +6,7 @@
 The FAIR Knowledge dimension concerns the [factual, conceptual, procedural  knowledge](https://www.celt.iastate.edu/instructional-strategies/effective-teaching-practices/revised-blooms-taxonomy/#responsive)) required for FAIR implementation at the various stages. Knowledge is often associated with human expert roles and connects with the [FAIR personas](fmm-d4.md)  dimension. See also  [FAIR training](FAIR_training.md).
 
 <div class="video-wrapper">
-<iframe src="[https://player.vimeo.com/video/1155009071?h=019c72b277&app_id=122963](https://player.vimeo.com/video/1155009071?h=019c72b277&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://player.vimeo.com/video/1155009071?h=019c72b277&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 ## Evolution
 

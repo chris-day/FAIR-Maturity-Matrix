@@ -6,7 +6,7 @@
 Strategies are frameworks for making decisions related to FAIR implementation, from business case to capability-building to running operations. After setting the "why" of FAIR implementation journeys and what "will success look like,” "how and with which priorities will the organization evolve given the current status?” This dimension is also concerned with deciding what not to do (e.g., only some data may need to be FAIR, “FAIR Enough”), identifying metrics, organizational sectors (beyond R&D) involved and the cultural change required.
 
 <div class="video-wrapper">
-<iframe src="[https://player.vimeo.com/video/1155011354?h=ec783ea54e&app_id=122963](https://player.vimeo.com/video/1155011354?h=ec783ea54e&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://player.vimeo.com/video/1155011354?h=ec783ea54e&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ## Evolution

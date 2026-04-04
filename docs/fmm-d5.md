@@ -6,7 +6,7 @@
 FAIR data principles implementation requires underlying processes connecting the necessary metadata, data, tools, roles and knowledge. Some of these processes may be implicit in the early stages of FAIR data implementation. Still, they will become more explicit and so ubiquitous that they will become transparent once we achieve the highest maturity levels.
 
 <div class="video-wrapper">
-<iframe src="[https://player.vimeo.com/video/1155010927?h=4cb6cc146f&app_id=122963](https://player.vimeo.com/video/1155010927?h=4cb6cc146f&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://player.vimeo.com/video/1155010927?h=4cb6cc146f&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 ## Evolution

@@ -4,6 +4,7 @@ site_url: https://chris-day.github.io/FAIR-Maturity-Matrix/
 docs_dir: docs
 theme:
   name: material
+  logo: images/new-pisto-logo.png
   icon:
     repo: fontawesome/brands/github
   features:
@@ -13,6 +14,7 @@ theme:
     - search.highlight
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.footer
 plugins:
   - search
   - minify:
@@ -54,13 +56,13 @@ nav:
   - FAIR Maturity Matrix: FAIRMaturityMatrix.md
   - Dimensions: 
       - Overview: FMMdimensions.md
-      - Dimension 1: fmm-d1.md
-      - Dimension 2: fmm-d2.md
-      - Dimension 3: fmm-d3.md
-      - Dimension 4: fmm-d4.md
-      - Dimension 5: fmm-d5.md
-      - Dimension 6: fmm-d6.md
-      - Dimension 7: fmm-d7.md
+      - FAIR Data: fmm-d1.md
+      - FAIR Leadership: fmm-d2.md
+      - FAIR Strategy: fmm-d3.md
+      - FAIR Personas: fmm-d4.md
+      - FAIR Processes: fmm-d5.md
+      - FAIR Knowledge: fmm-d6.md
+      - FAIR Tools and Infrastructures: fmm-d7.md
   - Levels:
       - Overview: FMMlevels.md
       - Level 0: level0.md
