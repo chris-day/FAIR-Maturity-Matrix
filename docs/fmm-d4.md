@@ -25,5 +25,4 @@ See:  [FAIR personas](FAIRMM_personas.md)
 
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

@@ -16,4 +16,4 @@
 |   [**FAIR tools**](fmm-d7.md)    | [tools 0](level0.md#level-0-fair-tools-and-infrastructures) | [tools 1](level1.md#level-1-fair-tools-and-infrastructures) |   [tools 2](level2.md#level-2-fair-tools-and-infrastructures)   |  [tools 3](level3.md#level-3-fair-tools-and-infrastructures)  | [tools 4](level4.md#level-4-fair-tools-and-infrastructures)  |  [tools 5](level5.md#level-5-fair-tools-and-infrastructures)  |
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
+![](images/new-pisto-logo.png)

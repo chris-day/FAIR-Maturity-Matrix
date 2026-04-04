@@ -13,6 +13,5 @@
 The FAIRMM version 1.2 dimension 4 is called "FAIR personas". In FAIRMM Versions 1.0 and 1.1 the same dimension is called "FAIR roles" 
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)
 

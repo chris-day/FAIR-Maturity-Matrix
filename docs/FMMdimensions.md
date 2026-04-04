@@ -26,5 +26,4 @@ Combining all these factors is required to describe a given maturity level. It i
 **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

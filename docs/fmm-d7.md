@@ -31,5 +31,4 @@ The FAIR tools and infrastructure dimension has an indicator for each element of
 **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

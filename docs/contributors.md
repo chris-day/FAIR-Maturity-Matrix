@@ -73,5 +73,4 @@ Version 1.0 was first released on 2024-04-19 using [Confluence](https://pistoiaa
 
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

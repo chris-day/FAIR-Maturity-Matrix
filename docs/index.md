@@ -32,5 +32,4 @@ At any given time, different organisations are at different stages of their FAIR
 Please see [Terms of Use](termsofuse.md) for details.
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

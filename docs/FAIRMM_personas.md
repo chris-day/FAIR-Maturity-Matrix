@@ -185,4 +185,4 @@ We are very grateful to all the active members of the FAIR-for-Pharma Community 
 FAIR-for-Pharma Community facilitation, document editing: Giovanni Nisato, Pistoia Alliance, https://orcid.org/0000-0002-5824-0061
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
+![](images/new-pisto-logo.png)

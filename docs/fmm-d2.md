@@ -23,5 +23,4 @@ This dimension deals with types and leadership levels required to implement FAIR
 
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

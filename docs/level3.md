@@ -229,5 +229,4 @@ Tool(s) or infrastructure component(s) which contributes, enhances or enriches R
 *   [Provenance Model](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Provenance-model&autosubmit=on)
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

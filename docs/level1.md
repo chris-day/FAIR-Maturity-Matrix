@@ -180,5 +180,4 @@ Tool(s) or infrastructure component(s) which contributes, enhances or enriches R
 *   [https://fairtoolkit.pistoiaalliance.org/methods/reusability-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/reusability-maturity-indicators/)
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

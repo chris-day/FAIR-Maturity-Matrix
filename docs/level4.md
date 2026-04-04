@@ -222,5 +222,4 @@ Tool(s) or infrastructure component(s) which contributes, enhances or enriches R
 
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

@@ -126,5 +126,4 @@ On the other hand, for most data citizens, FAIR is transparent and FAIR embeds i
 **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

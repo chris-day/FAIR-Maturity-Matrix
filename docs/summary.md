@@ -73,5 +73,4 @@ The  [FAIR Community of Experts](https://www.pistoiaalliance.org/community/fair-
 If you are interested in the FAIR Maturity Matrix, have comments or feedback please contact: [fair-maturity-matrix@pistoiaalliance.org](mailto:fair-maturity-matrix@pistoiaalliance.org)  
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)

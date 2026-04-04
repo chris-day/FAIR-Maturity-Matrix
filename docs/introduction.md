@@ -107,5 +107,4 @@ The intention is to provide an initial instrument to the FAIR community. It is u
 *   **Prioritized investment roadmap:** Converts gaps into a sequenced plans, improving funding decisions and cost/benefit analysis.
 
 
-<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
-
+![](images/new-pisto-logo.png)
