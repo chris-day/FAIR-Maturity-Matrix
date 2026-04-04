@@ -10,8 +10,8 @@ These different dimensions are the “rows” of the FAIR Maturity Matrix.
 | **Dimension**                                     | **Key notions**                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------------- |
 | ***[FAIR data](fmm-d1.md)***                      | Data, metadata, data products                                             |
-| ***[FAIR leadership](fmm-d2)***                   | Types of leadership necessary for FAIR implementation                     |
-| ***[FAIR strategy](fmm-d3)***                     | Now, the next FAIR stage and how to get there                             |
+| ***[FAIR leadership](fmm-d2.md)***                   | Types of leadership necessary for FAIR implementation                     |
+| ***[FAIR strategy](fmm-d3.md)***                     | Now, the next FAIR stage and how to get there                             |
 | ***[FAIR personas](fmm-d4.md)***                  | What kind of (human) roles are necessary to implement FAIR                |
 | ***[FAIR processes](fmm-d5.md)***                 | Which processes must we explicitly implement                              |
 | ***[FAIR knowledge](fmm-d6.md)***                 | What needs to be known for FAIR implementation                            |
