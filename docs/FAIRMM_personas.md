@@ -11,7 +11,7 @@
 - [Context](#context)
 - [Process](#process)
 - [Structure of a FAIR persona](#structure-of-a-fair-persona)
-- [Relevant Sources for FAIR Personas](#relevant-sources-for-fair-personas)
+- [Selected Sources for FAIR Personas](#selected-sources-for-fair-personas)
 - [List of FAIR Personas](#list-of-fair-personas)
 - [Contributors to the FAIR Personas](#contributors-to-the-fair-personas)
 
