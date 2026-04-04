@@ -123,7 +123,7 @@ A range of functional roles are defined, recognized and empowered. These roles i
 
 Developing a structured and well-conceived role framework is emphasized, guided by experts versed in FAIR principles and collaboration across organisations. For example a inter-organization [FAIR_Data_Architect](./FAIR_personas/FAIR_Data_Architect.md) and [Data_Standards_and_Governance_Expert](./FAIR_personas/Data_Standards_and_Governance_Expert.md)interacting with various  [Technology_Leader](./FAIR_personas/Technology_Leader.md) and [Data_Strategy_Owner](./FAIR_personas/Data_Strategy_Owner.md) personas on behalf of [Business_Leaders](./FAIR_personas/Business_Leader.md). The passage also underscores the need for strategic roles in promoting cultural change and maintaining FAIR practices while nurturing newcomers and recognizing the champions who initiated the FAIR agenda. Other companies ask FAIR Champions to share their best practices.
 
-[Autonomous_AI_Agent](./FAIR_Personas/Autonomous_AI_Agent.md)  personas operating at this level can take advantage of thefull gamut of benefits afforded by FAIR data principles, but also source, pool and combine data sets from any given organisation enabling access to its FAIR data. Their capabilities are difficult to describe and imagine today.  
+[Autonomous_AI_Agent](FAIR_personas/Autonomous_AI_Agent.md)  personas operating at this level can take advantage of thefull gamut of benefits afforded by FAIR data principles, but also source, pool and combine data sets from any given organisation enabling access to its FAIR data. Their capabilities are difficult to describe and imagine today.  
 
 
 **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**

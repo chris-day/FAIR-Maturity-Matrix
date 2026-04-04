@@ -121,7 +121,7 @@ The company is resourced (cf. [FAIR strategy level 4](level4.md#level-4-fair-str
 
 [Citizen_Data_Scientist](./FAIR_personas/Citizen_Data_Scientist.md) personas leverage self-service analytics platforms, intuitive data visualization tools, dashboards and other FAIR-enabled resources to explore datasets, generate reports, and uncover patterns or trends relevant to their roles.
 
-[Autonomous_AI_Agent](./FAIR_Personas/Autonomous_AI_Agent.md) can personas can take advantage of a full gamut of benefits afforded by FAIR data principles which increase effectivenss and reduce hallucinations. A significant pending issue and shortcoming is the lack of data interoperability and reusability across organisations. This limits the ability to source and combine data sets for training especially when quality data is scare in any given organisation and pooling is a necessity.
+[Autonomous_AI_Agent](FAIR_personas/Autonomous_AI_Agent.md) can personas can take advantage of a full gamut of benefits afforded by FAIR data principles which increase effectivenss and reduce hallucinations. A significant pending issue and shortcoming is the lack of data interoperability and reusability across organisations. This limits the ability to source and combine data sets for training especially when quality data is scare in any given organisation and pooling is a necessity.
 
 These roles collaboratively contribute to effective data management, integrating various expertise and responsibilities.
 

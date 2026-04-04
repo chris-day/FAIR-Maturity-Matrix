@@ -141,7 +141,7 @@ Formal roles and training are being laid out and approved. This cultural change 
 
 Teams with complementary roles emerge. For example, IT and business functions may collaborate in creating Knowledge Graphs with the help of teams including personas such as  [Subject_Matter_Expert](./FAIR_personas/Subject_Matter_Expert.md) ,[Business_Analyst](./FAIR_personas/Business_Analyst.md) , [FAIR_Data_Architect](./FAIR_personas/FAIR_Data_Architect.md),  [Data_Engineer](./FAIR_personas/Data_Engineer.md), [Ontologist](./FAIR_personas/Ontologist.md)
 
-[Autonomous_AI_Agent](./FAIR_Personas/Autonomous_AI_Agent.md) personas can take advantage of standardized API protocols with clear authentication mechanisms enabling programmatic data retrieval, machine-readable access policies allowing agents to autonomously determine permissions, provenance graphs enabling trust assessment, audit trails, and failure debugging.
+[Autonomous_AI_Agent](FAIR_personas/Autonomous_AI_Agent.md) personas can take advantage of standardized API protocols with clear authentication mechanisms enabling programmatic data retrieval, machine-readable access policies allowing agents to autonomously determine permissions, provenance graphs enabling trust assessment, audit trails, and failure debugging.
 
 **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
 
