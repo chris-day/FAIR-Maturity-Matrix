@@ -119,8 +119,8 @@ The navigation was expanded and aligned with the migrated content:
 
 The persona index file [`docs/FAIR_personas/file_list.md`](FAIR_personas/file_list.md) was also rewritten from a plain filename list into readable local links such as:
 
-- `[Data Engineer](FAIR_personas/Data_Engineer.md)`
-- `[Business Leader](FAIR_personas/Business_Leader.md)`
+- `[Data Engineer](Data_Engineer.md)`
+- `[Business Leader](Business_Leader.md)`
 
 ## Link Migration And Cleanup
 

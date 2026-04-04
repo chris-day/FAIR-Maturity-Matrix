@@ -1,5 +1,5 @@
 # Autonomous_AI_Agent
-[Autonomous_AI_Agent](https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/edit/FAIR-MM-V1.2/FAIR-Personas/Autonomous_AI_Agent.md)
+[Autonomous_AI_Agent](./FAIR-Personas/Autonomous_AI_Agent.md)
 
 === "Synonyms"
 	## Synonyms of Autonomous_AI_Agent

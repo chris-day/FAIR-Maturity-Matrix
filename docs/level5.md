@@ -22,6 +22,10 @@
 **Table level 5 summary**
 [FAIR Maturity Matrix: maturity levels (columns)](FMMlevels.md)
 
+<div class="video-wrapper">
+<iframe src="[https://player.vimeo.com/video/1155012633?h=9ac8013a3b&app_id=122963](https://player.vimeo.com/video/1155012633?h=9ac8013a3b&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+
 ## Level 5 Capabilities
 
 Additionally to [level 4 capabilities](level4.md) FAIR data principles are implemented across all key functions and organization domains. Data creation remains FAIR throughout its lifecycle, facilitated by scalable tools.  Data can be exchanged and is interoperable across organizations in the life-science ecosystem such as pharmaceutical companies, CROs, regulatory bodies, and scientific data providers.
@@ -30,9 +34,7 @@ Machine actionability and automated operations are possible, leveraging self-des
 
 ## Level 5 Business value
 
-Ability to exchange and augment data sets across organizations. Cross-organizational insight generation. Machine actionability. Increased cost-effectiveness of FAIR infrastructure investments (cost-sharing across organizations). Secondary reuse of data (e.g., clinical trials). Real-world evidence data-mining and improved patient outcomes. Enhanced drug development efficacy (e.g. drug repurposing) and reduced time-to-market.
-
-Truly data centric ecosystem. The fostering of a Data-Driven culture enabled through all the FAIR Principles inside and across organizations.
+Ability to exchange and augment data sets across organizations. Cross-organizational insight generation. AI trusted actionability significantly increase. Increased cost-effectiveness of FAIR infrastructure investments via cost-sharing across organizations. Secondary reuse of data emerges . Real-world evidence data-mining and improved patient outcomes. Enhanced drug development efficacy, drug repurposing, and overall reduced time-to-market are expected. Level 5 represents the emerges a truly data centric ecosystem with interoperable and reusable data across organizations.
 
 ## Level 5 Questions to ask
 
@@ -115,11 +117,14 @@ Outreach efforts to diverse stakeholders, including pharmaceutical companies, CR
 
 FAIR is the norm, and everyone understands why FAIR data is needed. Everyone who needs to have adequate skills has them. Everyone new also gets FAIR data training. FAIR data is a competence of all employees. There is recognition for the FAIR data work. 
 
-Knowledge enabled citizens are empowered with access to information enabling them to contribute effectively to the organization's goals and objectives by utilizing FAIR-enabled resources.
+At this level [Knowledge-Enabled_Citizen](./FAIR_personas/Knowledge-Enabled_Citizen.md) are empowered with access to cross-organizational information enabling them to contribute effectively to the organization's goals and objectives by utilizing FAIR-enabled resources.
 
-A range of functional roles are defined, recognized and empowered. These roles include data standard experts, data curators, semantics experts, knowledge engineers, data strategists, AI experts, data miners, communication experts, and various regulatory and decision-making positions.
+A range of functional roles are defined, recognized and empowered. These roles include :[Citizen_Data_Scientist](./FAIR_personas/Citizen_Data_Scientist.md) ,[Data_Steward](./FAIR_personas/Data_Steward.md) , [Curator](./FAIR_personas/Curator.md) ,   [FAIR_Data_Architect](./FAIR_personas/FAIR_Data_Architect.md), [Data_Standards_and_Governance_Expert](./FAIR_personas/Data_Standards_and_Governance_Expert.md) ,  [Data_Integration_Specialist](./FAIR_personas/Data_Integration_Specialist.md) ,  [Data_Engineer](https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/FAIR-MM-V1.2.5/docs/FAIR_personas/Data_Engineer.md), [Data_Quality_Manager](./FAIR_personas/Data_Quality_Manager.md), [Legal_Data_Expert](./FAIR_personas/Legal_Data_Expert.md), [Reference_Data_Manager](./FAIR_personas/Reference_Data_Manager.md), enterprise and domain  [Ontologist](./FAIR_personas/Ontologist.md), [Master_Data_Manager](./FAIR_personas/Master_Data_Manager.md), [Data_Owner](./FAIR_personas/Data_Owner.md) , [Data_Strategy_Owner](./FAIR_personas/Data_Strategy_Owner.md)and **Data product owner. 
 
-Developing a structured and well-conceived role framework is emphasized, guided by experts versed in FAIR principles, such as a " FAIR" inter-organization architect or a bridge between the Chief Technology Officer and Chief Strategy Officer. The passage also underscores the need for strategic roles in promoting cultural change and maintaining FAIR practices while nurturing newcomers and recognizing the champions who initiated the FAIR agenda. Other companies ask FAIR Champions to share their best practices.
+Developing a structured and well-conceived role framework is emphasized, guided by experts versed in FAIR principles and collaboration across organisations. For example a inter-organization [FAIR_Data_Architect](./FAIR_personas/FAIR_Data_Architect.md) and [Data_Standards_and_Governance_Expert](./FAIR_personas/Data_Standards_and_Governance_Expert.md)interacting with various  [Technology_Leader](./FAIR_personas/Technology_Leader.md) and [Data_Strategy_Owner](./FAIR_personas/Data_Strategy_Owner.md) personas on behalf of [Business_Leaders](./FAIR_personas/Business_Leader.md). The passage also underscores the need for strategic roles in promoting cultural change and maintaining FAIR practices while nurturing newcomers and recognizing the champions who initiated the FAIR agenda. Other companies ask FAIR Champions to share their best practices.
+
+[Autonomous_AI_Agent](./FAIR_Personas/Autonomous_AI_Agent.md)  personas operating at this level can take advantage of thefull gamut of benefits afforded by FAIR data principles, but also source, pool and combine data sets from any given organisation enabling access to its FAIR data. Their capabilities are difficult to describe and imagine today.  
+
 
 **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
 
@@ -227,4 +232,4 @@ Tool(s) or infrastructure component(s) which contributes, enhances or enriches R
 *   [FAIR Implementation Profiles](https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile)
 
 
-<div class="logoDiv"><img class="logo" src="Pistoia-Alliance-style/2024-08 Pistoia Alliance Logo.png"></div>
+<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>

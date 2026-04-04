@@ -22,6 +22,10 @@
 **Table level 2 summary.**
 [FAIR Maturity Matrix: maturity levels (columns)](FMMlevels.md)
 
+<div class="video-wrapper">
+<iframe src="[https://player.vimeo.com/video/1155012199?h=cd93d77bcb&app_id=122963](https://player.vimeo.com/video/1155012199?h=cd93d77bcb&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+
 ## Level 2 Capabilities 
 
 The organization ensures findability of its own data through unique identifiers, standardized metadata, and data registries. Unique identifiers facilitate specific dataset searches, while standardized metadata schemas provide comprehensive descriptions. Data registries organize datasets with searchable interfaces based on criteria like keywords, enhancing discoverability. Data and metadata are retrieved by their identities using standardized resolution protocols.
@@ -113,17 +117,16 @@ The realization that technical choices, architectures and partnerships have stra
 
 ## Level 2 FAIR roles
 
-Key Role: Data Scientist.
+In this dimension the [Data Scientist](./FAIR_personas/Data_Scientist.md) persona is key.
 
-Emerging roles: Data standard expert, data curator, semantic web expert, data strategist, Data stewards (cf. governance as a "Process"), Data product "owners" (to do: define a "data product" in LEXICON tab ). Community of practice leads / Community managers.
+Emerging personas include:  [Data_Steward](./FAIR_personas/Data_Steward.md), [Curator](./FAIR_personas/Curator.md), [Data_Standards_and_Governance_Expert](./FAIR_personas/Data_Standards_and_Governance_Expert.md) , [Data_Integration_Specialist](./FAIR_personas/Data_Integration_Specialist.md) with semantic expertise may be brought in. [Data_Strategy_Owner](./FAIR_personas/Data_Strategy_Owner.md), [Data_Owner](./FAIR_personas/Data_Owner.md) are engaging in the FAIR data transition. Further [FAIR_Community_Manager](./FAIR_personas/FAIR_Community_Manager.md) may begin to appear. 
+ 
+The same individual often has multiple hats, or can embody multiple personas. However, designated roles start to take shape in the company. Organisaitons begin to have designated FAIR-related roles: advertising for new positions and recognising explicitly the FAIRification work that some people have done implicitly (and often without recognition) in their previous roles.
 
-Designated roles start to get shaped in the company.
+People become more mindful that governance is a part of [FAIR processes](fmm-d5.md).
 
-The same individual often has multiple roles.
-
-They are beginning to have designated FAIR-related roles: advertising for new positions and recognising the FAIRification work that some people have done in their previous roles.
-
-The first champions and teams of various roles mentioned above develop Minimal Viable Products or services showcasing what prototypes can do, prove value and get internal recognition.
+can take advantage of  programmatic dataset discovery and ingestion through globally unique persistent identifiers.
+The first champions and teams of various personas mentioned above develop Minimal Viable Products or services showcasing example of value creation thank to FAIR data. They start proving value and get internal recognition.
 
 **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
 
@@ -215,5 +218,4 @@ Tool(s) or infrastructure component(s) which contributes, enhances or enriches R
 
 (less in focus at this stage)
 
-
-<div class="logoDiv"><img class="logo" src="<div class="logoDiv"><img class="logo" src="Pistoia-Alliance-style/2024-08 Pistoia Alliance Logo.png"></div>"></div>
+<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>

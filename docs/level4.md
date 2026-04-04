@@ -22,6 +22,10 @@
 **Table level 4 summary**
 [FAIR Maturity Matrix: maturity levels (columns)](FMMlevels.md)
 
+<div class="video-wrapper">
+<iframe src="[https://player.vimeo.com/video/1155011685?h=53fa242d59&app_id=122963](https://player.vimeo.com/video/1155011685?h=53fa242d59&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+
 ## Level 4 Capabilities 
 
 Additionally to [level 3 capabilities](level3.md), FAIR data is prevalent across departments and divisions, with consistent use of persistent identifiers, controlled vocabularies for key domains and business areas. Data is described in cross-domain models, and applying enterprise-level metadata standards. FAIR tools enable automated data exploration and reuse.
@@ -30,7 +34,7 @@ Leadership mandated FAIR implementation cases align with governance processes an
 
 ## Level 4 Business value
 
-Facilitated regulatory compliance and auditing. Interoperability enables data-set integration. Data exchange across functions enabled insight generation (e.g., competitive intelligence, market access, clinical development), and quality AI training data sets for LLM.
+Data exchange across functions enables more and better quality AI training data sets for LLM. It facilitates insight generation (e.g., competitive intelligence, market access, clinical development) by humans and machines. Interoperability enables data-set integration. Facilitated regulatory compliance and auditing.
 
 ## Level 4 Questions to ask
 
@@ -105,17 +109,19 @@ There is a clear awareness of the FAIR data strategy, especially for the roles t
 
 ## Level 4 FAIR roles
 
-Key roles are in place for metadata, data and governance management. The additional roles that emerged more clearly include Citizen Data Scientist and Data product owner.
+Key roles are in place for metadata, data and governance management. The additional personas  that emerged more clearly -or are more clearly part of the FAIR enablers - include [Citizen_Data_Scientist](./FAIR_personas/Citizen_Data_Scientist.md) , [Ontologist](./FAIR_personas/Ontologist.md), [Master_Data_Manager](./FAIR_personas/Master_Data_Manager.md), [Data_Owner](./FAIR_personas/Data_Owner.md) , [Data_Strategy_Owner](./FAIR_personas/Data_Strategy_Owner.md)and **Data product owner**. 
 
-Leadership (C level) plays a key role and enables a data-centric enterprise, but all employees are involved implicitly (cf FAIR tools) or explicitly in the FAIR data principle implementation.
+Leadership personas ([Business Leaders](), [Business Owner](./FAIR_personas/Business_Owner.md) and [Technology_Leader](./FAIR_personas/Technology_Leader.md).) keep playing a key role and enables a data-centric enterprise, but all employees are involved implicitly (cf [FAIR tools at level 4](level4.md#level-4-fair-tools-and-infrastructures)) or explicitly in the FAIR data principle implementation.
 
-"FAIR" is not limited to technical roles. Among others, business roles provide subject matter expertise for creating Knowledge Graphs (KG) and ontologies. Financial roles ("CFO") can ensure financial support but also monitor the added value (ROI) of FAIR data, tools, and insights created by FAIR data, tools and processes.
+"FAIR" is not limited to technical roles. Among others, business roles provide subject matter expertise for creating Knowledge Graphs (KG) and ontologies. Personas with financial responsibilities or influence ([Business Leaders](), [Business Owner](./FAIR_personas/Business_Owner.md) , [Business_Analyst](./FAIR_personas/Business_Analyst.md)) can ensure financial support but also monitor the added value (ROI) of FAIR data, tools, and insights created by FAIR data, tools and processes.
 
-Crucially, we see the institutionalisation of training programs ensure proficiency in each role. Change management roles and practices (cf. FAIR Processes) are well established.
+Crucially, we see the institutionalisation of FAIR training programs (with the persona [FAIR_Trainer](./FAIR_personas/FAIR_Trainer.md)) to ensure proficiency in each role. Change management roles and practices (cf. [process 4](level4.md#level-4-fair-processes) ) related to FAIR data culture adoption are well established and is part of [Project_Manager](./FAIR_personas/Project_Manager.md) can count on for the organisational assets.
 
-The company is resourced (cf. FAIR Strategy L4) with a diverse set of roles within an existing framework for data management and integration, including, for example, Data standard experts, data curators, semantic web experts, knowledge engineers, data strategists, communication experts, enterprise and domain ontologists, AI professionals, RDF experts (NB this is not an exclusive list). 
+The company is resourced (cf. [FAIR strategy level 4](level4.md#level-4-fair-strategy)) with a diverse set of personas within an existing framework for data management and integration, including:  [Data_Steward](./FAIR_personas/Data_Steward.md) , [Curator](./FAIR_personas/Curator.md) ,   [FAIR_Data_Architect](./FAIR_personas/FAIR_Data_Architect.md), [Data_Standards_and_Governance_Expert](./FAIR_personas/Data_Standards_and_Governance_Expert.md) ,  [Data_Integration_Specialist](./FAIR_personas/Data_Integration_Specialist.md) ,  [Data_Engineer](https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/FAIR-MM-V1.2.5/docs/FAIR_personas/Data_Engineer.md), [Data_Quality_Manager](./FAIR_personas/Data_Quality_Manager.md), [Legal_Data_Expert](./FAIR_personas/Legal_Data_Expert.md), [Reference_Data_Manager](./FAIR_personas/Reference_Data_Manager.md), enterprise and domain  [Ontologist](./FAIR_personas/Ontologist.md), the data strategists personas previously mentioned, communication experts, AI professionals, (NB this is not an exclusive list). 
 
-Citizen Data Scientists leverage self-service analytics platforms, intuitive data visualization tools, dashboards and other FAIR-enabled resources to explore datasets, generate reports, and uncover patterns or trends relevant to their roles.
+[Citizen_Data_Scientist](./FAIR_personas/Citizen_Data_Scientist.md) personas leverage self-service analytics platforms, intuitive data visualization tools, dashboards and other FAIR-enabled resources to explore datasets, generate reports, and uncover patterns or trends relevant to their roles.
+
+[Autonomous_AI_Agent](./FAIR_Personas/Autonomous_AI_Agent.md) can personas can take advantage of a full gamut of benefits afforded by FAIR data principles which increase effectivenss and reduce hallucinations. A significant pending issue and shortcoming is the lack of data interoperability and reusability across organisations. This limits the ability to source and combine data sets for training especially when quality data is scare in any given organisation and pooling is a necessity.
 
 These roles collaboratively contribute to effective data management, integrating various expertise and responsibilities.
 
@@ -216,4 +222,5 @@ Tool(s) or infrastructure component(s) which contributes, enhances or enriches R
 
 
 
-<div class="logoDiv"><img class="logo" src="Pistoia-Alliance-style/2024-08 Pistoia Alliance Logo.png"></div>
+<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
+

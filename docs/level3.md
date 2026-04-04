@@ -22,9 +22,13 @@
 **Table level 3 summary**
 [FAIR Maturity Matrix: maturity levels (columns)](FMMlevels.md)
 
+<div class="video-wrapper">
+<iframe src="[https://player.vimeo.com/video/1155011875?h=da9957e721&app_id=122963](https://player.vimeo.com/video/1155011875?h=da9957e721&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+
 ## Level 3 Capabilities
 
-Findability is largely achieved in the context the organization, access protocols and controls are in place. Data can be re-used at least at departmental levels. Machine interpretation is possible at the local (e.g. department) level. Processes for FAIR are formalized, including training, documentation, integration into workflow. The organization can support those processes financially and operationally. Data that increasingly comply to FAIR data principles can be generated from the onset and the organization can begin to reduce efforts required by retrospective “FAIRification”
+Findability is largely achieved in the context the organization, access protocols and controls are in place. Data can be re-used at least at departmental levels. Machine interpretation is possible at the local (e.g. department) level. Processes for FAIR are formalized, including training, documentation, integration into workflow. The organization can support those processes financially and operationally. Data that increasingly comply to FAIR data principles can be generated from the onset and the organization can begin to reduce efforts required by retrospective “FAIRification”.
 
 ## Level 3 Business value
 
@@ -125,19 +129,19 @@ The data strategy accommodates federated domain-specific FAIR data, and there is
 
 ## Level 3 FAIR roles
 
-Key Roles are data standard expert, data curator, semantic web expert, knowledge engineer, data steward, and data strategist.
+Key Roles include:  [Data_Steward](./FAIR_personas/Data_Steward.md) , [Curator](./FAIR_personas/Curator.md) ,  [Data_Standards_and_Governance_Expert](./FAIR_personas/Data_Standards_and_Governance_Expert.md) ,  [Data_Integration_Specialist](./FAIR_personas/Data_Integration_Specialist.md) ,  [Data_Engineer](./FAIR_personas/Data_Engineer.md), [Data_Owner](./FAIR_personas/Data_Owner.md)
 
-Emerging roles are Data architects, Citizen Data Scientists, Data product owners, and Domain owners.
+Emerging personas include [FAIR_Data_Architect](./FAIR_personas/FAIR_Data_Architect.md), [Citizen_Data_Scientist](./FAIR_personas/Citizen_Data_Scientist.md), [Data_Strategy_Owner](./FAIR_personas/Data_Strategy_Owner.md), [FAIR_Community_Manager](./FAIR_personas/FAIR_Community_Manager.md).
 
-The organization has started laying out a framework (e.g. a matrix or a triple store?) of FAIR roles and how they interact—some experienced employees in FAIR roles.
+The organization has started laying out a framework of FAIR roles and how they interact with one another and begins to have some experienced employees in FAIR roles.
 
-FAIR data has started to be part of some people's training in some departments.
+[FAIR training](FAIR_training.md) has started to be part of some people's corporate training curriculum in some departments.
 
 Formal roles and training are being laid out and approved. This cultural change role is pivotal in promoting and embedding a data-driven culture aligned with the organization's data management goals and practices.
 
-Teams with complementary roles emerge.
+Teams with complementary roles emerge. For example, IT and business functions may collaborate in creating Knowledge Graphs with the help of teams including personas such as  [Subject_Matter_Expert](./FAIR_personas/Subject_Matter_Expert.md) ,[Business_Analyst](./FAIR_personas/Business_Analyst.md) , [FAIR_Data_Architect](./FAIR_personas/FAIR_Data_Architect.md),  [Data_Engineer](./FAIR_personas/Data_Engineer.md), [Ontologist](./FAIR_personas/Ontologist.md)
 
-For example, IT and business functions collaborate in creating Knowledge Graphs, scientific domain experts and data architects for data mesh
+[Autonomous_AI_Agent](./FAIR_Personas/Autonomous_AI_Agent.md) personas can take advantage of standardized API protocols with clear authentication mechanisms enabling programmatic data retrieval, machine-readable access policies allowing agents to autonomously determine permissions, provenance graphs enabling trust assessment, audit trails, and failure debugging.
 
 **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
 
@@ -225,4 +229,5 @@ Tool(s) or infrastructure component(s) which contributes, enhances or enriches R
 *   [Provenance Model](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Provenance-model&autosubmit=on)
 
 
-<div class="logoDiv"><img class="logo" src="Pistoia-Alliance-style/2024-08 Pistoia Alliance Logo.png"></div>
+<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
+

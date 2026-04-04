@@ -22,13 +22,17 @@
 **Table - Level 0 summary**
 [FAIR Maturity Matrix: maturity levels (columns)](FMMlevels.md)
 
+<div class="video-wrapper">
+<iframe src="[https://player.vimeo.com/video/1155013384?h=6a5fd0a463&app_id=122963](https://player.vimeo.com/video/1155013384?h=6a5fd0a463&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+
 ## Level 0 Capabilities
 
 No FAIR capabilities are present. The organization is application-centric. FAIR principles may begin to get in focus.
 
 ## Level 0 Business value
 
-Application Centric Business Value, classically, we see desktop integration of disparate data systems. Data is a “tactical asset”.
+This dimension is characterised by "Application Centric Business Value" creation. Typically we see desktop integration of disparate data systems. Data is treated by organisation as a “tactical asset”.
 
 ## Level 0 Questions to ask
 
@@ -127,4 +131,5 @@ Tool(s) or infrastructure component(s) which contributes, enhances or enriches R
 *   [https://fairtoolkit.pistoiaalliance.org/methods/reusability-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/reusability-maturity-indicators/)
 
 
-<div class="logoDiv"><img class="logo" src="Pistoia-Alliance-style/2024-08 Pistoia Alliance Logo.png"></div>
+<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
+

@@ -47,7 +47,7 @@ The first version of the FAIR personas was developed between May 2024 and Februa
 
 The starting point was the list of roles identified in the FAIR Maturity Matrix (FAIR MM) V1.1 lexicon. This initial mapping pointed to at least nine distinct personas. Additional role descriptions were identified from supplementary sources, as referenced below.
 
-The list of personas was further enriched based on expert observations, practical experience, and identified needs. Over time, the scope of each persona description evolved into a structured template defining the information required to consistently characterize a FAIR persona.
+The list of personas was further enriched based on expert observations, practical experience, and identified needs. Over time, the scope of each persona description evolved into a structured template defining the information required to consistently characterize a FAIR persona. The personas can play different [roles](FAIRMM_roles.md) with respect to data.
 
 This exercise required balancing consolidation and differentiation: merging personas where overlap justified simplification, while preserving distinctions that reflect the diversity and complexity of real-world organizations. This tension is constructive and likely to remain an ongoing discussion as the framework evolves.
 
@@ -90,11 +90,12 @@ The data structure of a FAIR persona, while still evolving, was normalized into 
    - This this is in essence a value proposition combining the selected FAIR data principles which are both "pain relievers" and "gains creators"
 
 9. **List of how specific FAIR data principles add value to the persona**  
-   - The relevant FAIR data principleas are listed
+   - The relevant FAIR data principles are listed
+
 
 ---
-
-## Relevant Sources for FAIR Personas
+ 
+## Selected Sources for FAIR Personas
 
 The work was informed by multiple important resources which are listed below.
 
@@ -117,40 +118,38 @@ The work was informed by multiple important resources which are listed below.
 
 ## List of FAIR Personas
 
-> **Permalink column:** placeholder namespace; replace `{{NAMESPACE}}` later.
-
-| Persona File | Link | Permalink |
-|--------------|------|-----------|
-| Autonomous_AI_Agent.md | [Autonomous_AI_Agent](./FAIR_personas/Autonomous_AI_Agent.md) | `{{NAMESPACE}}/autonomous_ai_agent/` |
-| Business_Analyst.md | [Business_Analyst](./FAIR_personas/Business_Analyst.md) | `{{NAMESPACE}}/business_analyst/` |
-| Business_Leader.md | [Business_Leader](./FAIR_personas/Business_Leader.md) | `{{NAMESPACE}}/business_leader/` |
-| Business_Owner.md | [Business_Owner](./FAIR_personas/Business_Owner.md) | `{{NAMESPACE}}/business_owner/` |
-| Citizen_Data_Scientist.md | [Citizen_Data_Scientist](./FAIR_personas/Citizen_Data_Scientist.md) | `{{NAMESPACE}}/citizen_data_scientist/` |
-| Clinical_Data_Manager.md | [Clinical_Data_Manager](./FAIR_personas/Clinical_Data_Manager.md) | `{{NAMESPACE}}/clinical_data_manager/` |
-| Curator.md | [Curator](./FAIR_personas/Curator.md) | `{{NAMESPACE}}/curator/` |
-| Data_Analyst.md | [Data_Analyst](./FAIR_personas/Data_Analyst.md) | `{{NAMESPACE}}/data_analyst/` |
-| Data_Engineer.md | [Data_Engineer](./FAIR_personas/Data_Engineer.md) | `{{NAMESPACE}}/data_engineer/` |
-| Data_Integration_Specialist.md | [Data_Integration_Specialist](./FAIR_personas/Data_Integration_Specialist.md) | `{{NAMESPACE}}/data_integration_specialist/` |
-| Data_Owner.md | [Data_Owner](./FAIR_personas/Data_Owner.md) | `{{NAMESPACE}}/data_owner/` |
-| Data_Protection_Officer.md | [Data_Protection_Officer](./FAIR_personas/Data_Protection_Officer.md) | `{{NAMESPACE}}/data_protection_officer/` |
-| Data_Quality_Manager.md | [Data_Quality_Manager](./FAIR_personas/Data_Quality_Manager.md) | `{{NAMESPACE}}/data_quality_manager/` |
-| Data_Scientist.md | [Data_Scientist](./FAIR_personas/Data_Scientist.md) | `{{NAMESPACE}}/data_scientist/` |
-| Data_Standards_and_Governance_Expert.md | [Data_Standards_and_Governance_Expert](./FAIR_personas/Data_Standards_and_Governance_Expert.md) | `{{NAMESPACE}}/data_standards_and_governance_expert/` |
-| Data_Steward.md | [Data_Steward](./FAIR_personas/Data_Steward.md) | `{{NAMESPACE}}/data_steward/` |
-| Data_Strategy_Owner.md | [Data_Strategy_Owner](./FAIR_personas/Data_Strategy_Owner.md) | `{{NAMESPACE}}/data_strategy_owner/` |
-| FAIR_Community_Manager.md | [FAIR_Community_Manager](./FAIR_personas/FAIR_Community_Manager.md) | `{{NAMESPACE}}/fair_community_manager/` |
-| FAIR_Data_Architect.md | [FAIR_Data_Architect](./FAIR_personas/FAIR_Data_Architect.md) | `{{NAMESPACE}}/fair_data_architect/` |
-| FAIR_Trainer.md | [FAIR_Trainer](./FAIR_personas/FAIR_Trainer.md) | `{{NAMESPACE}}/fair_trainer/` |
-| Knowledge-Enabled_Citizen.md | [Knowledge-Enabled_Citizen](./FAIR_personas/Knowledge-Enabled_Citizen.md) | `{{NAMESPACE}}/knowledge-enabled_citizen/` |
-| Lab_Manager.md | [Lab_Manager](./FAIR_personas/Lab_Manager.md) | `{{NAMESPACE}}/lab_manager/` |
-| Legal_Data_Expert.md | [Legal_Data_Expert](./FAIR_personas/Legal_Data_Expert.md) | `{{NAMESPACE}}/legal_data_expert/` |
-| Master_Data_Manager.md | [Master_Data_Manager](./FAIR_personas/Master_Data_Manager.md) | `{{NAMESPACE}}/master_data_manager/` |
-| Ontologist.md | [Ontologist](./FAIR_personas/Ontologist.md) | `{{NAMESPACE}}/ontologist/` |
-| Project_Manager.md | [Project_Manager](./FAIR_personas/Project_Manager.md) | `{{NAMESPACE}}/project_manager/` |
-| Reference_Data_Manager.md | [Reference_Data_Manager](./FAIR_personas/Reference_Data_Manager.md) | `{{NAMESPACE}}/reference_data_manager/` |
-| Researcher.md | [Researcher](./FAIR_personas/Researcher.md) | `{{NAMESPACE}}/researcher/` |
-| Subject_Matter_Expert.md | [Subject_Matter_Expert](./FAIR_personas/Subject_Matter_Expert.md) | `{{NAMESPACE}}/subject_matter_expert/` |
-| Technology_Leader.md | [Technology_Leader](./FAIR_personas/Technology_Leader.md) | `{{NAMESPACE}}/technology_leader/` |
+| FAIR Persona                                                                                    |
+| ----------------------------------------------------------------------------------------------- |
+| [Autonomous_AI_Agent](./FAIR_personas/Autonomous_AI_Agent.md)                                   |
+| [Business_Analyst](./FAIR_personas/Business_Analyst.md)                                         |
+| [Business_Leader](./FAIR_personas/Business_Leader.md)                                           |
+| [Business_Owner](./FAIR_personas/Business_Owner.md)                                             |
+| [Citizen_Data_Scientist](./FAIR_personas/Citizen_Data_Scientist.md)                             |
+| [Clinical_Data_Manager](./FAIR_personas/Clinical_Data_Manager.md)                               |
+| [Curator](./FAIR_personas/Curator.md)                                                           |
+| [Data_Analyst](./FAIR_personas/Data_Analyst.md)                                                 |
+| [Data_Engineer](./FAIR_personas/Data_Engineer.md)                                               |
+| [Data_Integration_Specialist](./FAIR_personas/Data_Integration_Specialist.md)                   |
+| [Data_Owner](./FAIR_personas/Data_Owner.md)                                                     |
+| [Data_Protection_Officer](./FAIR_personas/Data_Protection_Officer.md)                           |
+| [Data_Quality_Manager](./FAIR_personas/Data_Quality_Manager.md)                                 |
+| [Data_Scientist](./FAIR_personas/Data_Scientist.md)                                             |
+| [Data_Standards_and_Governance_Expert](./FAIR_personas/Data_Standards_and_Governance_Expert.md) |
+| [Data_Steward](./FAIR_personas/Data_Steward.md)                                                 |
+| [Data_Strategy_Owner](./FAIR_personas/Data_Strategy_Owner.md)                                   |
+| [FAIR_Community_Manager](./FAIR_personas/FAIR_Community_Manager.md)                             |
+| [FAIR_Data_Architect](./FAIR_personas/FAIR_Data_Architect.md)                                   |
+| [FAIR_Trainer](./FAIR_personas/FAIR_Trainer.md)                                                 |
+| [Knowledge-Enabled_Citizen](./FAIR_personas/Knowledge-Enabled_Citizen.md)                       |
+| [Lab_Manager](./FAIR_personas/Lab_Manager.md)                                                   |
+| [Legal_Data_Expert](./FAIR_personas/Legal_Data_Expert.md)                                       |
+| [Master_Data_Manager](./FAIR_personas/Master_Data_Manager.md)                                   |
+| [Ontologist](./FAIR_personas/Ontologist.md)                                                     |
+| [Project_Manager](./FAIR_personas/Project_Manager.md)                                           |
+| [Reference_Data_Manager](./FAIR_personas/Reference_Data_Manager.md)                             |
+| [Researcher](./FAIR_personas/Researcher.md)                                                     |
+| [Subject_Matter_Expert](./FAIR_personas/Subject_Matter_Expert.md)                               |
+| [Technology_Leader](./FAIR_personas/Technology_Leader.md)                                       |
 
 ---
 
@@ -184,3 +183,6 @@ We are very grateful to all the active members of the FAIR-for-Pharma Community 
 | 0 | 0 | 0 | 0 |
 
 FAIR-for-Pharma Community facilitation, document editing: Giovanni Nisato, Pistoia Alliance, https://orcid.org/0000-0002-5824-0061
+
+
+<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>

@@ -7,4 +7,5 @@ A role (or set of roles) that enables FAIRness at scale by guiding teams and pro
 
 Derived from https://fairmetroline.org/index
 
-{note: very FAIR-centric definition, role may  also exist in organisations that are FAIRMM L0: they are enabling the IT and the data infrastructure available.}
+https://www.gofair.us/data-stewardship
+This page defines data stewardship and is a source for the  “data enabler” concept, though it presents a stewardship enabling function, not the exact phrase “data enabler.” (gofair.us)

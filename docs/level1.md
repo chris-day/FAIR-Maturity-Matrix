@@ -22,6 +22,10 @@
 **Table level 1 summary.**
 [FAIR Maturity Matrix: Dimensions (rows)](FMMdimensions.md)
 
+<div class="video-wrapper">
+<iframe src="[https://player.vimeo.com/video/1155016797?h=3b19b7ea88&app_id=122963](https://player.vimeo.com/video/1155016797?h=3b19b7ea88&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+
 ## Level 1 Capabilities 
 
 The “F” principle is in focus, especially with the establishment and implementation of unique identifiers for key data sets, and the implementation of metadata catalogs.
@@ -59,17 +63,20 @@ Data requires average technical and expert subject matter knowledge to use.
 
 Heterogeneity is a feature of this stage: some data may be unstructured, while pockets of structured data may be in the organization. There is an emerging awareness and application of metadata. Scoping starts with making data FAIR. The deployment of Identifiers and metadata is beginning. Multiple types of identifiers (not necessarily GUPRI) may exist.
 
+
+
 **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
 
 ## Level 1 FAIR leadership
 
-Leadership Awareness of FAIR data starts. NB "Leadership" typically implies persons with responsibility and budget for financial and human resources. (Cf. [FAIR roles](https://pistoiaalliance.atlassian.net/wiki/spaces/PUB/pages/3365568514/2+Introduction+FAIR+maturity+dimensions+and+levels#2.7.4-FAIR-roles) dimension and [lexicon](https://pistoiaalliance.atlassian.net/wiki/spaces/PUB/pages/3366879360/FAIR+Maturity+Matrix+resources+and+lexicon#Table%3A-FAIR-maturity-matrix-lexicon.)).
+Leadership Awareness of FAIR data starts. NB "Leadership" typically implies persons with responsibility and budget for financial and human resources: [Business Leaders](), [Business Owner](./FAIR_personas/Business_Owner.md) and [Technology_Leader](./FAIR_personas/Technology_Leader.md).
 
-Awareness of FAIR data starts, and there is some understanding of the (potential) value of FAIR data. The people with this awareness can become internal "thought leaders".
 
-That can be a combination of "top-down" or "bottom-up" leadership. 
+Awareness of FAIR data starts, and there is some understanding of the (potential) value of FAIR data. The people with this awareness can become internal "thought leaders". They can be found at different levels and in different functions. They may be [Data_Scientists], [Data_Analysts] for example. 
 
-In "Bottom-up leadership", intermediate-level executives are looking for "top-down" leaders and champions closer to the "C-suite”.  
+That can be a combination of "top-down" or "bottom-up" leadership.
+
+In "Bottom-up leadership", intermediate-level executives, for example a [Lab Manager](./FAIR_personas/Lab_Manager.md) , are looking for "top-down" support from champions that in or close to the "C-suite” : personas suchas  [Business Leader](./FAIR_personas/Business_Leader.md).), [Business Owner](./FAIR_personas/Business_Owner.md) and [Technology_Leader](./FAIR_personas/Technology_Leader.md).
 
 There can be situations where FAIR implementation is driven “top-down”. However, the strategy and means to implement may be vague as “C-suite” leaders may lack the specific knowledge to develop those. Leadership may have some buy-in to train the first people to make data FAIR.
 
@@ -173,4 +180,5 @@ Tool(s) or infrastructure component(s) which contributes, enhances or enriches R
 *   [https://fairtoolkit.pistoiaalliance.org/methods/reusability-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/reusability-maturity-indicators/)
 
 
-<div class="logoDiv"><img class="logo" src="Pistoia-Alliance-style/2024-08 Pistoia Alliance Logo.png"></div>
+<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
+

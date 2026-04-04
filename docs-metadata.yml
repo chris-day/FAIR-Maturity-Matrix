@@ -1,74 +1,103 @@
 slug: fair-maturity-matrix
 section: FAIR Maturity Matrix
 docs_root: docs
-
 nav:
-  - Home: index.md
-  - Introduction: introduction.md
-  - FAIR Maturity Matrix: FAIRMaturityMatrix.md
-  - Dimensions: FMMdimensions.md
-  - Levels:
-      - Overview: FMMlevels.md
-      - Level 0: level0.md
-      - Level 1: level1.md
-      - Level 2: level2.md
-      - Level 3: level3.md
-      - Level 4: level4.md
-      - Level 5: level5.md
-  - FAIR Training: FAIR_training.md
-  - Personas:
-      - Overview: FAIRMM_personas.md
-      - Autonomous AI Agent: FAIR_personas/Autonomous_AI_Agent.md
-      - Business Analyst: FAIR_personas/Business_Analyst.md
-      - Business Leader: FAIR_personas/Business_Leader.md
-      - Business Owner: FAIR_personas/Business_Owner.md
-      - Citizen Data Scientist: FAIR_personas/Citizen_Data_Scientist.md
-      - Clinical Data Manager: FAIR_personas/Clinical_Data_Manager.md
-      - Curator: FAIR_personas/Curator.md
-      - Data Analyst: FAIR_personas/Data_Analyst.md
-      - Data Engineer: FAIR_personas/Data_Engineer.md
-      - Data Integration Specialist: FAIR_personas/Data_Integration_Specialist.md
-      - Data Owner: FAIR_personas/Data_Owner.md
-      - Data Protection Officer: FAIR_personas/Data_Protection_Officer.md
-      - Data Quality Manager: FAIR_personas/Data_Quality_Manager.md
-      - Data Scientist: FAIR_personas/Data_Scientist.md
-      - Data Standards and Governance Expert: FAIR_personas/Data_Standards_and_Governance_Expert.md
-      - Data Steward: FAIR_personas/Data_Steward.md
-      - Data Strategy Owner: FAIR_personas/Data_Strategy_Owner.md
-      - FAIR Community Manager: FAIR_personas/FAIR_Community_Manager.md
-      - FAIR Data Architect: FAIR_personas/FAIR_Data_Architect.md
-      - FAIR Trainer: FAIR_personas/FAIR_Trainer.md
-      - Knowledge-Enabled Citizen: FAIR_personas/Knowledge-Enabled_Citizen.md
-      - Lab Manager: FAIR_personas/Lab_Manager.md
-      - Legal Data Expert: FAIR_personas/Legal_Data_Expert.md
-      - Master Data Manager: FAIR_personas/Master_Data_Manager.md
-      - Ontologist: FAIR_personas/Ontologist.md
-      - Project Manager: FAIR_personas/Project_Manager.md
-      - Reference Data Manager: FAIR_personas/Reference_Data_Manager.md
-      - Researcher: FAIR_personas/Researcher.md
-      - Subject Matter Expert: FAIR_personas/Subject_Matter_Expert.md
-      - Technology Leader: FAIR_personas/Technology_Leader.md
-      - X-template-FAIR persona: FAIR_personas/X-template-FAIR_persona.md
-      - FAIR Personas Index: FAIR_personas/file_list.md
-  - FAIR Roles:
-      - Data Producer: FAIR_roles/Data_Producer.md
-      - Data Enabler: FAIR_roles/Data_Enabler.md
-      - Data Consumer: FAIR_roles/Data_Consumer.md
-  - Resources Lexicon: resources_lexicon.md
-  - Contributors: contributors.md
-  - Summary: summary.md
-  - Migration: migration.md
-  - Terms Of Use: termsofuse.md
-  - Various:
-    - Info: info.md
-    - Test: test.md
-    - DAMA: data-governance.md 
-    - Maths: Maths.md
-    - Images: images/readme.md
-    - Videos: videos/readme-videos.md
-    - Data-Viz: Data-Viz/readme.md
-    - Pistoia-Alliance-style: Pistoia-Alliance-style/2025-Pistoia-Fonts-Colors.md
+- Home: index.md
+- Introduction: introduction.md
+- FAIR Maturity Matrix: FAIRMaturityMatrix.md
+- Dimensions: FMMdimensions.md
+- Levels:
+  - Overview: FMMlevels.md
+  - Level 0: level0.md
+  - Level 1: level1.md
+  - Level 2: level2.md
+  - Level 3: level3.md
+  - Level 4: level4.md
+  - Level 5: level5.md
+- FAIR Training: FAIR_training.md
+- Personas:
+  - Overview: FAIRMM_personas.md
+  - Autonomous AI Agent: FAIR_personas/Autonomous_AI_Agent.md
+  - Business Analyst: FAIR_personas/Business_Analyst.md
+  - Business Leader: FAIR_personas/Business_Leader.md
+  - Business Owner: FAIR_personas/Business_Owner.md
+  - Citizen Data Scientist: FAIR_personas/Citizen_Data_Scientist.md
+  - Clinical Data Manager: FAIR_personas/Clinical_Data_Manager.md
+  - Curator: FAIR_personas/Curator.md
+  - Data Analyst: FAIR_personas/Data_Analyst.md
+  - Data Engineer: FAIR_personas/Data_Engineer.md
+  - Data Integration Specialist: FAIR_personas/Data_Integration_Specialist.md
+  - Data Owner: FAIR_personas/Data_Owner.md
+  - Data Protection Officer: FAIR_personas/Data_Protection_Officer.md
+  - Data Quality Manager: FAIR_personas/Data_Quality_Manager.md
+  - Data Scientist: FAIR_personas/Data_Scientist.md
+  - Data Standards and Governance Expert: FAIR_personas/Data_Standards_and_Governance_Expert.md
+  - Data Steward: FAIR_personas/Data_Steward.md
+  - Data Strategy Owner: FAIR_personas/Data_Strategy_Owner.md
+  - FAIR Community Manager: FAIR_personas/FAIR_Community_Manager.md
+  - FAIR Data Architect: FAIR_personas/FAIR_Data_Architect.md
+  - FAIR Trainer: FAIR_personas/FAIR_Trainer.md
+  - Knowledge-Enabled Citizen: FAIR_personas/Knowledge-Enabled_Citizen.md
+  - Lab Manager: FAIR_personas/Lab_Manager.md
+  - Legal Data Expert: FAIR_personas/Legal_Data_Expert.md
+  - Master Data Manager: FAIR_personas/Master_Data_Manager.md
+  - Ontologist: FAIR_personas/Ontologist.md
+  - Project Manager: FAIR_personas/Project_Manager.md
+  - Reference Data Manager: FAIR_personas/Reference_Data_Manager.md
+  - Researcher: FAIR_personas/Researcher.md
+  - Subject Matter Expert: FAIR_personas/Subject_Matter_Expert.md
+  - Technology Leader: FAIR_personas/Technology_Leader.md
+  - X-template-FAIR persona: FAIR_personas/X-template-FAIR_persona.md
+  - FAIR Personas Index: FAIR_personas/file_list.md
+- FAIR Roles:
+  - Data Producer: FAIR_roles/Data_Producer.md
+  - Data Enabler: FAIR_roles/Data_Enabler.md
+  - Data Consumer: FAIR_roles/Data_Consumer.md
+- Resources Lexicon: resources_lexicon.md
+- Contributors: contributors.md
+- Summary: summary.md
+- Migration: migration.md
+- Terms Of Use: termsofuse.md
+- Various:
+  - Info: info.md
+  - Test: test.md
+  - DAMA: data-governance.md
+  - Maths: Maths.md
+  - Images: images/readme.md
+  - Videos: videos/readme-videos.md
+  - Data-Viz: Data-Viz/readme.md
+  - Pistoia-Alliance-style: Pistoia-Alliance-style/2025-Pistoia-Fonts-Colors.md
 redirects: []
 mkdocs_requests:
+  theme_features:
+  - navigation.sections
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - navigation.tabs
+  - navigation.tabs.sticky
+  plugins:
+  - name: minify
+    config:
+      minify_html: true
+  - name: graph
+    config:
+      name: title
+  - name: macros
+    config:
+      on_error_fail: true
+  markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences: null
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   extra_css:
-    - stylesheets/fair-matrix.css
+  - stylesheets/dama-context.css

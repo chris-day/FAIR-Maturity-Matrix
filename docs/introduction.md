@@ -1,4 +1,4 @@
-[Home](index.md) | Back to [FAIR Maturity Matrix Summary](FAIRMaturityMatrix.md) | Forward to [FAIR Maturity Matrix: Dimensions (rows)](FMMdimensions.md)
+[Home](https://pistoiaalliance.github.io/FAIRMaturityMatrix/) | Back to [FAIR Maturity Matrix Summary](https://pistoiaalliance.github.io/FAIRMaturityMatrix/FAIRMaturityMatrix) | Forward to [FAIR Maturity Matrix: Dimensions (rows)](https://pistoiaalliance.github.io/FAIRMaturityMatrix/FMMdimensions)
 <hr>
 
 # Introduction to the FAIR organisational maturity model
@@ -18,12 +18,10 @@ Organizations can be at very different stages in implementing FAIR data principl
 
 While there are multiple FAIR data maturity models and metrics, there is no simple, agreed-upon, sector-wide maturity assessment model for implementing the FAIR data principle at the organizational level in the life science sector.
 
-[Video: Why do we need a FAIR maturity model: patient perpective](https://vimeo.com/1155009839/0c6db82f7f?share=copy&fl=sv&fe=ci) 
-<img width="742" height="421" alt="image" src="https://github.com/user-attachments/assets/c9cac18c-b74f-45c0-b13e-1f50fe86f064" />
 
+<iframe src="[https://player.vimeo.com/video/1155009839?h=0c6db82f7f&app_id=122963](https://player.vimeo.com/video/1155009839?h=0c6db82f7f&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
-[Video: Why do we need a FAIR maturity model: industry perspective](https://vimeo.com/1155010224/2eee5ecfdf?share=copy&fl=sv&fe=ci) 
-<img width="706" height="373" alt="image" src="https://github.com/user-attachments/assets/662a4ce5-45f6-4986-9e57-71cc559917c7" />
+<iframe src="[https://player.vimeo.com/video/1155010224?h=2eee5ecfdf&app_id=122963](https://player.vimeo.com/video/1155010224?h=2eee5ecfdf&app_id=122963)" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 
 
@@ -41,7 +39,7 @@ We refer to the [FAIR data principles](https://www.go-fair.org/fair-principles/)
 
 ## **Who worked on this model? FAIR implementation project, Working group Best Practices**
 
-In February 2023, the Working group Best Practices of the [Pistoia Alliance’s FAIR implementation project](https://www.pistoiaalliance.org/community/fair-for-pharma/) started creating a cross-sector, organizational-level maturity model for FAIR implementation stages in the life sciences. This model is intended to assist decision makers in evaluating the stage of a given organization (or department) in terms of FAIR maturity, assess the options to achieve higher maturity levels and identify relevant resources that may be required to do so.
+In February 2023, the Working group Best Practices of the [Pistoia Alliance’s FAIR community of experts](https://www.pistoiaalliance.org/community/fair-for-pharma/) started creating a cross-sector, organizational-level maturity model for FAIR implementation stages in the life sciences. This model is intended to assist decision makers in evaluating the stage of a given organization (or department) in terms of FAIR maturity, assess the options to achieve higher maturity levels and identify relevant resources that may be required to do so.
 
 ## **Guiding Questions for the creation of the FAIR maturity model**
 
@@ -110,4 +108,5 @@ The intention is to provide an initial instrument to the FAIR community. It is u
 *   **Prioritized investment roadmap:** Converts gaps into a sequenced plans, improving funding decisions and cost/benefit analysis.
 
 
-<div class="logoDiv"><img class="logo" src="Pistoia-Alliance-style/2024-08 Pistoia Alliance Logo.png"></div>
+<div class="logoDiv"><img class="logo" src="images/new-pisto-logo.png"></div>
+
