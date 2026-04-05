@@ -37,16 +37,28 @@ Issues for a Reference Data Manager often include fragmentation of reference dat
 ###	Latent gains for	Reference_Data_Manager
 By applying FAIR principles, the Reference Data Manager can establish unified, well-documented reference data sets that are findable and reusable across the enterprise. Improved data standardization enhances integration, reduces errors, and supports compliant reporting. Real-time access to quality-assured reference data speeds up onboarding of new systems and partners, while strong interoperability enables scalable automation and analytics. Efficient governance reduces effort spent on manual fixes, strengthens audit readiness, and unlocks value for downstream consumers by enabling trusted insights and seamless collaboration.		
 		
-## 	Description of FAIR-benefits for	Reference_Data_Manager
+## 	FAIR-benefits for	Reference_Data_Manager
 Data can be mastered which makes it FAIR. Essential for interoperability. 
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures that reference codes, vocabularies, and ontology terms are persistently identified, avoiding duplication and ambiguity		
-###	 F2	
- F2 provides rich metadata that documents definitions, hierarchies, and context of reference data and ontologies	
-###	 A1	
- A1 guarantees that reference datasets and ontologies are reliably accessible across the enterprise		
-###	 I1	
- I1 enables semantic interoperability, allowing ontologies and code lists to be consistently applied across systems and domains		
-###	 R1	
- R1.3 promotes reuse of community-aligned reference standards and ontologies, ensuring compliance and cross-industry compatibility.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures that reference codes, vocabularies, and ontology terms are persistently identified, avoiding duplication and ambiguity.
+
+        [F2](../FAIR_principles/fdp_f2.md)  provides rich metadata that documents definitions, hierarchies, and context of Reference Data and Ontologies.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees that reference datasets and ontologies are reliably accessible across the enterprise.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enables semantic interoperability, allowing ontologies and code lists to be consistently applied across systems and domains.
+
+    === "Reusability"
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) promotes reuse of community-aligned reference standards and ontologies, ensuring compliance and cross-industry compatibility.
+
+

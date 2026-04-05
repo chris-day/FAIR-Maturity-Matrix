@@ -41,7 +41,7 @@ In large pharma, Data Engineers face challenges due to the heterogeneity and com
 Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.
 
 		
-## 	Description of FAIR-benefits for	Data_Engineer
+## 	FAIR-benefits for	Data_Engineer
 FAIR principles bring  benefits to Data Engineers by providing standardized approaches for data interoperability, discoverability, and reuse. By adopting FAIR-aligned metadata, ontologies, and standardized formats, Data Engineers can streamline data integration and reduce manual mapping efforts. Improved data provenance and accessibility facilitate collaboration across teams and accelerate analytics, machine learning, and regulatory reporting. FAIR practices also support automation of data pipelines, improve reproducibility, and reduce operational risk, enabling Data Engineers to focus more on innovation and optimization rather than time-consuming data wrangling. 
 
 * 	Findable (F1–F4): By applying standardized metadata and persistent identifiers, data becomes easier to locate and retrieve across multiple systems. This reduces time spent searching for datasets and ensures that all relevant data can be discovered for analytics or regulatory needs.
@@ -49,13 +49,26 @@ FAIR principles bring  benefits to Data Engineers by providing standardized appr
 	•	Interoperable (I1–I3): Using controlled vocabularies, ontologies, and standardized data formats enables seamless integration of heterogeneous datasets from EDCs, LIMS, imaging, and real-world evidence systems. This improves cross-team collaboration and reduces errors caused by inconsistent data formats.
 	•	Reusable (R1–R1.3): Clear documentation of data provenance, usage licenses, and quality metrics ensures that datasets can be reused for secondary analysis, machine learning, or regulatory reporting. This enhances reproducibility, reduces redundant effort, and supports long-term operational efficiency."		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) embeds persistent identifiers into pipelines, ensuring that data remains traceable across ingestion and transformation steps		
-###	 F2	
- F2 ensures metadata is captured and propagated, enabling automation and monitoring of data flows		
-###	 A1	
- A1 guarantees that engineered systems provide secure and reliable access to datasets at scale		
-###	 I1	
- I1/I2 enable interoperability between heterogeneous systems and formats, reducing manual reconciliation		
-###	 R1	
- R1.1 supports reproducibility of pipeline outputs, ensuring consistent results across environments.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) embeds persistent identifiers into pipelines, ensuring that data remains traceable across ingestion and transformation steps.
+
+        [F2](../FAIR_principles/fdp_f2.md) ensures metadata is captured and propagated, enabling automation and monitoring of data flows.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees that engineered systems provide secure and reliable access to datasets at scale.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enable interoperability between heterogeneous systems and formats, reducing manual reconciliation.
+
+        [I2](../FAIR_principles/fdp_i2.md) enable interoperability between heterogeneous systems and formats, reducing manual reconciliation.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) supports reproducibility of pipeline outputs, ensuring consistent results across environments.
+       

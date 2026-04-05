@@ -48,29 +48,30 @@ For Business Leaders in a pharmaceutical company, implementing FAIR data princip
 
 4-  enhance regulatory compliance, audit readiness, and partner interoperability, positioning the organization as a trusted, data-driven leader in a rapidly evolving digital health ecosystem.	
 			
-###	F1.		
-F1. Enables enterprise-wide data traceability and eliminates duplication, giving executives visibility and accountability for all critical data assets. 			
-###	 F2		
- F2. Improves data discoverability and context, accelerating evidence-based decision-making across R&D, clinical, and manufacturing domains.			
-###	 F3		
- F3. Strengthens data lineage and provenance, ensuring trustworthy, audit-ready information for regulatory compliance.			
-###	 F4		
- F4. Provides centralized visibility of data assets through searchable catalogs and dashboards for strategic oversight and resource planning.			
-###	 A1		
- A1. Ensures consistent, standardized access to validated data across systems, reducing manual effort and delays.			
-###	 A2		
- A2. Balances open access with secure authorization, protecting intellectual property and patient data while enabling collaboration.			
-###	 I1		
- I1. Promotes seamless data exchange across functions, reducing vendor lock-in and integration costs.			
-###	 I2		
- I2. Standardizes vocabularies and formats, supporting scalable data governance and automation at petabyte scale.			
-###	 I3		
- I3. Connects datasets through qualified references, revealing relationships across the value chain for portfolio and pipeline optimization.			
-###	R1.		
-R1. Ensures data are complete, accurate, and meaningful for reuse in analytics, AI, and digital innovation.			
-###	 R1		
- R1.1. Clarifies data usage rights, reducing legal uncertainty and enabling confident external collaboration.			
-###	 R1		
- R1.2. Provides full provenance for audit trails, reinforcing data integrity and regulatory readiness.			
-###	 R1		
- R1.3. Aligns data with community and regulatory standards (e.g., CDISC, IDMP), ensuring compliance and interoperability.			
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) Enables enterprise-wide data traceability and eliminates duplication, giving executives visibility and accountability for all critical data assets. 			
+        [F2](../FAIR_principles/fdp_f2.md) Improves data discoverability and context, accelerating evidence-based decision-making across R&D, clinical, and manufacturing domains.			
+        [F3](../FAIR_principles/fdp_f3.md) Strengthens data lineage and provenance, ensuring trustworthy, audit-ready information for regulatory compliance.			
+        [F4](../FAIR_principles/fdp_f4.md) Provides centralized visibility of data assets through searchable catalogs and dashboards for strategic oversight and resource planning.			
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) Ensures consistent, standardized access to validated data across systems, reducing manual effort and delays.			
+        [A2](../FAIR_principles/fdp_a2.md) Balances open access with secure authorization, protecting intellectual property and patient data while enabling collaboration.			
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) Promotes seamless data exchange across functions, reducing vendor lock-in and integration costs.			
+        [I2](../FAIR_principles/fdp_i2.md) Standardizes vocabularies and formats, supporting scalable data governance and automation at petabyte scale.			
+        [I3](../FAIR_principles/fdp_i3.md) Connects datasets through qualified references, revealing relationships across the value chain for portfolio and pipeline optimization.			
+
+    === "Reusability"
+
+        [R1](../FAIR_principles/fdp_r1.md) Ensures data are complete, accurate, and meaningful for reuse in analytics, AI, and digital innovation.			
+        [R1.1](../FAIR_principles/fdp_r1_1.md) Clarifies data usage rights, reducing legal uncertainty and enabling confident external collaboration.			
+        [R1.2](../FAIR_principles/fdp_r1_2.md) Provides full provenance for audit trails, reinforcing data integrity and regulatory readiness.			
+        [R1.3](../FAIR_principles/fdp_r1_3.md) Aligns data with community and regulatory standards (e.g., CDISC, IDMP), ensuring compliance and interoperability.			
+

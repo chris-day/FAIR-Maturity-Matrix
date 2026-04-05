@@ -33,13 +33,22 @@ Issues: data are not aligned or based on domain/global standards. This creates a
 Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.		
 		
 		
-## 	Description of FAIR-benefits for	Curator
+## 	FAIR-benefits for	Curator
 FAIR data principles enhance the efficiency and impact of knowledge management. Rich metadata improves dataset discoverability and context, ensuring curated assets are easily found and understood. Interoperability across knowledge sources enables consistent integration and alignment, while adherence to community standards promotes the reuse and long-term value of curated data assets.		
 		
-###	F2 	
-[F2](../FAIR_principles/fdp_f2.md) enriches metadata to improve dataset discoverability		
-###	 I1	
- I1 ensures compatibility across curated knowledge sources		
-###	 R1	
- R1.3 promotes reuse of curated assets via community standards		
-###	0	
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F2](../FAIR_principles/fdp_f2.md) enriches metadata to improve dataset discoverability.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) ensures compatibility across curated knowledge sources.
+
+    === "Reusability"
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) promotes reuse of curated assets via community standards.
+       
+

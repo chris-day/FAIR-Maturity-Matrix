@@ -39,16 +39,28 @@ Issues: Issues: different, inconsistent ontologies and spread out across differe
 Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.		
 		
 		
-## 	Description of FAIR-benefits for	Data_Scientist
+## 	FAIR-benefits for	Data_Scientist
 FAIR data transforms the way research and analysis are conducted. When data is Findable, Accessible, Interoperable, and Reusable, it eliminates one of the greatest barriers to effective work: the time lost searching for, cleaning, and reconciling fragmented datasets. FAIR data allows Data Scientists to quickly discover high-quality, well-annotated datasets across R&D, clinical, and real-world domains, accelerating hypothesis generation and model development. Interoperable data formats and shared standards enable seamless integration of diverse data types—from omics and imaging to patient and assay data—allowing deeper, more holistic analyses. Reusable datasets and documented workflows enhance reproducibility, making results easier to validate and build upon. Ultimately, FAIR data empowers Data Scientists to focus less on data wrangling and more on interpreting results, generating insights, and driving data-informed decisions that advance discovery, improve clinical outcomes, and reduce development timelines.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) guarantees persistent identifiers to trace datasets across workflows		
-###	 F2	
- F2 provides rich metadata that makes datasets discoverable and interpretable		
-###	 A1	
- A1 ensures stable access for computational pipelines		
-###	 I1	
- I1 supports integration of heterogeneous datasets for machine learning		
-###	 R1	
- R1.1 ensures reproducibility of models and analyses across studies		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) guarantees persistent identifiers to trace datasets across workflows.
+
+        [F2](../FAIR_principles/fdp_f2.md) provides rich metadata that makes datasets discoverable and interpretable.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) ensures stable access for computational pipelines.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) supports integration of heterogeneous datasets for machine learning.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) ensures reproducibility of models and analyses across studies.
+
+       

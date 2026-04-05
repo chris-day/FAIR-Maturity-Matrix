@@ -36,18 +36,33 @@ Issues: Too many initiatives and not enough budget or resources.  Fragmented dat
 Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.		
 		
 		
-## 	Description of FAIR-benefits for	Technology_Leader
+## 	FAIR-benefits for	Technology_Leader
 The adoption of FAIR principles delivers strategic and operational value across the data and technology landscape. By improving data quality, accessibility, and interoperability, FAIR makes the organization’s data ecosystem AI-ready and enhances the overall return on technology investments. It enables smoother data integration across platforms, reduces manual effort in data preparation, and minimizes the burden on scientific and technical resources. As a result, technology leaders can focus on accelerating digital transformation, scaling analytics and AI initiatives, and driving innovation through trusted, reusable data assets that support business growth and operational excellence.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures persistent identifiers across the enterprise architecture, providing a foundation for scalable and trusted digital platforms		
-###	 F2	
- F2 delivers rich metadata that enables technology leaders to evaluate system interoperability and data readiness		
-###	 A1	
- A1 guarantees that enterprise data is reliably accessible via standardized protocols, reducing vendor lock-in and integration costs		
-###	 I1	
- I1/I2 enable interoperability and automation across the IT landscape, supporting digital transformation		
-###	 R1	
- R1.2 clarifies reuse conditions, allowing safe data sharing with partners and ecosystems		
-###	 R1	
- R1.3 promotes alignment with community and industry standards, strengthening the organization’s digital maturity and innovation capacity.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures persistent identifiers across the enterprise architecture, providing a foundation for scalable and trusted digital platforms.
+
+        [F2](../FAIR_principles/fdp_f2.md) delivers rich metadata that enables technology leaders to evaluate system interoperability and data readiness.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees that enterprise data is reliably accessible via standardized protocols, reducing vendor lock-in and integration costs.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enable interoperability and automation across the IT landscape, supporting digital transformation.
+
+        [I2](../FAIR_principles/fdp_i2.md) enable interoperability and automation across the IT landscape, supporting digital transformation.
+
+    === "Reusability"
+
+        [R1.2](../FAIR_principles/fdp_r1_2.md) clarifies reuse conditions, allowing safe data sharing with partners and ecosystems.
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) promotes alignment with community and industry standards, strengthening the organization’s digital maturity and innovation capacity.
+       
+
+

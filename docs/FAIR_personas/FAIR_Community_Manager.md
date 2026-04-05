@@ -39,16 +39,28 @@ Issues:  The FAIR Community Manager faces challenges in aligning stakeholders fr
 Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.		
 		
 		
-## 	Description of FAIR-benefits for	FAIR_Community_Manager
+## 	FAIR-benefits for	FAIR_Community_Manager
 FAIR principles provide the FAIR Community Manager with a common framework and language to unite teams around shared data practices. By promoting FAIR-aligned processes—such as standardized metadata, provenance tracking, and controlled vocabularies—the manager enables consistent documentation and reliable data reuse across departments. This supports easier dataset discovery, reduced duplication of effort, and improved cross-study analytics. Clear access protocols and governance ensure that information can be securely shared across teams and regions, fostering trust and collaboration. Through visible success stories and demonstrable value—like faster access to insights and enhanced compliance—the FAIR Community Manager strengthens engagement, accelerates learning, and cultivates a company-wide culture of openness, innovation, and continuous improvement in data management.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures community resources are persistently identified, so members can reliably reference and share them		
-###	 F2	
- F2 enriches metadata for community outputs, making them easier to discover and adopt		
-###	 A1	
- A1 guarantees accessible communication channels, shared repositories, and training materials		
-###	 I1	
- I1 enables interoperability between contributions from different groups, fostering collaboration		
-###	 R1	
- R1.3 promotes reuse of outputs that align with community and industry standards, amplifying their impact.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures community resources are persistently identified, so members can reliably reference and share them.
+
+        [F2](../FAIR_principles/fdp_f2.md) enriches metadata for community outputs, making them easier to discover and adopt.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees accessible communication channels, shared repositories, and training materials/
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enables interoperability between contributions from different groups, fostering collaboration.
+
+    === "Reusability"
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) promotes reuse of outputs that align with community and industry standards, amplifying their impact.
+       
+

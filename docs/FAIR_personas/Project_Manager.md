@@ -40,24 +40,36 @@ Issues: struggle with fragmented information scattered across silos, making it d
 Latent  gains: By implementing FAIR principles, these challenges can be transformed into strategic advantages. Real-time visibility of project data across domains enables proactive monitoring and faster decision-making. Standardized, interoperable data structures streamline collaboration across teams and vendors, while automated reporting replaces manual tracking, improving both accuracy and efficiency. Traceable, reusable data strengthen compliance readiness and reduce audit burden. Clear data ownership and reduced redundancy optimize resource allocation and project planning, while predictive insights from high-quality, integrated data enhance risk management and support strategic portfolio prioritization across the entire drug development lifecycle.		
 		
 		
-## 	Description of FAIR-benefits for	Project_Manager
+## 	FAIR-benefits for	Project_Manager
 For a Project Manager, the implementation of FAIR principles delivers benefits in efficiency, coordination, and project quality. By ensuring that data is findable, accessible, interoperable, and reusable, FAIR provides a structured framework that simplifies planning, execution, and oversight. It enables more predictable project outcomes by making data discoverable and usable from the outset, reducing delays caused by integration, validation, or quality issues. Reusable, high-quality data accelerates timelines, minimizes duplication of effort, and ensures consistent compliance with organizational and regulatory standards. FAIR practices also strengthen collaboration across cross-functional teams by improving transparency, traceability, and alignment of deliverables. For project managers, this translates into more reliable data-driven workflows, streamlined communication, and greater confidence in achieving project objectives efficiently and sustainably.		
 		
-###	F1:	
-F1: Enables unified tracking of project data through persistent identifiers, reducing duplication and confusion		
-###	 F2	
- F2: Provides rich metadata that clarify context, improving communication and coordination across teams		
-###	 F4	
- F4: Centralizes data in searchable repositories, giving real-time visibility into project status and dependencies		
-###	 A1	
- A1: Ensures standardized access to validated data, streamlining reporting and decision-making		
-###	 I1	
- I1: Promotes seamless data exchange between systems, reducing manual consolidation and integration delays		
-###	 I2	
- I2: Aligns terminology and metrics through shared vocabularies, ensuring consistent understanding across functions		
-###	 R1	
- R1: Delivers high-quality, complete data that can be confidently reused for planning, forecasting, and analytics		
-###	 R1	
- R1.2: Provides traceable provenance, strengthening compliance and audit readiness		
-###	 R1	
- R1.3: Aligns data with regulatory and community standards (e.g., CDISC, IDMP), accelerating submissions and validation.		
+
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) Enables unified tracking of project data through persistent identifiers, reducing duplication and confusion.
+
+        [F2](../FAIR_principles/fdp_f2.md) Provides rich metadata that clarify context, improving communication and coordination across teams.
+
+        [F4](../FAIR_principles/fdp_f4.md) Centralizes data in searchable repositories, giving real-time visibility into project status and dependencies.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) Ensures standardized access to validated data, streamlining reporting and decision-making.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) Promotes seamless data exchange between systems, reducing manual consolidation and integration delays.
+
+        [I2](../FAIR_principles/fdp_i2.md) Aligns terminology and metrics through shared vocabularies, ensuring consistent understanding across functions.
+
+    === "Reusability"
+
+        [R1](../FAIR_principles/fdp_r1.md) Delivers high-quality, complete data that can be confidently reused for planning, forecasting, and analytics.
+
+        [R1.2](../FAIR_principles/fdp_r1_2.md) Provides traceable provenance, strengthening compliance and audit readiness.
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) Aligns data with regulatory and community standards (e.g., CDISC, IDMP), accelerating submissions and validation.
+       

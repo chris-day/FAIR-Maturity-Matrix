@@ -41,24 +41,36 @@ Issues:  face challenges due to the scale and complexity of their trials. Data o
 Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.		
 		
 		
-## 	Description of FAIR-benefits for	Clinical_Data_Manager
-" By ensuring that data and metadata are findable, accessible, interoperable, and reusable, Clinical_Data_Manager	 can automate and accelerate data integration and cleaning processes. Standardized vocabularies and ontologies facilitate cross-study comparisons and reduce mapping errors, while rich provenance tracking enhances audit readiness and regulatory confidence. FAIR data also enables better reuse of clinical trial datasets for secondary research, machine learning, and meta-analyses, ultimately supporting faster decision-making, reducing redundancy, and increasing the value derived from every clinical trial. "		
+## 	FAIR-benefits for	Clinical_Data_Manager
+By ensuring that data and metadata are findable, accessible, interoperable, and reusable, Clinical_Data_Manager	 can automate and accelerate data integration and cleaning processes. Standardized vocabularies and ontologies facilitate cross-study comparisons and reduce mapping errors, while rich provenance tracking enhances audit readiness and regulatory confidence. FAIR data also enables better reuse of clinical trial datasets for secondary research, machine learning, and meta-analyses, ultimately supporting faster decision-making, reducing redundancy, and increasing the value derived from every clinical trial. "		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures patient and study data are persistently identified, enabling full traceability across trial phases		
-###	 F2	
- F2 provides rich metadata that documents study protocols, variables, and context for regulatory submissions		
-###	 Fi	
- Findable (F1–F4): Standardized metadata and dataset identifiers make clinical trial data easier to locate across studies, sites, and systems. This ensures that data can be efficiently discovered for ongoing trials, regulatory submissions, or secondary research		
-###	 A1	
- A1 guarantees secure but reliable access to trial data for authorized stakeholders, maintaining audit trails and compliance with privacy regulations (GDPR, HIPAA)		
-###	 A2	
- A2 Metadata remains accessible even if the underlying data is restricted, supporting transparency and planning		
-###	 I1	
- I1 supports interoperability between clinical trial management systems, EDC platforms, and regulatory systems 		
-###	 I3	
- I3 Adoption of CDISC standards, controlled vocabularies (MedDRA, SNOMED CT), and ontologies.  Reduces mapping errors and allows cross-study comparisons and multi-study analyses		
-###	 R1	
- R1.1 ensures reproducibility of trial records and analyses, meeting strict compliance requirements		
-###	 R1	
- R1.3: Well-documented provenance, data quality metrics, and usage licenses make datasets suitable for regulatory submissions, meta-analyses, and machine learning applications. This increases the long-term value of clinical data and supports reproducibility.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        Findable (F1 through F4): Standardized metadata and dataset identifiers make clinical trial data easier to locate across studies, sites, and systems. This ensures that data can be efficiently discovered for ongoing trials, regulatory submissions, or secondary research.
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures patient and study data are persistently identified, enabling full traceability across trial phases.
+
+        [F2](../FAIR_principles/fdp_f2.md) provides rich metadata that documents study protocols, variables, and context for regulatory submissions.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees secure but reliable access to trial data for authorized stakeholders, maintaining audit trails and compliance with privacy regulations (GDPR, HIPAA).
+
+        [A2](../FAIR_principles/fdp_a2.md) Metadata remains accessible even if the underlying data is restricted, supporting transparency and planning.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) supports interoperability between clinical trial management systems, EDC platforms, and regulatory systems.
+
+        [I3](../FAIR_principles/fdp_i3.md) Adoption of CDISC standards, controlled vocabularies (MedDRA, SNOMED CT), and ontologies.  Reduces mapping errors and allows cross-study comparisons and multi-study analyses.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) ensures reproducibility of trial records and analyses, meeting strict compliance requirements.
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) Well-documented provenance, data quality metrics, and usage licenses make datasets suitable for regulatory submissions, meta-analyses, and machine learning applications. This increases the long-term value of clinical data and supports reproducibility.
+       
+

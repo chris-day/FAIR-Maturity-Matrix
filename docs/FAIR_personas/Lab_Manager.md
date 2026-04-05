@@ -40,16 +40,28 @@ Issues: Lab Managers often face fragmented and inefficient data environments, wh
 Latent  Gains: Implementing FAIR principles transforms lab management by embedding data stewardship directly into operational workflows. FAIR ensures structured metadata, standardized formats, and interoperable systems that enhance traceability, compliance, and reproducibility. Automated data capture and integration reduce manual workload, freeing managers to focus on quality and innovation. Training and clear governance frameworks empower lab personnel to maintain digital assets responsibly, while better budgeting for data infrastructure ensures sustainability. Ultimately, FAIR enables a transparent, efficient, and future-ready lab environment that supports continuous improvement and scientific excellence.		
 		
 		
-## 	Description of FAIR-benefits for	Lab_Manager
+## 	FAIR-benefits for	Lab_Manager
 FAIR data implementation transforms laboratory operations from manual and fragmented to digital, efficient, and compliant. By making experimental data findable through persistent identifiers and standardized metadata, FAIR ensures that samples, assays, and results can be quickly located, linked, and reused across projects—saving time and reducing administrative overhead. Accessible and well-governed data enable seamless sharing between teams and systems, improving collaboration while maintaining security and regulatory control. Through interoperable data formats and shared ontologies, FAIR connects instruments, ELNs, LIMS, and analytical platforms, eliminating silos and streamlining workflows. Finally, reusable, provenance-rich data strengthen reproducibility and audit readiness, allowing the Lab Manager to demonstrate data integrity and compliance effortlessly. In a FAIR-mature environment, the Lab Manager can shift focus from operational firefighting to continuous improvement, driving higher quality, efficiency, and scientific innovation across the laboratory ecosystem.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that track samples, instruments, and experimental outputs unambiguously		
-###	 F2	
- F2 ensures metadata is complete so lab operations, methods, and results are transparent and auditable		
-###	 A1	
- A1 guarantees secure yet efficient access to lab data across instruments and IT systems		
-###	 I1	
- I1 enables interoperability between laboratory information systems and research platforms		
-###	 R1	
- R1.1 assures reproducibility of experiments and regulatory submissions, reducing compliance risks.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that track samples, instruments, and experimental outputs unambiguously.
+
+        [F2](../FAIR_principles/fdp_f2.md) ensures metadata is complete so lab operations, methods, and results are transparent and auditable.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees secure yet efficient access to lab data across instruments and IT systems.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enables interoperability between laboratory information systems and research platforms.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) assures reproducibility of experiments and regulatory submissions, reducing compliance risks.
+       
+

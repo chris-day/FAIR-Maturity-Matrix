@@ -36,12 +36,34 @@ Issues: Ontologists often face the challenge of driving organizational change an
 Latent  gains: Implementing FAIR principles helps mitigate these challenges by promoting shared standards, improving semantic alignment, and fostering collaboration across disciplines. This approach enhances efficiency, compliance, and data reuse while supporting the gradual transition toward a unified, interoperable, and sustainable data ecosystem.		
 		
 		
-## 	Description of FAIR-benefits for	Ontologist
+## 	FAIR-benefits for	Ontologist
 the application of FAIR principles enhances the creation and maintenance of high-quality, interoperable data models that underpin a data-centric approach. FAIR enables the development of actionable ontological frameworks that drive consistency, reusability, and semantic clarity across the organization. It supports the precise definition of standards and shared understanding of “what good looks like,” ensuring that data models are transparent, well-structured, and aligned with business and scientific objectives. By fostering clarity about model intent and commitment, FAIR empowers ontologists to build trusted, sustainable data ecosystems that facilitate integration, automation, and informed decision-making.		
 		
-###	I1 	
-[I1](../FAIR_principles/fdp_i1.md) ensures semantic interoperability across ontologies and vocabularies		
-###	 I2	
- I2 enables automated reasoning over structured knowledge		
-###	 R1	
- R1.3 promotes reuse of ontologies by aligning with community standards		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) 
+        [F2](../FAIR_principles/fdp_f2.md) 
+        [F3](../FAIR_principles/fdp_f3.md) 
+        [F4](../FAIR_principles/fdp_f4.md) 
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md)
+        [A1.1](../FAIR_principles/fdp_a1_1.md)
+        [A1.2](../FAIR_principles/fdp_a1_2.md)
+        [A2](../FAIR_principles/fdp_a2.md)
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) ensures semantic interoperability across ontologies and vocabularies.
+
+        [I2](../FAIR_principles/fdp_i2.md) enables automated reasoning over structured knowledge.
+
+    === "Reusability"
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) promotes reuse of ontologies by aligning with community standards.
+
+       

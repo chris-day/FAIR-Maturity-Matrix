@@ -40,18 +40,27 @@ Latent  Gains:
 Establishing common documentation standards and adopting interoperable, FAIR-aligned practices would streamline data management across disciplines. Legible and well-structured ELNs would enhance data discoverability and reuse, while open, accessible file formats would enable seamless information exchange and integration. These improvements would not only reduce data loss and duplication but also accelerate scientific insight, collaboration, and regulatory readiness."		
 		
 		
-## 	Description of FAIR-benefits for	Researcher
+## 	FAIR-benefits for	Researcher
  FAIR data principles streamline the research lifecycle from data creation to knowledge sharing. Enhanced metadata makes datasets easier to locate and assess for relevance, while reliable access ensures seamless collaboration across projects. Interoperability connects results across disciplines, fostering integrative discoveries. Alignment with community standards further promotes data reuse, reducing redundancy and supporting transparency. By embedding FAIR practices early—through standardized tools, ontologies, and interoperable systems—researchers can minimize downstream cleanup, improve data quality, and accelerate innovation across the scientific ecosystem.		
 		
-###	F2 	
-[F2](../FAIR_principles/fdp_f2.md) makes datasets easier to locate and assess for research relevance		
-###	 A1	
- A1 ensures reliable access to collaborative project data		
-###	 I1	
- I1 allows linking results across domains and disciplines		
-###	 R1	
- R1.3 promotes reuse by aligning outputs with community standards		
 
-0		
-###	0	
-0		
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F2](../FAIR_principles/fdp_f2.md) makes datasets easier to locate and assess for research relevance.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) ensures reliable access to collaborative project data.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) allows linking results across domains and disciplines.
+
+    === "Reusability"
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) promotes reuse by aligning outputs with community standards.
+       
+
+

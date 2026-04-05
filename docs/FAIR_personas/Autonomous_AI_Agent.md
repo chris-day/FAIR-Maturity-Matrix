@@ -2,8 +2,8 @@
 [Autonomous_AI_Agent](Autonomous_AI_Agent.md)
 
 === "Description"
-	## Description of role Autonomous_AI_Agent
-	The Autonomous AI Agent is an orchestration framework that coordinates specialized analytics and knowledge services to support decision-making. This very fast moving expertise is currently being used to create configurable workflows that integrate evidence from many data domains in both preclinical and clinical. Execution is scheduled and event-driven (e.g., on data updates or defined intervals) and can include sequential and parallel AI agents to deliver an agreed end goal such as literature retrieval, data summaries or analysis of data. It's success at the intended task depends on how the AI is instructed, the suitability of the AI model used and the FAIR characteristics of the underlying data—being findable, accessible, interoperable, and reusable—with semantic standards (ontologies, identifiers), well-defined schemas and mappings, and machine-actionable metadata.
+    ## Description of role Autonomous_AI_Agent
+    The Autonomous AI Agent is an orchestration framework that coordinates specialized analytics and knowledge services to support decision-making. This very fast moving expertise is currently being used to create configurable workflows that integrate evidence from many data domains in both preclinical and clinical. Execution is scheduled and event-driven (e.g., on data updates or defined intervals) and can include sequential and parallel AI agents to deliver an agreed end goal such as literature retrieval, data summaries or analysis of data. It's success at the intended task depends on how the AI is instructed, the suitability of the AI model used and the FAIR characteristics of the underlying data—being findable, accessible, interoperable, and reusable—with semantic standards (ontologies, identifiers), well-defined schemas and mappings, and machine-actionable metadata.
 
 === "Synonyms"
 	## Synonyms of Autonomous_AI_Agent
@@ -39,18 +39,17 @@
 	It dynamically assesses data quality to weight evidence appropriately, using structured quality metrics and provenance metadata. The workflow adapts to new data sources through semantic discovery mechanisms, leveraging standardized ontologies and persistent identifiers for autonomous dataset identification. It learns from outcomes to improve future predictions through systematic failure analysis, tracing errors back through provenance chains to identify data quality issues or integration failures. The workflow manages authentication and authorization autonomously through machine-readable access policies, and handles rate limiting and API versioning gracefully to maintain execution reliability.
 
 === "Upside and Downside"
-	## Issues and latent gains for Autonomous_AI_Agent
 
-	### Issue for Autonomous_AI_Agent
+    ## Upside for Autonomous_AI_Agent
 
-	Issues: identifier fragmentation causing 40% data loss at integration boundaries; manual access gates requiring human intervention for database registration and authentication; schema instability breaking parsers when APIs change without versioning; quality opacity preventing distinction between reliable experimental data and noisy predictions; provenance voids blocking trust assessment and failure analysis; license ambiguity forcing conservative data exclusion or manual legal review. These issues cause workflow stalls, require constant developer maintenance, degrade recommendation quality, prevent autonomous operation, and block scalability across therapeutic areas.
+    Latent gains: comprehensive evidence synthesis integrating 50,000+ publications with genomic, pathway, structural, and clinical data within 48 hours; deterministically reproducible recommendations with complete provenance enabling audit and replay; systematic learning from failures through traceable evidence chains improving future performance; scalable deployment across therapeutic areas without recoding through semantic integration; autonomous completion rates exceeding 90% without human intervention; data integration fidelity above 95% across agent handoffs; reduced time-to-integration for new data sources from months to hours through standardized interfaces.
 
-	### Latent gains for Autonomous_AI_Agent
+    ## Downside for Autonomous_AI_Agent
 
-	Latent gains: comprehensive evidence synthesis integrating 50,000+ publications with genomic, pathway, structural, and clinical data within 48 hours; deterministically reproducible recommendations with complete provenance enabling audit and replay; systematic learning from failures through traceable evidence chains improving future performance; scalable deployment across therapeutic areas without recoding through semantic integration; autonomous completion rates exceeding 90% without human intervention; data integration fidelity above 95% across agent handoffs; reduced time-to-integration for new data sources from months to hours through standardized interfaces.
+    Issues: identifier fragmentation causing 40% data loss at integration boundaries; manual access gates requiring human intervention for database registration and authentication; schema instability breaking parsers when APIs change without versioning; quality opacity preventing distinction between reliable experimental data and noisy predictions; provenance voids blocking trust assessment and failure analysis; license ambiguity forcing conservative data exclusion or manual legal review. These issues cause workflow stalls, require constant developer maintenance, degrade recommendation quality, prevent autonomous operation, and block scalability across therapeutic areas.
 
 === "Benefits"
-	## Description of FAIR-benefits for Autonomous_AI_Agent
+	## FAIR-benefits for Autonomous_AI_Agent
 
 	For the Autonomous AI Agent in pharmaceutical R&D, FAIR principles are operational substrate enabling autonomous multi-agent coordination. Findable data with persistent identifiers and machine-readable metadata enables autonomous dataset discovery across federated catalogs, eliminating wasted computational cycles. Accessible data through standardized APIs with machine-interpretable policies allows programmatic retrieval without human intervention. Interoperable data using shared ontologies and standardized identifiers eliminates 40% data loss at agent handoffs, preventing costly ETL maintenance. Reusable data with structured quality metrics, W3C PROV-compliant provenance, and machine-readable licenses enables evidence weighting, trust calibration, automated compliance checking, and systematic learning from failures. With FAIR infrastructure, the workflow transforms from an expensive proof-of-concept requiring constant manual intervention into a productivity multiplier delivering reproducible, auditable, continuously improving recommendations at scale.
 

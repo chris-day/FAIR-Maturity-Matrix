@@ -34,19 +34,30 @@ In a non-FAIR environment, Data Owners face unclear data visibility, inconsisten
 In a FAIR environment, Data Owners gain clear visibility and control over data assets, enforce consistent governance and access policies, ensure compliance through traceability and metadata, reduce risk, enable controlled reuse, and confidently demonstrate accountability while unlocking data’s strategic and innovation value.
 		
 			
-## 	Description of FAIR-benefits for	Data_Owner	
+## 	FAIR-benefits for	Data_Owner	
 In a FAIR-compliant data environment, the Data Owner gains clear visibility, control, and accountability over data assets. Consistent governance, rich metadata, and traceability reduce regulatory and security risk, simplify audits, and enable controlled data reuse. This allows the Data Owner to protect organizational integrity while confidently unlocking data’s strategic, analytical, and innovation value.
 
 	
-###	F1 		
-[F1](../FAIR_principles/fdp_f1.md) ensures datasets under ownership are persistently identified, enabling clear accountability and traceability		
-###	 F2		
- F2 provides rich metadata that demonstrates the dataset’s purpose, scope, and quality to consumers			
-###	 A1		
- A1 guarantees reliable access controls so the owner can manage who uses the dataset			
-###	 I1		
- I1 enables interoperability with other organizational datasets, increasing business value			
-###	 R1		
- R1.1 assures reproducibility of results generated from the dataset, reinforcing trust in its use			
-###	 R1		
- R1.2 provides clarity on reuse through explicit licensing, reducing risks and negotiations for the data owner.			
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures datasets under ownership are persistently identified, enabling clear accountability and traceability.
+
+        [F2](../FAIR_principles/fdp_f2.md) provides rich metadata that demonstrates the dataset’s purpose, scope, and quality to consumers.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees reliable access controls so the owner can manage who uses the dataset.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enables interoperability with other organizational datasets, increasing business value.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) assures reproducibility of results generated from the dataset, reinforcing trust in its use.
+
+        [R1.2](../FAIR_principles/fdp_r1_2.md) provides clarity on reuse through explicit licensing, reducing risks and negotiations for the data owner.
+

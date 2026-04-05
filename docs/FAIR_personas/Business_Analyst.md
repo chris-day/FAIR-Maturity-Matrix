@@ -43,6 +43,6 @@ For a Business Analyst in a pharmaceutical company, adopting FAIR principles tra
 ###	F2 	
 [F2](../FAIR_principles/fdp_f2.md) improves discoverability of datasets for analytical use		
 ###	 A1	
- A1.1 provides standardized metadata protocols for access		
+[A1.1](../FAIR_principles/fdp_a1_1.md) provides standardized metadata protocols for access		
 ###	 R1	
- R1.2 ensures lawful reuse through explicit licensing clarity		
+[R1.2](../FAIR_principles/fdp_r1_2.md) ensures lawful reuse through explicit licensing clarity		

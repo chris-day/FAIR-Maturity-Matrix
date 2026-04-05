@@ -35,16 +35,26 @@ Data Integration Specialists face challenges such as managing missing data and i
 Findable, well-described data allows specialists to quickly identify and understand sources without reverse-engineering or informal knowledge transfer. Accessible data with clearly defined access conditions streamlines secure data exchange and reduces compliance friction. Most importantly, interoperability through shared standards, vocabularies, and ontologies dramatically reduces the need for custom transformations. Integration logic becomes simpler, more robust, and reusable across projects. Pipelines can be automated, modularised, and maintained at scale. By enabling reuse and trust through rich metadata, provenance, and quality information.
 		
 		
-## 	Description of FAIR-benefits for  Data_Integration_Specialist
+## 	FAIR-benefits for  Data_Integration_Specialist
 FAIR data greatly facilitates the tasks of Data_Integration_Specialist ensuring that integrated outputs are reliable for downstream analytics, AI models, and decision-making. Overall, FAIR shifts the Data Integration Specialist from a reactive problem-solver to a strategic enabler, reducing rework, improving efficiency, and allowing focus on optimisation, automation, and long-term data ecosystem sustainability.
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures that data flowing through pipelines is consistently identified with persistent IDs, reducing errors in integration		
-###	 F2	
- F2 provides metadata that describes datasets clearly, allowing automated mapping and transformation between systems		
-###	 A1	
- A1 guarantees that integrated systems can access source data reliably through standardized protocols		
-###	 I1	
- I1 enables semantic interoperability, so data from different domains can be combined without manual reconciliation		
-###	 I2	
- I2 supports automated integration processes, reducing maintenance and speeding deployment of new pipelines.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures that data flowing through pipelines is consistently identified with persistent IDs, reducing errors in integration.
+
+        [F2](../FAIR_principles/fdp_f2.md) provides metadata that describes datasets clearly, allowing automated mapping and transformation between systems.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees that integrated systems can access source data reliably through standardized protocols.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enables semantic interoperability, so data from different domains can be combined without manual reconciliation.
+
+        [I2](../FAIR_principles/fdp_i2.md) supports automated integration processes, reducing maintenance and speeding deployment of new pipelines.
+
+       

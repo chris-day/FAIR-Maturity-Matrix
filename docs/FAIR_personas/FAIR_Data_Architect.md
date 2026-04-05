@@ -36,16 +36,30 @@ Issues: The Data  Architect faces challenges related to heterogeneity, scale, an
 Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.		
 		
 		
-## 	Description FAIR-benefits for	FAIR_Data_Architect
+## 	FAIR-benefits for	FAIR_Data_Architect
 FAIR-aligned data facilitates the work of the data architect in the long run . Standardized metadata, ontologies, and governance frameworks reduce errors, streamline integration, and improve collaboration across departments. Data is consistently structured, discoverable, and of controllable quality across multiple sources, making it easier for teams to access and leverage information for analytics, regulatory submissions, and research.  By establishing clear data lineage, provenance, and documentation, FAIR practices enhance transparency and trust in data, support reproducibility, and enable efficient reuse for future projects. Ultimately, FAIR adoption allows the FAIR Architect to optimize data workflows, minimize duplication of effort, and create a scalable, sustainable data infrastructure that drives better decision-making across the organization.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures persistent identifiers are embedded into the data architecture, enabling consistent referencing across systems		
-###	 F2	
- F2 enforces rich metadata standards, making datasets machine-actionable and discoverable by design		
-###	 A1	
- A1 guarantees accessible services and APIs for data delivery within the enterprise		
-###	 I1	
- I1/I2 enable semantic and technical interoperability across platforms and applications		
-###	 R1	
- R1.1 ensures reproducibility of workflows and system outputs, providing confidence in architectural reliability.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures persistent identifiers are embedded into the data architecture, enabling consistent referencing across systems.
+
+        [F2](../FAIR_principles/fdp_f2.md) enforces rich metadata standards, making datasets machine-actionable and discoverable by design.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees accessible services and APIs for data delivery within the enterprise.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enable semantic and technical interoperability across platforms and applications.
+
+        [I2](../FAIR_principles/fdp_i2.md) enable semantic and technical interoperability across platforms and applications.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) ensures reproducibility of workflows and system outputs, providing confidence in architectural reliability. 
+       
+

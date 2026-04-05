@@ -41,10 +41,18 @@ In a change management process, the value of the training, FAIR and data-centric
 Implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.		
 		
 		
-## 	Description of FAIR-benefits for	FAIR_Trainer
+## 	FAIR-benefits for	FAIR_Trainer
 FAIR principles provide a strong foundation for trainers to embed best practices in data management and reusability across teams and organizations. By leveraging success stories, FAIR Trainers can effectively articulate the underlying rationale ('why') for FAIR training, fostering greater engagement and commitment. The re-use of FAIR-aligned training materials and the adoption of open standards are facilitated by highlighting real-world examples from FAIR implementation journeys and profiles. With well-defined metrics and frameworks such as FAIR indicators and the FAIR Maturity Model (FAIR MM), Trainers are able to assess both datasets and organizational adherence, offering tangible benchmarks for progress. The impact of training is ultimately heightened through the availability of FAIR-compliant data and implementation examples.	
 		
-###	F2 	
-[F2](../FAIR_principles/fdp_f2.md) provides richly described training datasets for learners		
-###	 R1	
- R1.3 promotes reuse of materials aligned with community standards		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F2](../FAIR_principles/fdp_f2.md) provides richly described training datasets for learners.
+
+    === "Reusability"
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) promotes reuse of materials aligned with community standards.
+
+       

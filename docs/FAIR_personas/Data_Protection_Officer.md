@@ -34,11 +34,17 @@ Issues: risk of data breaches if data management doesn't include security at all
 Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.			
 			
 			
-## 	Description of FAIR-benefits for	Data_Protection_Officer	
+## 	FAIR-benefits for	Data_Protection_Officer	
 Data may be FAIR on paper but cannot be used widely without the right security measures - esp for propriatory and data and data containing – A1.2 guarantees controlled access for privacy compliance; R1.1 ensures reproducible compliance evidence.			
 			
-###	A1.		
-[A1.2](../FAIR_principles/fdp_a1_2.md) enforces controlled access for privacy compliance			
-###	 R1		
- R1.1 guarantees reproducibility of compliance evidence			
-	
+!!! FAIR Principles
+
+    === "Accessibility"
+
+        [A1.2](../FAIR_principles/fdp_a1_2.md) enforces controlled access for privacy compliance.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) guarantees reproducibility of compliance evidence.
+       
+

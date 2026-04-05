@@ -36,16 +36,28 @@ Issues: In a non-FAIR environment, Data Analysts struggle to find and access dat
 ###	Latent gains for	Data_Analyst	
 In a FAIR environment, Data Analysts rapidly discover and access trusted, well-documented data, reuse interoperable pipelines, reduce validation and rework, ensure traceability and audit readiness, and deliver analytics that scale across teams, support AI, and provide higher-value, reusable insights for decision-making.			
 			
-## 	Description of FAIR-benefits for	Data_Analyst	
+## 	FAIR-benefits for	Data_Analyst	
 A FAIR data environment transforms the work and added value of a Data Analyst persona, moving from reactive data wrangling to proactive insight generation. Data becomes easier to find, access, and trust through rich metadata, clear provenance, and shared semantic definitions. Interoperable data structures enable reusable pipelines and faster cross-domain analysis, while built-in traceability supports reproducibility and audit readiness. Analytical outputs themselves become reusable assets, or data products, supporting downstream teams and AI use cases. As a result, Data Analysts spend less time finding, formatting, validating and integrating data and more time delivering scalable, high-quality data products ultimately generating insights that directly support scientific, operational, and strategic decision-making.
 			
-###	F1 		
-[F1](../FAIR_principles/fdp_f1.md) ensures that reports are always built on unambiguous datasets with persistent identifiers, avoiding duplication of metrics			
-###	 F2		
- F2 provides metadata that makes it easier to understand the business meaning and quality of data, ensuring accurate reporting			
-###	 A1		
- A1 guarantees analysts have seamless access to the datasets they need, reducing delays in producing dashboards and KPIs			
-###	 I1		
- I1 allows combining data from different domains into integrated views for stakeholders			
-###	 R1		
- R1.1 assures that reports are reproducible and can be validated over time, strengthening trust in recurring insights.			
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures that reports are always built on unambiguous datasets with persistent identifiers, avoiding duplication of metrics.
+
+        [F2](../FAIR_principles/fdp_f2.md) provides metadata that makes it easier to understand the business meaning and quality of data, ensuring accurate reporting.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees analysts have seamless access to the datasets they need, reducing delays in producing dashboards and KPIs.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) allows combining data from different domains into integrated views for stakeholders.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) assures that reports are reproducible and can be validated over time, strengthening trust in recurring insights.
+       
+

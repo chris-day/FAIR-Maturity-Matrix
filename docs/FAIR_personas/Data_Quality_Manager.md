@@ -34,16 +34,27 @@ Issues: managing missing data and metadata and identifying errors, esp when sour
 ###	Latent gains for	Data_Quality_Manager
 Latent gains: FAIR data would make it easier to spot data quality issues such as missing or mis-labelled metadata.			
 		
-## 	Description of FAIR-benefits for	Data_Quality_Manager
+## 	FAIR-benefits for	Data_Quality_Manager
 Data maybe FAIR but if it's of low quality it can be useless 		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that ensure data quality issues can be traced back to specific sources and corrected		
-###	 F2	
-[F2](../FAIR_principles/fdp_f2.md) enriches metadata so quality dimensions (freshness, observability and completeness) can be assessed and monitored
-###	 A1	
-[A1](../FAIR_principles/fdp_a1.md) guarantees that quality-controlled datasets remain accessible to the right users without delays		
-###	 I1	
-[I1](../FAIR_principles/fdp_i1.md) enables interoperability so quality improvements in one domain flow consistently into others; enables automated data quality protocols to assess freshness, observability and completeness measures
-###	 R1	
- R1.1 ensures reproducibility of quality checks and audits, demonstrating compliance and improvement over time.	
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that ensure data quality issues can be traced back to specific sources and corrected.
+
+        [F2](../FAIR_principles/fdp_f2.md) enriches metadata so quality dimensions (freshness, observability and completeness) can be assessed and monitored.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees that quality-controlled datasets remain accessible to the right users without delays.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enables interoperability so quality improvements in one domain flow consistently into others; enables automated data quality protocols to assess freshness, observability and completeness measures.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) ensures reproducibility of quality checks and audits, demonstrating compliance and improvement over time.
+       

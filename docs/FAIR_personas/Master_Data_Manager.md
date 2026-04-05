@@ -40,18 +40,31 @@ Duplicated and inconsistent master data across business units; lack of persisten
 Latent  gains if FAIR adopted: authoritative and uniquely identified master data provide a single source of truth across systems; standardized, well-described metadata improves discoverability, governance, and cross-domain alignment; secure and harmonized access protocols enable seamless data exchange while preserving control; shared vocabularies and ontologies eliminate semantic ambiguity and make integrations durable; rich provenance, lineage, and licensing information ensure auditability, trust, and regulatory readiness; reusable reference data and automated conformance checks reduce maintenance costs and speed up reporting; harmonized master data accelerates AI and analytics use cases, enhances data democratization, and builds confidence in enterprise-wide data-driven decision-making.		
 		
 		
-## 	Description of FAIR-benefits for	Master_Data_Manager
+## 	FAIR-benefits for	Master_Data_Manager
 FAIR principles ensures authoritative, high-quality master and reference data consistently aligned across systems and business domains. FAIR makes master data findable through persistent identifiers and rich metadata, accessible via governed and auditable access points, interoperable through shared vocabularies and ontologies, and reusable thanks to embedded provenance and usage context. This foundation drives data democratization, empowering stakeholders across the enterprise with trusted, well-documented data assets, while supporting AI readiness through standardized, machine-actionable metadata. FAIR also strengthens regulatory compliance by ensuring that master data are fully traceable, governed, and reusable, reducing risk and improving auditability. Ultimately, FAIR maturity transforms data stewardship from an operational task into a strategic enabler of enterprise efficiency, data trust, and cross-domain interoperability.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures authoritative entities (e.g., products, customers) have persistent identifiers, preventing duplication and ambiguity across systems		
-###	 F2	
- F2 provides rich metadata that defines business meaning, lineage, and ownership of master data		
-###	 A1	
- A1 guarantees secure but consistent access to authoritative master data across business units		
-###	 I1	
- I1/I2 enable interoperability and automated synchronization between enterprise systems		
-###	 R1	
- R1.1 assures reproducibility of reports and compliance filings that depend on master data		
-###	 R1	
- R1.2 clarifies reuse conditions, allowing trusted sharing of master data across internal and external stakeholders.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures authoritative entities (e.g., products, customers) have persistent identifiers, preventing duplication and ambiguity across systems.
+
+        [F2](../FAIR_principles/fdp_f2.md) provides rich metadata that defines business meaning, lineage, and ownership of master data.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees secure but consistent access to authoritative master data across business units.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enable interoperability and automated synchronization between enterprise systems.
+        [I2](../FAIR_principles/fdp_i2.md) enable interoperability and automated synchronization between enterprise systems.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) assures reproducibility of reports and compliance filings that depend on master data.
+
+        [R1.2](../FAIR_principles/fdp_r1_2.md) clarifies reuse conditions, allowing trusted sharing of master data across internal and external stakeholders.
+       
+

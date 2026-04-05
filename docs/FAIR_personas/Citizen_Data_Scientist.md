@@ -39,16 +39,31 @@ Issues: Information sources often lack complete datasets, leading to gaps and in
 Latent  gains: Implementing FAIR principles would minimize these challenges by improving data completeness, contextual clarity, and traceability—unlocking greater efficiency, compliance, and data reuse.		
 		
 		
-## 	Description of FAIR-benefits for	Citizen_Data_Scientist
+## 	FAIR-benefits for	Citizen_Data_Scientist
 FAIR principles transforms how data can be accessed, understood, and used. FAIR data ensures that relevant datasets are findable and well-documented, allowing non-technical users to quickly locate trustworthy information without relying on data specialists. With accessible and standardized formats, self-service analytics tools and dashboards can easily connect to validated data sources, reducing the need for manual preparation or IT intervention. Interoperable data, structured through shared vocabularies and ontologies, ensures that metrics and definitions are consistent across business units—making analyses more reliable and comparable. Finally, reusable and well-described data enable repeatable analyses, support automation through AI-assisted tools, and foster confident, compliant decision-making. In short, FAIR empowers Citizen Data Scientists to work independently and efficiently, transforming domain expertise into actionable, data-driven insights without compromising data quality or governance.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures that self-service tools pull from datasets with persistent identifiers, avoiding confusion and duplication		
-###	 F2	
- F2 provides rich metadata so non-expert users can quickly assess relevance, context, and quality of datasets		
-###	 A1	
- A1 guarantees seamless access to trusted data products without technical barriers		
-###	 I1	
- I1 enables smooth integration of datasets from different domains into dashboards and tools		
-###	 R1	
- R1.1 assures reproducibility of results, giving confidence that insights drawn from self-service analytics are reliable and defensible.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures that self-service tools pull from datasets with persistent identifiers, avoiding confusion and duplication.
+
+        [F2](../FAIR_principles/fdp_f2.md) provides rich metadata so non-expert users can quickly assess relevance, context, and quality of datasets.
+
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees seamless access to trusted data products without technical barriers.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enables smooth integration of datasets from different domains into dashboards and tools.
+
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) assures reproducibility of results, giving confidence that insights drawn from self-service analytics are reliable and defensible.
+
+
+

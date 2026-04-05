@@ -37,16 +37,29 @@ Issues: Locating relevant data efficiently is often difficult due to the vast am
 Latent  gains: Implementing FAIR principles would mitigate these challenges by improving data discoverability, accessibility, and interoperability, thereby unlocking greater efficiency, compliance, and opportunities for data reuse and scientific discovery.		
 		
 		
-## 	Description of FAIR-benefits for	Subject_Matter_Expert
+## 	FAIR-benefits for	Subject_Matter_Expert
 FAIR data enhances an SME's ability to efficiently discover, access, and integrate diverse datasets, leading to more informed decision-making and comprehensive insights. It also promotes the sustainable reuse of data, maximizing productivity and driving better business outcomes by ensuring data is well-documented and contextually rich.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures that datasets and knowledge objects they consult are persistently identified, so scientific references remain unambiguous		
-###	 F2	
- F2 provides rich metadata that gives SMEs the context needed to assess the reliability and applicability of data		
-###	 A1	
- A1 guarantees seamless access to trusted datasets, enabling efficient validation and decision support		
-###	 I1	
- I1 allows integration of FAIR datasets with their domain expertise, making cross-disciplinary insights possible		
-###	 R1	
- R1.1 ensures reproducibility of findings, so SMEs can validate results confidently and build upon them.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures that datasets and knowledge objects they consult are persistently identified, so scientific references remain unambiguous.
+
+        [F2](../FAIR_principles/fdp_f2.md) provides rich metadata that gives SMEs the context needed to assess the reliability and applicability of data.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees seamless access to trusted datasets, enabling efficient validation and decision support.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) allows integration of FAIR datasets with their domain expertise, making cross-disciplinary insights possible.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) ensures reproducibility of findings, so SMEs can validate results confidently and build upon them.
+
+
+

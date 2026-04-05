@@ -45,14 +45,23 @@ Latent  Gains:
 Implementing FAIR principles establishes clear business data ownership and embeds stewardship as a core governance function. Data becomes an enterprise asset: traceable, high-quality, and aligned with business objectives. Standardized metadata, access protocols, and interoperable systems ensure consistency, trust, and agility across departments. FAIR maturity strengthens regulatory compliance, turning oversight into strategic advantage through transparent provenance and auditability. Empowered by reliable, well-documented data, Business Owners can link FAIR investments directly to performance indicators such as reduced time-to-insight, faster innovation cycles, and lower operational risk. With improved data literacy and measurable ROI, FAIR transforms data management from a technical exercise into a business enabler, driving sustained efficiency, compliance, and value creation across the organization."		
 		
 		
-## 	Description of FAIR-benefits for	Business_Owner
+## 	FAIR-benefits for	Business_Owner
 For a Business Owner, adopting FAIR data principles delivers both strategic and operational value by turning data into a reliable, reusable business asset. Findable and Accessible data accelerate evidence-based decision-making and reduce time spent locating or validating information, improving responsiveness and time-to-market. Enhanced metadata and provenance increase trust, data quality, and regulatory compliance while reducing audit risk and operational errors. Interoperable data promote collaboration and cross-functional reporting, supporting integration during organizational changes or mergers. Through reusability, FAIR minimizes data duplication, lowers operational costs, and improves ROI on data investments. By making data machine-actionable, FAIR enables automation, AI, and innovation, enhancing forecasting, modeling, and digital transformation. Finally, improved traceability and lifecycle stewardship reinforce transparency, governance, and enterprise resilience. Together, these capabilities empower the Business Owner to maximize business value, ensure compliance, and drive sustainable growth.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that ensure KPIs and metrics are based on unambiguous, trusted datasets		
-###	 A1	
- A1 guarantees reliable access to the data needed for monitoring performance and driving improvements		
-###	 R1	
- R1.1 ensures reproducibility of results so business decisions can be defended and audited		
-###	 R1	
- R1.2 clarifies licensing and reuse conditions, enabling safe and efficient exploitation of data assets for innovation and partnerships.		
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that ensure KPIs and metrics are based on unambiguous, trusted datasets.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees reliable access to the data needed for monitoring performance and driving improvements.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) ensures reproducibility of results so business decisions can be defended and audited.
+
+        [R1.2](../FAIR_principles/fdp_r1_2.md) clarifies licensing and reuse conditions, enabling safe and efficient exploitation of data assets for innovation and partnerships.
+
+

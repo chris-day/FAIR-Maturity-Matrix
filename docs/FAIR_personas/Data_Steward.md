@@ -45,14 +45,23 @@ Issues: Typical issues for a Data Steward include unclear or overlapping role de
 Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.		
 		
 		
-## 	Description of FAIR-benefits for	Data_Steward
+## 	FAIR-benefits for	Data_Steward
 The adoption of FAIR principles enhances data quality, trust, and discoverability while minimizing duplication of effort. FAIR provides a structured framework. By improving data quality, consistency, and documentation, it rebuilds trust in organizational data and ensures a reliable foundation for analytics and decision-making. FAIR’s emphasis on metadata, accessibility, and interoperability supports stronger compliance with regulatory frameworks, simplifies auditability, and streamlines integration across systems. Moreover, it helps overcome cultural resistance by embedding transparent, value-driven practices that demonstrate efficiency and impact. Ultimately, FAIR empowers Data Stewards to achieve greater operational efficiency, foster collaboration, and enable sustainable data reuse across the organization.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures identifiers to enforce consistent governance		
-###	 A1	
- A1 guarantees accessibility for governance workflows		
-###	 R1	
- R1.1 enables reproducible governance evidence		
-###	 R1	
- R1.3 supports reuse by aligning with community practices		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures identifiers to enforce consistent governance.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees accessibility for governance workflows.
+
+    === "Reusability"
+
+        [R1.1](../FAIR_principles/fdp_r1_1.md) enables reproducible governance evidence.
+        [R1.3](../FAIR_principles/fdp_r1_3.md) supports reuse by aligning with community practices.
+       
+

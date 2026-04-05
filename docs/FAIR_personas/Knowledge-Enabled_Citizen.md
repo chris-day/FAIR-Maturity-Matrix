@@ -44,16 +44,28 @@ Latent  gains: clear demonstration of value in standardising processes; opportun
 	
 		
 		
-## 	Description of FAIR-benefits for	Knowledge-Enabled_Citizen
+## 	FAIR-benefits for	Knowledge-Enabled_Citizen
  Knowledge-Enabled Citizen can independently access and apply information to drive insight, innovation, and informed decision-making.  FAIR benefits include: improved efficiency through fast, reliable access to high-quality, FAIR-aligned data; enhanced regulatory compliance through standardized documentation and transparent provenance; consistent metadata and shared ontologies enabling seamless cross-project and cross-domain data integration; and better utilization of historical, experimental, and real-world data to inform evidence-based decisions. FAIR principles also foster stronger collaboration across research, clinical, and regulatory functions and accelerate innovation through streamlined knowledge discovery and sharing between internal teams and external partners.		
 		
-###	F1 	
-[F1](../FAIR_principles/fdp_f1.md) ensures that datasets and knowledge objects they use are persistently identified, avoiding ambiguity in scientific or technical references		
-###	 F2	
- F2 provides rich metadata that gives necessary context for non-data specialists to assess quality and applicability		
-###	 A1	
- A1 guarantees seamless access to the data and knowledge products they rely on, without technical barriers		
-###	 I1	
- I1 enables integration of cross-domain knowledge into their specialized research area		
-###	 R1	
- R1.3 promotes reuse of trusted community standards, helping them apply external datasets confidently in their own domain.		
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) ensures that datasets and knowledge objects they use are persistently identified, avoiding ambiguity in scientific or technical references.
+
+        [F2](../FAIR_principles/fdp_f2.md) provides rich metadata that gives necessary context for non-data specialists to assess quality and applicability.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees seamless access to the data and knowledge products they rely on, without technical barriers.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) enables integration of cross-domain knowledge into their specialized research area.
+
+    === "Reusability"
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) promotes reuse of trusted community standards, helping them apply external datasets confidently in their own domain.
+
+       

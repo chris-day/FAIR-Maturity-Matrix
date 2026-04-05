@@ -39,16 +39,28 @@ Issues: Convincing scientists to invest time upfront in structured data capture 
 Latent  gains: Once FAIR principles are embedded, data becomes findable, traceable, and reusable across research and manufacturing. Efficiency improves through reduced duplication and faster access to validated information. Compliance and audit readiness strengthen through clear provenance and standardization. Harmonized data flows enable interoperability, AI-driven analytics, and sustained knowledge reuse—turning governance from a control mechanism into a catalyst for scientific productivity and long-term data value.			
 			
 			
-## 	Description of FAIR-benefits for	Data_Standards_and_Governance_Expert	
+## 	FAIR-benefits for	Data_Standards_and_Governance_Expert	
 FAIR principles transforms data governance from a compliance obligation into a strategic enabler of efficiency, quality, and trust. FAIR ensures that data is findable and discoverable across systems, reducing duplication and enabling reuse of validated information. Accessibility allows authorized users to retrieve data seamlessly within compliant frameworks, while interoperability enables consistent data exchange across instruments, laboratories, and business units without loss of meaning—directly supporting harmonization of LIMS, MES, and enterprise data models. Reusability extends the value of high-quality, well-documented data, improving reproducibility, regulatory readiness, and analytics potential. For this expert, FAIR provides a concrete framework to drive standardization, traceability, and continuous improvement, turning governance into a catalyst for innovation and long-term organizational learning.			
 			
-###	F1 		
-[F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that governance experts can mandate to ensure data is consistently referenced across the organization			
-###	 F2		
- F2 enriches metadata so governance frameworks can require transparency and completeness			
-###	 A1		
- A1 guarantees that access protocols are standardized, making governance policies easier to enforce			
-###	 I1		
- I1 ensures interoperability across domains, allowing governance rules to scale enterprise-wide			
-###	 R1		
- R1.3 promotes reuse of data aligned with recognized community and industry standards, reinforcing organizational compliance and credibility.			
+
+!!! FAIR Principles
+
+    === "Findability"
+
+        [F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that governance experts can mandate to ensure data is consistently referenced across the organization.
+
+        [F2](../FAIR_principles/fdp_f2.md) enriches metadata so governance frameworks can require transparency and completeness.
+
+    === "Accessibility"
+
+        [A1](../FAIR_principles/fdp_a1.md) guarantees that access protocols are standardized, making governance policies easier to enforce.
+
+    === "Interoperability"
+
+        [I1](../FAIR_principles/fdp_i1.md) ensures interoperability across domains, allowing governance rules to scale enterprise-wide.
+
+    === "Reusability"
+
+        [R1.3](../FAIR_principles/fdp_r1_3.md) promotes reuse of data aligned with recognized community and industry standards, reinforcing organizational compliance and credibility.
+
+
