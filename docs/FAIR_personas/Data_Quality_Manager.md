@@ -1,41 +1,38 @@
 [Data_Quality_Manager](Data_Quality_Manager.md)		
-		
-## 	Synonyms of 	Data_Quality_Manager
-|	Synonyms of  Data_Quality_Manager	|
-|	---	|
-|	GxP Quality Lead	|
-|	 Validation Lead	|
+=== "Description"
+    Defines, monitors, and remediates data quality issues; maintains quality, freshness, observability and completeness of enterprise data.
 
-		
-## 	Description of role 	Data_Quality_Manager
-Defines, monitors, and remediates data quality issues; maintains quality, freshness, observability and completeness of enterprise data.
+=== "Synonyms"
+    |	Synonyms of  Data_Quality_Manager	|
+    |	---	|
+    |	GxP Quality Lead	|
+    |	Validation Lead	|
 
-		
-		
-##	FAIR persona related to 	Data_Quality_Manager
-|	FAIR persona related to  Data_Quality_Manager	|
-|	---	|
-|	[Subject_Matter_Expert](Subject_Matter_Expert.md)	|
-|	[Ontologist](Ontologist.md)	|
-|	[Data_Standards_and_Governance_Expert](Data_Standards_and_Governance_Expert.md)	|
-|	[Data_Owner](Data_Owner.md)	|
-|	[Curator](Curator.md)	|
-|	[Master_Data_Manager](Master_Data_Manager.md)	|
 
-		
-##	Persona tasks of	Data_Quality_Manager
-Provides training and tooling that can assess data quality during its lifecycle; often in connection with enterprise catalogues, master data management systems and/or business applications.
-		
-		
-##  	Issues and latent gains for	Data_Quality_Manager
-###	Issue for 	Data_Quality_Manager
-Issues: managing missing data and metadata and identifying errors, esp when sources are siloed.
+=== "Persona Relations"
+    |	FAIR persona related to  Data_Quality_Manager	|
+    |	---	|
+    |	[Subject_Matter_Expert](Subject_Matter_Expert.md)	|
+    |	[Ontologist](Ontologist.md)	|
+    |	[Data_Standards_and_Governance_Expert](Data_Standards_and_Governance_Expert.md)	|
+    |	[Data_Owner](Data_Owner.md)	|
+    |	[Curator](Curator.md)	|
+    |	[Master_Data_Manager](Master_Data_Manager.md)	|
 
-###	Latent gains for	Data_Quality_Manager
-Latent gains: FAIR data would make it easier to spot data quality issues such as missing or mis-labelled metadata.			
-		
-## 	FAIR-benefits for	Data_Quality_Manager
-Data maybe FAIR but if it's of low quality it can be useless 		
+
+=== "Persona tasks"
+    Provides training and tooling that can assess data quality during its lifecycle; often in connection with enterprise catalogues, master data management systems and/or business applications.
+
+
+=== "Upside and Downside"
+    ### Upside
+    FAIR data would make it easier to spot data quality issues such as missing or mis-labelled metadata.			
+    ### Downside
+    Managing missing data and metadata and identifying errors, esp when sources are siloed.
+
+
+=== "Benefits"
+    Data maybe FAIR but if it's of low quality it can be useless.
 		
 
 !!! FAIR Principles
