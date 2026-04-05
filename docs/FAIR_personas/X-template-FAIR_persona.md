@@ -1,43 +1,41 @@
 {  indicate contents to be modified} 
 # 	{label of the persona : e.g. Business_Leader}	
 {link to the html output file e.g. [Business_Leader](Business_Leader.md) }		
-		
-## 	Synonyms of 	{ label of persona e.g. Business_Leader}
-|	Synonyms of {label of persona e.g. Business_Leader}	|
-|	---	|
-|	{Examples of synomyms found in the open literature e.g. Chief Executive Officer (CEO) }	|
-|	{Examples of synomyms found in the open literature e.g. Chief Operating Officer (COO) } 	|
-|	{examples}|
-|	{examples}|
+=== "Description"
+    Description of the role of the persona. This may be derived from HR, bodies of knowledge documentation, job descriptions. It includes responsibilities.
 
-		
-## 	Description of role {Business_Leader}
-{Description of the role of the persona. This may be derived from HR, bodies of knowledge documentation, job descriptions. It includes responsibilities.}		
-		
-##	FAIR persona related to 	{ label of persona e.g.Business_Leader }
-|	FAIR persona related to  { label of persona e.g. Business_Leader}	|
-|	---	|
-|	{ enter the FAIR personas that interact with e.g.Business_Leader  e.g.[Business_Analyst](Business_Analyst.md) }	|
-|	{ enter the FAIR personas that interact with e.g.Business_Leader  e.g.[Business_Leader](Business_Leader.md) }	|
+=== "Synonyms"
+    |	Synonyms of {label of persona e.g. Business_Leader}	|
+    |	---	|
+    |	{Examples of synomyms found in the open literature e.g. Chief Executive Officer (CEO) }	|
+    |	{Examples of synomyms found in the open literature e.g. Chief Operating Officer (COO) } 	|
+    |	{examples}|
+    |	{examples}|
 
-Alternative
-| FAIR persona related  { label of persona e.g. Business_Leader} | Nature of the relation |
-| --- | --- |
-| example: [Data_Steward](Data_Steward.md) | example: Ensures data quality, metadata completeness, and FAIR compliance for agent consumption |
 
-		
-##	Persona tasks of	{ label of persona e.g.Business_Leader }
-{description of the 'tasks' or 'jobs' of the persona. This may partialy overalap with the "role" descrption, but try to be specific. If you are familiar with https://www.strategyzer.com/library/the-value-proposition-canvas, this refer to the "customer jobs".  }
-		
-##  	Issues and latent gains for{ label of persona e.g.Business_Leader }
-###	Issue for 	{ label of persona e.g.Business_Leader }
-Issues: { list and description of the  issues experienced by the persona in a low level FAIR maturity organisaiton L0 - L1 . If you are familiar with https://www.strategyzer.com/library/the-value-proposition-canvas, this refer to the "customer pains". }		
-###	Latent gains for { label of persona e.g.Business_Leader }
-Latent  gains: { list and descriptio of what could the persona gain in a higher level FAIR maturity organisaiton L3 - L4. If you are familiar with https://www.strategyzer.com/library/the-value-proposition-canvas, this refer to the "customer gains".}	
-		
-		
-## 	FAIR-benefits for	{ label of persona e.g.Business_Leader }
-{list and describe the benefits a the persona could experience in a higher maturity FAIR environments. This matches the issues and latent gains from the previous items. If you are familiar with https://www.strategyzer.com/library/the-value-proposition-canvas, this is in essence a value proposition combining the selected FAIR data principles as "Products and services" which are both "pain relievers" and "gains creators"}	
+=== "Persona Relations"
+    |	FAIR persona related to { label of persona e.g. Business_Leader}	|
+    |	---	|
+    |	{ enter the FAIR personas that interact with e.g.Business_Leader  e.g.[Business_Analyst](Business_Analyst.md) }	|
+    |	{ enter the FAIR personas that interact with e.g.Business_Leader  e.g.[Business_Leader](Business_Leader.md) }	|
+
+
+=== "Persona tasks"
+    description of the 'tasks' or 'jobs' of the persona. This may partialy overalap with the "role" descrption, but try to be specific. If you are familiar with https://www.strategyzer.com/library/the-value-proposition-canvas, this refer to the "customer jobs".
+
+
+=== "Upside and Downside"
+    ### Upside
+    List and description of the upside for the persona in a higher level FAIR maturity organisaiton L3 - L4. If you are familiar with https://www.strategyzer.com/library/the-value-proposition-canvas, this refer to the "customer gains".}	
+
+
+    ### Downside
+    list and description of the downsides experienced by the persona in a low level FAIR maturity organisaiton L0 - L1 . If you are familiar with https://www.strategyzer.com/library/the-value-proposition-canvas, this refer to the "customer pains". }		
+
+
+=== "Benefits"
+
+    list and describe the benefits a the persona could experience in a higher maturity FAIR environments. This matches the issues and latent gains from the previous items. If you are familiar with https://www.strategyzer.com/library/the-value-proposition-canvas, this is in essence a value proposition combining the selected FAIR data principles as "Products and services" which are both "pain relievers" and "gains creators"
 		
 !!! FAIR Principles
 
