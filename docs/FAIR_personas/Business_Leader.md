@@ -1,52 +1,51 @@
 # 	Business_Leader		
 [Business_Leader](Business_Leader.md)			
-			
-## 	Synonyms of 	Business_Leader	
-|	Synonyms of  Business_Leader	|	
-|	---	|	
-|	Chief Executive Officer (CEO)	|	
-|	 Chief Operating Officer (COO)	|	
-|	 Chief Financial Officer (CFO)	|	
-|	 Functional Line Leader	|	
-|	 Head of R&D	|	
-|	 Head of Manufacturing	|	
-|	 Head of CMC	|	
-			
-## 	Description of role 	Business_Leader	
-In an organization, personnel holding roles such as CEO, CFO, CTO, COO, or Functional Line Leaders with executive and strategy level decision- making capacities.			
-			
-			
-##	FAIR persona related to 	Business_Leader	
-|	FAIR persona related to  Business_Leader	|	
-|	---	|	
-|	[Business_Analyst](Business_Analyst.md)	|	
-|	[Business_Leader](Business_Leader.md)	|	
-|	[Business_Owner](Business_Owner.md)	|	
-|	[Project_Manager](Project_Manager.md)	|	
-|	[Technology_Leader](Technology_Leader.md)	|	
+=== "Description"  
+    In an organization, personnel holding roles such as CEO, CFO, CTO, COO, or Functional Line Leaders with executive and strategy level decision- making capacities.
 
-			
-##	Persona tasks of	Business_Leader	
-Making data-driven strategic decisions, performance and KPI management, engaging with investors and stakeholders with reliable data, enabling digital and data transformation, managing risk and compliance, supporting M&A, licensing, and due diligence.		
-			
-			
-##  	Issues and latent gains for	Business_Leader	
-###	Issue for 	Business_Leader	
-Issues: Data fragmentation, data in silos, poor data re-usability, lack in visibility into data (which data do we have? Can we trust it?), barriers for scaling AI/ML initiatives, compliance and data governance risks. 			
-###	Latent gains for	Business_Leader	
-Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.			
-			
-			
-## 	Description of FAIR-benefits for	Business_Leader	
-For Business Leaders in a pharmaceutical company, implementing FAIR data principles delivers  strategic, operational, and financial advantages:
+=== "Synonyms"
+    | Synonyms of  Business_Leader  |
+    | --- |
+    | Chief Executive Officer (CEO) |
+    |  Chief Operating Officer (COO)  |
+    |  Chief Financial Officer (CFO)  |
+    |  Functional Line Leader |
+    |  Head of R&D  |
+    |  Head of Manufacturing  |
+    |  Head of CMC  |
 
-1- establish a foundation for digital transformation, enabling enterprise-wide data integration across R&D, manufacturing, regulatory, and commercial operations. Executives gain trusted, real-time visibility into the organization’s data assets, accelerating strategic decision-making and reducing dependency on fragmented systems or manual reporting.
+=== "Persona Relations"
+    | FAIR persona related to  Business_Leader  |
+    | --- |
+    | [Business_Analyst](Business_Analyst.md) |
+    | [Business_Leader](Business_Leader.md) |
+    | [Business_Owner](Business_Owner.md) |
+    | [Project_Manager](Project_Manager.md) |
+    | [Technology_Leader](Technology_Leader.md) |
 
-2-  drive innovation and speed-to-market by making high-quality data readily reusable for AI, machine learning, and predictive modeling—shortening development cycles, improving clinical trial design, and identifying portfolio opportunities faster.
+=== "Persona tasks"
+    Making data-driven strategic decisions, performance and KPI management, engaging with investors and stakeholders with reliable data, enabling digital and data transformation, managing risk and compliance, supporting M&A, licensing, and due diligence.		
 
-3-   reduce operational costs and risks by minimizing data duplication, automating data governance, and enabling scalable management of petabytes of information under consistent standards and archiving policies.
 
-4-  enhance regulatory compliance, audit readiness, and partner interoperability, positioning the organization as a trusted, data-driven leader in a rapidly evolving digital health ecosystem.	
+=== "Upside and Downside"
+    ### Upside
+    Implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.
+
+
+    ### Downside
+    Data fragmentation, data in silos, poor data re-usability, lack in visibility into data (which data do we have? Can we trust it?), barriers for scaling AI/ML initiatives, compliance and data governance risks.
+
+
+=== "Benefits"
+    For Business Leaders in a pharmaceutical company, implementing FAIR data principles delivers  strategic, operational, and financial advantages:
+
+    1. establish a foundation for digital transformation, enabling enterprise-wide data integration across R&D, manufacturing, regulatory, and commercial operations. Executives gain trusted, real-time visibility into the organization’s data assets, accelerating strategic decision-making and reducing dependency on fragmented systems or manual reporting.
+
+    2.  drive innovation and speed-to-market by making high-quality data readily reusable for AI, machine learning, and predictive modeling—shortening development cycles, improving clinical trial design, and identifying portfolio opportunities faster.
+
+    3.   reduce operational costs and risks by minimizing data duplication, automating data governance, and enabling scalable management of petabytes of information under consistent standards and archiving policies.
+
+    4.  enhance regulatory compliance, audit readiness, and partner interoperability, positioning the organization as a trusted, data-driven leader in a rapidly evolving digital health ecosystem.	
 			
 !!! FAIR Principles
 

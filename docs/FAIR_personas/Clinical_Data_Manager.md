@@ -1,48 +1,47 @@
 # 	Clinical_Data_Manager	
 [Clinical_Data_Manager](Clinical_Data_Manager.md)		
-		
-## 	Synonyms of 	Clinical_Data_Manager
-|	Synonyms of  Clinical_Data_Manager	|
-|	---	|
-|	Clinical Data Lead	|
-|	Clinical Informatics Lead 	|
-| CMC Data Manager |
-| RWE Data Manager |
-| Safety Data Manager |
-| Study Data Manager |
-| Trial Data Manager |
-| Data Management Lead |
+=== "Description"
+    Ensures accuracy, integrity, and reliability of data collected during clinical trials. They are responsible for designing and maintaining data management plans, overseeing data collection systems, and implementing quality control processes to ensure compliance with regulatory standards and requirements (e.g. from FDA,EMA). They manage the end-to-end data lifecycle in clinical trials.		
 
-		
-## 	Description of role 	Clinical_Data_Manager
-Ensures accuracy, integrity, and reliability of data collected during clinical trials. They are responsible for designing and maintaining data management plans, overseeing data collection systems, and implementing quality control processes to ensure compliance with regulatory standards and requirements (e.g. from FDA,EMA). They manage the end-to-end data lifecycle in clinical trials.		
-		
-		
-##	FAIR persona related to 	Clinical_Data_Manager
-|	FAIR persona related to  Clinical_Data_Manager	|
-|	---	|
-|	[Business_Owner](Business_Owner.md)	|
-|	[Master_Data_Manager](Master_Data_Manager.md)	|
-|	[Lab_Manager](Lab_Manager.md)	|
-|	[Project_Manager](Project_Manager.md)	|
-|	[Data_Analyst](Data_Analyst.md)	|
-|	[Data_Owner](Data_Owner.md)	|
-|	[Legal_Data_Expert](Legal_Data_Expert.md)	|
-|	[Data_Standards_and_Governance_Expert](Data_Standards_and_Governance_Expert.md)	|
-		
-##	Persona tasks of	Clinical_Data_Manager
-Clinical Data Manager (CDM) plays a central role in ensuring that clinical trial data is complete, accurate, and compliant with global regulatory standards. Their  responsibilities include designing and managing case report forms (CRFs), overseeing electronic data capture (EDC) systems, validating incoming data from multiple sites,  transforming raw data into standardized submission formats such as CDISC SDTM and ADaM. They coordinate  with biostatisticians, clinical operations, medical writers, and regulatory teams to ensure data consistency, timeliness, and readiness for regulatory submissions across complex, multi-country studies. CDMs also monitor data integrity, manage queries and discrepancies, and document all processes to maintain an auditable trail.		
-		
-		
-##  	Issues and latent gains for	Clinical_Data_Manager
-###	Issue for 	Clinical_Data_Manager
-Issues:  face challenges due to the scale and complexity of their trials. Data often comes from heterogeneous sources, including EDCs, laboratory systems, imaging platforms, wearables, and patient-reported outcomes, each using different formats, terminologies, and standards. Reconciling these sources is time-intensive, error-prone, and requires extensive manual mapping. Inconsistent metadata, limited provenance tracking, and siloed data systems make it difficult to ensure data quality, traceability, and reuse across studies. These challenges can lead to delays in submissions, increase operational risk, and limit the ability to leverage historical data for future trials or real-world evidence generation.  		
-###	Latent gains for	Clinical_Data_Manager
-Latent  gains: implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.		
-		
-		
-## 	FAIR-benefits for	Clinical_Data_Manager
-By ensuring that data and metadata are findable, accessible, interoperable, and reusable, Clinical_Data_Manager	 can automate and accelerate data integration and cleaning processes. Standardized vocabularies and ontologies facilitate cross-study comparisons and reduce mapping errors, while rich provenance tracking enhances audit readiness and regulatory confidence. FAIR data also enables better reuse of clinical trial datasets for secondary research, machine learning, and meta-analyses, ultimately supporting faster decision-making, reducing redundancy, and increasing the value derived from every clinical trial. "		
+=== "Synonyms"
+    |	Synonyms of  Clinical_Data_Manager	|
+    |	---	|
+    |	Clinical Data Lead	|
+    |	Clinical Informatics Lead 	|
+    | CMC Data Manager |
+    | RWE Data Manager |
+    | Safety Data Manager |
+    | Study Data Manager |
+    | Trial Data Manager |
+    | Data Management Lead |
+
+
+=== "Persona Relations"
+    |	FAIR persona related to  Clinical_Data_Manager	|
+    |	---	|
+    |	[Business_Owner](Business_Owner.md)	|
+    |	[Master_Data_Manager](Master_Data_Manager.md)	|
+    |	[Lab_Manager](Lab_Manager.md)	|
+    |	[Project_Manager](Project_Manager.md)	|
+    |	[Data_Analyst](Data_Analyst.md)	|
+    |	[Data_Owner](Data_Owner.md)	|
+    |	[Legal_Data_Expert](Legal_Data_Expert.md)	|
+    |	[Data_Standards_and_Governance_Expert](Data_Standards_and_Governance_Expert.md)	|
+        
+=== "Persona tasks"
+    Clinical Data Manager (CDM) plays a central role in ensuring that clinical trial data is complete, accurate, and compliant with global regulatory standards. Their  responsibilities include designing and managing case report forms (CRFs), overseeing electronic data capture (EDC) systems, validating incoming data from multiple sites,  transforming raw data into standardized submission formats such as CDISC SDTM and ADaM. They coordinate  with biostatisticians, clinical operations, medical writers, and regulatory teams to ensure data consistency, timeliness, and readiness for regulatory submissions across complex, multi-country studies. CDMs also monitor data integrity, manage queries and discrepancies, and document all processes to maintain an auditable trail.		
+
+
+=== "Upside and Downside"
+    ### Upside
+    Implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.		
+
+    ### Downside
+
+    Face challenges due to the scale and complexity of their trials. Data often comes from heterogeneous sources, including EDCs, laboratory systems, imaging platforms, wearables, and patient-reported outcomes, each using different formats, terminologies, and standards. Reconciling these sources is time-intensive, error-prone, and requires extensive manual mapping. Inconsistent metadata, limited provenance tracking, and siloed data systems make it difficult to ensure data quality, traceability, and reuse across studies. These challenges can lead to delays in submissions, increase operational risk, and limit the ability to leverage historical data for future trials or real-world evidence generation.  		
+
+=== "Benefits"
+    By ensuring that data and metadata are findable, accessible, interoperable, and reusable, Clinical_Data_Manager	 can automate and accelerate data integration and cleaning processes. Standardized vocabularies and ontologies facilitate cross-study comparisons and reduce mapping errors, while rich provenance tracking enhances audit readiness and regulatory confidence. FAIR data also enables better reuse of clinical trial datasets for secondary research, machine learning, and meta-analyses, ultimately supporting faster decision-making, reducing redundancy, and increasing the value derived from every clinical trial. "		
 		
 
 !!! FAIR Principles
