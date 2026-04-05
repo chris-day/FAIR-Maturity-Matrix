@@ -38,7 +38,7 @@ Latent  gains: implementing FAIR principles would reduce these challenges and un
 Data may be FAIR on paper but cannot be used widely without the right security measures - esp for propriatory and data and data containing – A1.2 guarantees controlled access for privacy compliance; R1.1 ensures reproducible compliance evidence.			
 			
 ###	A1.		
-A1.2 enforces controlled access for privacy compliance			
+[A1.2](../FAIR_principles/fdp_a1_2.md) enforces controlled access for privacy compliance			
 ###	 R1		
  R1.1 guarantees reproducibility of compliance evidence			
 	

@@ -43,7 +43,7 @@ Latent  gains: Once FAIR principles are embedded, data becomes findable, traceab
 FAIR principles transforms data governance from a compliance obligation into a strategic enabler of efficiency, quality, and trust. FAIR ensures that data is findable and discoverable across systems, reducing duplication and enabling reuse of validated information. Accessibility allows authorized users to retrieve data seamlessly within compliant frameworks, while interoperability enables consistent data exchange across instruments, laboratories, and business units without loss of meaning—directly supporting harmonization of LIMS, MES, and enterprise data models. Reusability extends the value of high-quality, well-documented data, improving reproducibility, regulatory readiness, and analytics potential. For this expert, FAIR provides a concrete framework to drive standardization, traceability, and continuous improvement, turning governance into a catalyst for innovation and long-term organizational learning.			
 			
 ###	F1 		
-F1 provides persistent identifiers that governance experts can mandate to ensure data is consistently referenced across the organization			
+[F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that governance experts can mandate to ensure data is consistently referenced across the organization			
 ###	 F2		
  F2 enriches metadata so governance frameworks can require transparency and completeness			
 ###	 A1		

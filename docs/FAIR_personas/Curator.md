@@ -37,7 +37,7 @@ Latent  gains: implementing FAIR principles would reduce these challenges and un
 FAIR data principles enhance the efficiency and impact of knowledge management. Rich metadata improves dataset discoverability and context, ensuring curated assets are easily found and understood. Interoperability across knowledge sources enables consistent integration and alignment, while adherence to community standards promotes the reuse and long-term value of curated data assets.		
 		
 ###	F2 	
-F2 enriches metadata to improve dataset discoverability		
+[F2](../FAIR_principles/fdp_f2.md) enriches metadata to improve dataset discoverability		
 ###	 I1	
  I1 ensures compatibility across curated knowledge sources		
 ###	 R1	

@@ -43,7 +43,7 @@ Latent  gains: implementing FAIR principles would reduce these challenges and un
 FAIR principles provide the FAIR Community Manager with a common framework and language to unite teams around shared data practices. By promoting FAIR-aligned processes—such as standardized metadata, provenance tracking, and controlled vocabularies—the manager enables consistent documentation and reliable data reuse across departments. This supports easier dataset discovery, reduced duplication of effort, and improved cross-study analytics. Clear access protocols and governance ensure that information can be securely shared across teams and regions, fostering trust and collaboration. Through visible success stories and demonstrable value—like faster access to insights and enhanced compliance—the FAIR Community Manager strengthens engagement, accelerates learning, and cultivates a company-wide culture of openness, innovation, and continuous improvement in data management.		
 		
 ###	F1 	
-F1 ensures community resources are persistently identified, so members can reliably reference and share them		
+[F1](../FAIR_principles/fdp_f1.md) ensures community resources are persistently identified, so members can reliably reference and share them		
 ###	 F2	
  F2 enriches metadata for community outputs, making them easier to discover and adopt		
 ###	 A1	

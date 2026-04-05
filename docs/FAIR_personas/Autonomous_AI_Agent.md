@@ -1,6 +1,10 @@
 # Autonomous_AI_Agent
 [Autonomous_AI_Agent](Autonomous_AI_Agent.md)
 
+=== "Description"
+	## Description of role Autonomous_AI_Agent
+	The Autonomous AI Agent is an orchestration framework that coordinates specialized analytics and knowledge services to support decision-making. This very fast moving expertise is currently being used to create configurable workflows that integrate evidence from many data domains in both preclinical and clinical. Execution is scheduled and event-driven (e.g., on data updates or defined intervals) and can include sequential and parallel AI agents to deliver an agreed end goal such as literature retrieval, data summaries or analysis of data. It's success at the intended task depends on how the AI is instructed, the suitability of the AI model used and the FAIR characteristics of the underlying data—being findable, accessible, interoperable, and reusable—with semantic standards (ontologies, identifiers), well-defined schemas and mappings, and machine-actionable metadata.
+
 === "Synonyms"
 	## Synonyms of Autonomous_AI_Agent
 	| Synonyms of Autonomous_AI_Agent |
@@ -11,10 +15,6 @@
 	| Collaborative Agent Workflow |
 	| Distributed AI Intelligence |
 	| Agent-Based Research Workflow |
-
-=== "Description"
-	## Description of role Autonomous_AI_Agent
-	The Autonomous AI Agent is an orchestration framework that coordinates specialized analytics and knowledge services to support decision-making. This very fast moving expertise is currently being used to create configurable workflows that integrate evidence from many data domains in both preclinical and clinical. Execution is scheduled and event-driven (e.g., on data updates or defined intervals) and can include sequential and parallel AI agents to deliver an agreed end goal such as literature retrieval, data summaries or analysis of data. It's success at the intended task depends on how the AI is instructed, the suitability of the AI model used and the FAIR characteristics of the underlying data—being findable, accessible, interoperable, and reusable—with semantic standards (ontologies, identifiers), well-defined schemas and mappings, and machine-actionable metadata.
 
 === "Persona Relations"
 	## FAIR persona related to Autonomous_AI_Agent
@@ -58,65 +58,37 @@
 
 	=== "Findability"
 
-		### F1
+		[F1](../FAIR_principles/fdp_f1.md) enables programmatic dataset discovery through globally unique persistent identifiers across federated catalogs
 
-		F1 enables programmatic dataset discovery through globally unique persistent identifiers across federated catalogs
+		[F2](../FAIR_principles/fdp_f2.md) provides machine-readable metadata enabling precision filtering by study design, cohort size, and statistical power
 
-		### F2
+		[F3](../FAIR_principles/fdp_f3.md) enables semantic search using disease ontologies, gene vocabularies, and pathway terms for cross-database linking
 
-		F2 provides machine-readable metadata enabling precision filtering by study design, cohort size, and statistical power
-
-		### F3
-
-		F3 enables semantic search using disease ontologies, gene vocabularies, and pathway terms for cross-database linking
-
-		### F4
-
-		F4 registers datasets in searchable catalogs supporting SPARQL, GraphQL, and structured query interfaces
+		[F4](../FAIR_principles/fdp_f4.md) registers datasets in searchable catalogs supporting SPARQL, GraphQL, and structured query interfaces
 
 	=== "Accessibility"
 
-		### A1
+		[A1.1](../FAIR_principles/fdp_a1_1.md) provides standardized API protocols with clear authentication mechanisms enabling programmatic data retrieval
 
-		A1.1 provides standardized API protocols with clear authentication mechanisms enabling programmatic data retrieval
+		[A1.2](../FAIR_principles/fdp_a1_2.md) supports machine-readable access policies allowing agents to autonomously determine permissions
 
-		### A1.2
+		[A2](../FAIR_principles/fdp_a2.md) maintains metadata accessibility even when underlying data has restricted access, enabling workflow planning
 
-		A1.2 supports machine-readable access policies allowing agents to autonomously determine permissions
+	=== "Interoperability"
 
-		### A2
+		[I1](../FAIR_principles/fdp_i1.md) ensures data uses standard formats eliminating brittle source-specific parsers and enabling semantic payloads
 
-		A2 maintains metadata accessibility even when underlying data has restricted access, enabling workflow planning
+		[I2](../FAIR_principles/fdp_i2.md) provides shared ontologies establishing semantic agreement across literature, genomics, pathway, structure, and safety domains
 
-	=== "Interopability"
-
-		### I1
-
-		I1 ensures data uses standard formats eliminating brittle source-specific parsers and enabling semantic payloads
-
-		### I2
-
-		I2 provides shared ontologies establishing semantic agreement across literature, genomics, pathway, structure, and safety domains
-
-		### I3
-
-		I3 includes cross-references between related entities enabling identifier resolution across genes and compounds
+		[I3](../FAIR_principles/fdp_i3.md) includes cross-references between related entities enabling identifier resolution across genes and compounds
 
 	=== "Reusability"
 
-		### R1
+		[R1](../FAIR_principles/fdp_r1.md) provides W3C PROV-compliant provenance graphs enabling trust assessment, audit trails, and failure debugging
 
-		R1 provides W3C PROV-compliant provenance graphs enabling trust assessment, audit trails, and failure debugging
+		[R1.1](../FAIR_principles/fdp_r1_1.md) includes structured quality metrics enabling evidence weighting and risk assessment
 
-		### R1.1
+		[R1.2](../FAIR_principles/fdp_r1_2.md) ensures machine-readable licenses enabling automated compliance checking and legal data composition
 
-		R1.1 includes structured quality metrics enabling evidence weighting and risk assessment
-
-		### R1.2
-
-		R1.2 ensures machine-readable licenses enabling automated compliance checking and legal data composition
-
-		### R1.3
-
-		R1.3 follows domain-specific standards for assays, clinical data, and pathways ensuring cross-study integration
+		[R1.3](../FAIR_principles/fdp_r1_3.md) follows domain-specific standards for assays, clinical data, and pathways ensuring cross-study integration
 

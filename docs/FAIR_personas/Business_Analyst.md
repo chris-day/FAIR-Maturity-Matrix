@@ -41,7 +41,7 @@ FAIR Improves data discoverability, consistency, and traceability. It reduces re
 For a Business Analyst in a pharmaceutical company, adopting FAIR principles transforms data management from a reactive, fragmented activity into a scalable and proactive discipline. Findable and Accessible data reduce redundancy by eliminating silos and duplicated efforts, while Interoperable data, anchored in shared ontologies and standardized formats, prevents vendor lock‑in and enables seamless integration across diverse systems and partners. Reusable and well‑documented datasets strengthen reproducibility, compliance, and lifecycle management, allowing large volumes of R&D, clinical, and CMC data to be managed and archived through consistent policies. With FAIR in place, the Business Analyst can focus on delivering business value by optimizing processes, refining requirements, and ensuring that insights are generated from consistent, traceable, and high‑quality information across the enterprise.
 		
 ###	F2 	
-F2 improves discoverability of datasets for analytical use		
+[F2](../FAIR_principles/fdp_f2.md) improves discoverability of datasets for analytical use		
 ###	 A1	
  A1.1 provides standardized metadata protocols for access		
 ###	 R1	

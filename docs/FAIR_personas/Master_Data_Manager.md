@@ -44,7 +44,7 @@ Latent  gains if FAIR adopted: authoritative and uniquely identified master data
 FAIR principles ensures authoritative, high-quality master and reference data consistently aligned across systems and business domains. FAIR makes master data findable through persistent identifiers and rich metadata, accessible via governed and auditable access points, interoperable through shared vocabularies and ontologies, and reusable thanks to embedded provenance and usage context. This foundation drives data democratization, empowering stakeholders across the enterprise with trusted, well-documented data assets, while supporting AI readiness through standardized, machine-actionable metadata. FAIR also strengthens regulatory compliance by ensuring that master data are fully traceable, governed, and reusable, reducing risk and improving auditability. Ultimately, FAIR maturity transforms data stewardship from an operational task into a strategic enabler of enterprise efficiency, data trust, and cross-domain interoperability.		
 		
 ###	F1 	
-F1 ensures authoritative entities (e.g., products, customers) have persistent identifiers, preventing duplication and ambiguity across systems		
+[F1](../FAIR_principles/fdp_f1.md) ensures authoritative entities (e.g., products, customers) have persistent identifiers, preventing duplication and ambiguity across systems		
 ###	 F2	
  F2 provides rich metadata that defines business meaning, lineage, and ownership of master data		
 ###	 A1	

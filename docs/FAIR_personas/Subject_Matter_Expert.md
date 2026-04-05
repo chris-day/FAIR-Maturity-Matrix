@@ -41,7 +41,7 @@ Latent  gains: Implementing FAIR principles would mitigate these challenges by i
 FAIR data enhances an SME's ability to efficiently discover, access, and integrate diverse datasets, leading to more informed decision-making and comprehensive insights. It also promotes the sustainable reuse of data, maximizing productivity and driving better business outcomes by ensuring data is well-documented and contextually rich.		
 		
 ###	F1 	
-F1 ensures that datasets and knowledge objects they consult are persistently identified, so scientific references remain unambiguous		
+[F1](../FAIR_principles/fdp_f1.md) ensures that datasets and knowledge objects they consult are persistently identified, so scientific references remain unambiguous		
 ###	 F2	
  F2 provides rich metadata that gives SMEs the context needed to assess the reliability and applicability of data		
 ###	 A1	

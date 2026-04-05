@@ -40,7 +40,7 @@ In a FAIR environment, Data Analysts rapidly discover and access trusted, well-d
 A FAIR data environment transforms the work and added value of a Data Analyst persona, moving from reactive data wrangling to proactive insight generation. Data becomes easier to find, access, and trust through rich metadata, clear provenance, and shared semantic definitions. Interoperable data structures enable reusable pipelines and faster cross-domain analysis, while built-in traceability supports reproducibility and audit readiness. Analytical outputs themselves become reusable assets, or data products, supporting downstream teams and AI use cases. As a result, Data Analysts spend less time finding, formatting, validating and integrating data and more time delivering scalable, high-quality data products ultimately generating insights that directly support scientific, operational, and strategic decision-making.
 			
 ###	F1 		
-F1 ensures that reports are always built on unambiguous datasets with persistent identifiers, avoiding duplication of metrics			
+[F1](../FAIR_principles/fdp_f1.md) ensures that reports are always built on unambiguous datasets with persistent identifiers, avoiding duplication of metrics			
 ###	 F2		
  F2 provides metadata that makes it easier to understand the business meaning and quality of data, ensuring accurate reporting			
 ###	 A1		

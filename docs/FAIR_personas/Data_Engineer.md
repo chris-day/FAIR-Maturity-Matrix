@@ -50,7 +50,7 @@ FAIR principles bring  benefits to Data Engineers by providing standardized appr
 	•	Reusable (R1–R1.3): Clear documentation of data provenance, usage licenses, and quality metrics ensures that datasets can be reused for secondary analysis, machine learning, or regulatory reporting. This enhances reproducibility, reduces redundant effort, and supports long-term operational efficiency."		
 		
 ###	F1 	
-F1 embeds persistent identifiers into pipelines, ensuring that data remains traceable across ingestion and transformation steps		
+[F1](../FAIR_principles/fdp_f1.md) embeds persistent identifiers into pipelines, ensuring that data remains traceable across ingestion and transformation steps		
 ###	 F2	
  F2 ensures metadata is captured and propagated, enabling automation and monitoring of data flows		
 ###	 A1	

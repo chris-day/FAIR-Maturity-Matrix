@@ -41,7 +41,7 @@ By applying FAIR principles, the Reference Data Manager can establish unified, w
 Data can be mastered which makes it FAIR. Essential for interoperability. 
 		
 ###	F1 	
-F1 ensures that reference codes, vocabularies, and ontology terms are persistently identified, avoiding duplication and ambiguity		
+[F1](../FAIR_principles/fdp_f1.md) ensures that reference codes, vocabularies, and ontology terms are persistently identified, avoiding duplication and ambiguity		
 ###	 F2	
  F2 provides rich metadata that documents definitions, hierarchies, and context of reference data and ontologies	
 ###	 A1	

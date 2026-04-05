@@ -49,7 +49,7 @@ Implementing FAIR principles establishes clear business data ownership and embed
 For a Business Owner, adopting FAIR data principles delivers both strategic and operational value by turning data into a reliable, reusable business asset. Findable and Accessible data accelerate evidence-based decision-making and reduce time spent locating or validating information, improving responsiveness and time-to-market. Enhanced metadata and provenance increase trust, data quality, and regulatory compliance while reducing audit risk and operational errors. Interoperable data promote collaboration and cross-functional reporting, supporting integration during organizational changes or mergers. Through reusability, FAIR minimizes data duplication, lowers operational costs, and improves ROI on data investments. By making data machine-actionable, FAIR enables automation, AI, and innovation, enhancing forecasting, modeling, and digital transformation. Finally, improved traceability and lifecycle stewardship reinforce transparency, governance, and enterprise resilience. Together, these capabilities empower the Business Owner to maximize business value, ensure compliance, and drive sustainable growth.		
 		
 ###	F1 	
-F1 provides persistent identifiers that ensure KPIs and metrics are based on unambiguous, trusted datasets		
+[F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that ensure KPIs and metrics are based on unambiguous, trusted datasets		
 ###	 A1	
  A1 guarantees reliable access to the data needed for monitoring performance and driving improvements		
 ###	 R1	

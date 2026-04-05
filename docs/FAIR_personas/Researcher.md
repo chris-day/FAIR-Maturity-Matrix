@@ -44,7 +44,7 @@ Establishing common documentation standards and adopting interoperable, FAIR-ali
  FAIR data principles streamline the research lifecycle from data creation to knowledge sharing. Enhanced metadata makes datasets easier to locate and assess for relevance, while reliable access ensures seamless collaboration across projects. Interoperability connects results across disciplines, fostering integrative discoveries. Alignment with community standards further promotes data reuse, reducing redundancy and supporting transparency. By embedding FAIR practices early—through standardized tools, ontologies, and interoperable systems—researchers can minimize downstream cleanup, improve data quality, and accelerate innovation across the scientific ecosystem.		
 		
 ###	F2 	
-F2 makes datasets easier to locate and assess for research relevance		
+[F2](../FAIR_principles/fdp_f2.md) makes datasets easier to locate and assess for research relevance		
 ###	 A1	
  A1 ensures reliable access to collaborative project data		
 ###	 I1	

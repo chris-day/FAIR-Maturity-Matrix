@@ -49,7 +49,7 @@ Latent  gains: implementing FAIR principles would reduce these challenges and un
 The adoption of FAIR principles enhances data quality, trust, and discoverability while minimizing duplication of effort. FAIR provides a structured framework. By improving data quality, consistency, and documentation, it rebuilds trust in organizational data and ensures a reliable foundation for analytics and decision-making. FAIR’s emphasis on metadata, accessibility, and interoperability supports stronger compliance with regulatory frameworks, simplifies auditability, and streamlines integration across systems. Moreover, it helps overcome cultural resistance by embedding transparent, value-driven practices that demonstrate efficiency and impact. Ultimately, FAIR empowers Data Stewards to achieve greater operational efficiency, foster collaboration, and enable sustainable data reuse across the organization.		
 		
 ###	F1 	
-F1 ensures identifiers to enforce consistent governance		
+[F1](../FAIR_principles/fdp_f1.md) ensures identifiers to enforce consistent governance		
 ###	 A1	
  A1 guarantees accessibility for governance workflows		
 ###	 R1	

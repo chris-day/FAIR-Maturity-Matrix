@@ -39,7 +39,7 @@ In a FAIR-compliant data environment, the Data Owner gains clear visibility, con
 
 	
 ###	F1 		
-F1 ensures datasets under ownership are persistently identified, enabling clear accountability and traceability		
+[F1](../FAIR_principles/fdp_f1.md) ensures datasets under ownership are persistently identified, enabling clear accountability and traceability		
 ###	 F2		
  F2 provides rich metadata that demonstrates the dataset’s purpose, scope, and quality to consumers			
 ###	 A1		

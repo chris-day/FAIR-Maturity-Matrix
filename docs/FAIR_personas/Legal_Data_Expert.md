@@ -37,6 +37,6 @@ Latent  gains if FAIR adopted: clear identifiers and provenance shorten audits/i
 For a Legal Data Expert, the adoption of FAIR principles strengthens the organization’s ability to manage, share, and reuse data in full compliance with privacy, consent, and intellectual property regulations. By aligning data governance practices with FAIR, legal experts can ensure that data accessibility  respects regulatory and contractual access restrictions, safeguarding sensitive information while enabling controlled sharing. At the same time, FAIR enhances the traceability and reproducibility of data handling processes , ensuring that legal and ethical standards are consistently applied and verifiable. This transparency not only supports compliance and audit readiness but also builds organizational trust in data-driven activities, fostering responsible innovation and lawful data reuse across research and business contexts.		
 		
 ###	A1.	
-A1.2 enforces secure, role-based access aligned with privacy law		
+[A1.2](../FAIR_principles/fdp_a1_2.md) enforces secure, role-based access aligned with privacy law		
 ###	 R1	
  R1.1 ensures reproducibility of compliance records for regulators		

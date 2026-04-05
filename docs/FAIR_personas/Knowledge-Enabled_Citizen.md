@@ -48,7 +48,7 @@ Latent  gains: clear demonstration of value in standardising processes; opportun
  Knowledge-Enabled Citizen can independently access and apply information to drive insight, innovation, and informed decision-making.  FAIR benefits include: improved efficiency through fast, reliable access to high-quality, FAIR-aligned data; enhanced regulatory compliance through standardized documentation and transparent provenance; consistent metadata and shared ontologies enabling seamless cross-project and cross-domain data integration; and better utilization of historical, experimental, and real-world data to inform evidence-based decisions. FAIR principles also foster stronger collaboration across research, clinical, and regulatory functions and accelerate innovation through streamlined knowledge discovery and sharing between internal teams and external partners.		
 		
 ###	F1 	
-F1 ensures that datasets and knowledge objects they use are persistently identified, avoiding ambiguity in scientific or technical references		
+[F1](../FAIR_principles/fdp_f1.md) ensures that datasets and knowledge objects they use are persistently identified, avoiding ambiguity in scientific or technical references		
 ###	 F2	
  F2 provides rich metadata that gives necessary context for non-data specialists to assess quality and applicability		
 ###	 A1	

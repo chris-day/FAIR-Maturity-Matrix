@@ -44,7 +44,7 @@ Latent  Gains: Implementing FAIR principles transforms lab management by embeddi
 FAIR data implementation transforms laboratory operations from manual and fragmented to digital, efficient, and compliant. By making experimental data findable through persistent identifiers and standardized metadata, FAIR ensures that samples, assays, and results can be quickly located, linked, and reused across projects—saving time and reducing administrative overhead. Accessible and well-governed data enable seamless sharing between teams and systems, improving collaboration while maintaining security and regulatory control. Through interoperable data formats and shared ontologies, FAIR connects instruments, ELNs, LIMS, and analytical platforms, eliminating silos and streamlining workflows. Finally, reusable, provenance-rich data strengthen reproducibility and audit readiness, allowing the Lab Manager to demonstrate data integrity and compliance effortlessly. In a FAIR-mature environment, the Lab Manager can shift focus from operational firefighting to continuous improvement, driving higher quality, efficiency, and scientific innovation across the laboratory ecosystem.		
 		
 ###	F1 	
-F1 provides persistent identifiers that track samples, instruments, and experimental outputs unambiguously		
+[F1](../FAIR_principles/fdp_f1.md) provides persistent identifiers that track samples, instruments, and experimental outputs unambiguously		
 ###	 F2	
  F2 ensures metadata is complete so lab operations, methods, and results are transparent and auditable		
 ###	 A1	

@@ -43,7 +43,7 @@ Latent  gains: Implementing FAIR principles would minimize these challenges by i
 FAIR principles transforms how data can be accessed, understood, and used. FAIR data ensures that relevant datasets are findable and well-documented, allowing non-technical users to quickly locate trustworthy information without relying on data specialists. With accessible and standardized formats, self-service analytics tools and dashboards can easily connect to validated data sources, reducing the need for manual preparation or IT intervention. Interoperable data, structured through shared vocabularies and ontologies, ensures that metrics and definitions are consistent across business units—making analyses more reliable and comparable. Finally, reusable and well-described data enable repeatable analyses, support automation through AI-assisted tools, and foster confident, compliant decision-making. In short, FAIR empowers Citizen Data Scientists to work independently and efficiently, transforming domain expertise into actionable, data-driven insights without compromising data quality or governance.		
 		
 ###	F1 	
-F1 ensures that self-service tools pull from datasets with persistent identifiers, avoiding confusion and duplication		
+[F1](../FAIR_principles/fdp_f1.md) ensures that self-service tools pull from datasets with persistent identifiers, avoiding confusion and duplication		
 ###	 F2	
  F2 provides rich metadata so non-expert users can quickly assess relevance, context, and quality of datasets		
 ###	 A1	

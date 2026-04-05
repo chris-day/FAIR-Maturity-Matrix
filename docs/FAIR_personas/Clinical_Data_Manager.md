@@ -45,7 +45,7 @@ Latent  gains: implementing FAIR principles would reduce these challenges and un
 " By ensuring that data and metadata are findable, accessible, interoperable, and reusable, Clinical_Data_Manager	 can automate and accelerate data integration and cleaning processes. Standardized vocabularies and ontologies facilitate cross-study comparisons and reduce mapping errors, while rich provenance tracking enhances audit readiness and regulatory confidence. FAIR data also enables better reuse of clinical trial datasets for secondary research, machine learning, and meta-analyses, ultimately supporting faster decision-making, reducing redundancy, and increasing the value derived from every clinical trial. "		
 		
 ###	F1 	
-F1 ensures patient and study data are persistently identified, enabling full traceability across trial phases		
+[F1](../FAIR_principles/fdp_f1.md) ensures patient and study data are persistently identified, enabling full traceability across trial phases		
 ###	 F2	
  F2 provides rich metadata that documents study protocols, variables, and context for regulatory submissions		
 ###	 Fi	

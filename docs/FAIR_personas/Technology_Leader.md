@@ -40,7 +40,7 @@ Latent  gains: implementing FAIR principles would reduce these challenges and un
 The adoption of FAIR principles delivers strategic and operational value across the data and technology landscape. By improving data quality, accessibility, and interoperability, FAIR makes the organization’s data ecosystem AI-ready and enhances the overall return on technology investments. It enables smoother data integration across platforms, reduces manual effort in data preparation, and minimizes the burden on scientific and technical resources. As a result, technology leaders can focus on accelerating digital transformation, scaling analytics and AI initiatives, and driving innovation through trusted, reusable data assets that support business growth and operational excellence.		
 		
 ###	F1 	
-F1 ensures persistent identifiers across the enterprise architecture, providing a foundation for scalable and trusted digital platforms		
+[F1](../FAIR_principles/fdp_f1.md) ensures persistent identifiers across the enterprise architecture, providing a foundation for scalable and trusted digital platforms		
 ###	 F2	
  F2 delivers rich metadata that enables technology leaders to evaluate system interoperability and data readiness		
 ###	 A1	

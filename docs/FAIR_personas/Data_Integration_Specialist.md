@@ -39,7 +39,7 @@ Findable, well-described data allows specialists to quickly identify and underst
 FAIR data greatly facilitates the tasks of Data_Integration_Specialist ensuring that integrated outputs are reliable for downstream analytics, AI models, and decision-making. Overall, FAIR shifts the Data Integration Specialist from a reactive problem-solver to a strategic enabler, reducing rework, improving efficiency, and allowing focus on optimisation, automation, and long-term data ecosystem sustainability.
 		
 ###	F1 	
-F1 ensures that data flowing through pipelines is consistently identified with persistent IDs, reducing errors in integration		
+[F1](../FAIR_principles/fdp_f1.md) ensures that data flowing through pipelines is consistently identified with persistent IDs, reducing errors in integration		
 ###	 F2	
  F2 provides metadata that describes datasets clearly, allowing automated mapping and transformation between systems		
 ###	 A1	

@@ -40,7 +40,7 @@ Latent  gains: implementing FAIR principles would reduce these challenges and un
 FAIR-aligned data facilitates the work of the data architect in the long run . Standardized metadata, ontologies, and governance frameworks reduce errors, streamline integration, and improve collaboration across departments. Data is consistently structured, discoverable, and of controllable quality across multiple sources, making it easier for teams to access and leverage information for analytics, regulatory submissions, and research.  By establishing clear data lineage, provenance, and documentation, FAIR practices enhance transparency and trust in data, support reproducibility, and enable efficient reuse for future projects. Ultimately, FAIR adoption allows the FAIR Architect to optimize data workflows, minimize duplication of effort, and create a scalable, sustainable data infrastructure that drives better decision-making across the organization.		
 		
 ###	F1 	
-F1 ensures persistent identifiers are embedded into the data architecture, enabling consistent referencing across systems		
+[F1](../FAIR_principles/fdp_f1.md) ensures persistent identifiers are embedded into the data architecture, enabling consistent referencing across systems		
 ###	 F2	
  F2 enforces rich metadata standards, making datasets machine-actionable and discoverable by design		
 ###	 A1	

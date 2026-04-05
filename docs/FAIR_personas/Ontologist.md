@@ -40,7 +40,7 @@ Latent  gains: Implementing FAIR principles helps mitigate these challenges by p
 the application of FAIR principles enhances the creation and maintenance of high-quality, interoperable data models that underpin a data-centric approach. FAIR enables the development of actionable ontological frameworks that drive consistency, reusability, and semantic clarity across the organization. It supports the precise definition of standards and shared understanding of “what good looks like,” ensuring that data models are transparent, well-structured, and aligned with business and scientific objectives. By fostering clarity about model intent and commitment, FAIR empowers ontologists to build trusted, sustainable data ecosystems that facilitate integration, automation, and informed decision-making.		
 		
 ###	I1 	
-I1 ensures semantic interoperability across ontologies and vocabularies		
+[I1](../FAIR_principles/fdp_i1.md) ensures semantic interoperability across ontologies and vocabularies		
 ###	 I2	
  I2 enables automated reasoning over structured knowledge		
 ###	 R1	
