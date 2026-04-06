@@ -28,7 +28,7 @@
 
 === "Upside and Downside"
     ### Upside
-
+    Implementing FAIR principles would reduce these challenges and unlock efficiency, compliance, and reuse.
 
     ### Downside
     The lower the organisation FAIR maturity level, the higher the complexity of the role and the need to create awareness.
